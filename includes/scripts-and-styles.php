@@ -15,7 +15,7 @@ add_action( 'wp_enqueue_scripts', function () {
    
 	wp_enqueue_script( 'jquery' );
 	wp_enqueue_style( 'app' ); 
-	wp_enqueue_script( 'app' ); 
+	wp_enqueue_script( 'app' );    
 
 	// Api rest
 
