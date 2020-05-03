@@ -57,7 +57,7 @@ jQuery(function ($) {
     $(document).ready(function () {  
         // menuMobile()        // Menu Mobile: Show menu and hide 
         // separateFirstText() // Card title: serate the first word in a span 
-        showVideos()        // Button show the videos
+        // showVideos()        // Button show the videos
         activeCategory()    // Active color of categories
         modalMarca($)       // Active Modal of marca 
         

@@ -150,8 +150,7 @@ jQuery(function ($) {
   $(document).ready(function () {
     // menuMobile()        // Menu Mobile: Show menu and hide 
     // separateFirstText() // Card title: serate the first word in a span 
-    showVideos(); // Button show the videos
-
+    // showVideos()        // Button show the videos
     activeCategory(); // Active color of categories
 
     Object(_components_modalMarca__WEBPACK_IMPORTED_MODULE_1__["default"])($); // Active Modal of marca 
