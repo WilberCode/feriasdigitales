@@ -1,7 +1,7 @@
 
 <?php get_template_part( 'templates/partials/document-open' ); ?> 
 <!-- Site header markup goes here -->
-<header class=" bg-white header <?php if(!is_page('1ra-feria-digital-mama')){ echo 'shadow';}?> ">
+<header class=" bg-white header">
     <div class=" w-full bg-secondary-500 relative  z-40 " >
         <div  class="bg-secondary-500 h-8 sm:h-16 w-full " >  
         </div>  

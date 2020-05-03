@@ -8,7 +8,10 @@ const Id = document.getElementById.bind(document)
 const className = document.getElementsByClassName.bind(document)
 const tagName = document.getElementsByTagName.bind(document)
 
-
+// function redirectPage(){
+//     return window.location.replace('https://feriasdigitales.pe/')
+// }
+// redirectPage()
 
 function menuMobile(){  
     let mobileNav = Id('mobile-nav-wrap')   
@@ -52,12 +55,14 @@ function activeCategory(){
         $(this).toggleClass('marca-category-active') 
     })
 }
- 
+
+
 jQuery(function ($) {  
     $(document).ready(function () {  
         // menuMobile()        // Menu Mobile: Show menu and hide 
         // separateFirstText() // Card title: serate the first word in a span 
-        // showVideos()        // Button show the videos
+        // showVideos()  
+              // Button show the videos
         activeCategory()    // Active color of categories
         modalMarca($)       // Active Modal of marca 
         
