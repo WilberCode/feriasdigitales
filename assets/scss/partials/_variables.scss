@@ -1,0 +1,15 @@
+:root{
+    // Colors
+    --primary:#FAE800;
+    --secondary:#231F20;
+
+    //Marca
+    --offsettop-modal-marca:40em;
+}
+
+$primary:#FAE800;
+$secondary:#231F20;
+
+.container{
+@apply m-auto;
+}
