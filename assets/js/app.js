@@ -1,6 +1,4 @@
  
-// import './materialize/materialize.min.js'
-
  
 var $ = jQuery.noConflict();
 import './components/posts'
@@ -25,26 +23,26 @@ function menuMobile(){
     })
 }
  
-function separateFirstText(){
-    $('.card__title').each(function() { 
-        var text = this.innerHTML;
-        var firstSpaceIndex = text.indexOf(" "); 
-        if (firstSpaceIndex > 0) {  
-            var substrBefore = text.substring(0,firstSpaceIndex);
-            var substrAfter = text.substring(firstSpaceIndex, text.length) 
-            var newText = '<span class="card-category">' + substrBefore + '</span>' + substrAfter;
-            this.innerHTML = newText;
-        } else {
-            this.innerHTML = '<span class="card-category">' + text + '</span>';
-        }
-    }); 
-}
+// function separateFirstText(){
+//     $('.card__title').each(function() { 
+//         var text = this.innerHTML;
+//         var firstSpaceIndex = text.indexOf(" "); 
+//         if (firstSpaceIndex > 0) {  
+//             var substrBefore = text.substring(0,firstSpaceIndex);
+//             var substrAfter = text.substring(firstSpaceIndex, text.length) 
+//             var newText = '<span class="card-category">' + substrBefore + '</span>' + substrAfter;
+//             this.innerHTML = newText;
+//         } else {
+//             this.innerHTML = '<span class="card-category">' + text + '</span>';
+//         }
+//     }); 
+// }
  
-function showVideos(){
-    $('.show-videos').click(()=>{
-        $('.vimeography-theme-harvestone').toggleClass('show-video') 
-    })
-} 
+// function showVideos(){
+//     $('.show-videos').click(()=>{
+//         $('.vimeography-theme-harvestone').toggleClass('show-video') 
+//     })
+// } 
  
 function activeCategory(){
     $('.marca-category-filter').on('click',function(e){
@@ -57,8 +55,8 @@ function activeCategory(){
  
 jQuery(function ($) {  
     $(document).ready(function () {  
-        menuMobile()        // Menu Mobile: Show menu and hide 
-        separateFirstText() // Card title: serate the first word in a span 
+        // menuMobile()        // Menu Mobile: Show menu and hide 
+        // separateFirstText() // Card title: serate the first word in a span 
         showVideos()        // Button show the videos
         activeCategory()    // Active color of categories
         modalMarca($)       // Active Modal of marca 
