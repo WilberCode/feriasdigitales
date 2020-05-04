@@ -1088,7 +1088,7 @@ video {
 }
 
 .bg-primary-500{
-  background-color: #FAE800;
+  background-color: #ff7583;
 }
 
 .bg-primary-600{
@@ -1540,7 +1540,7 @@ video {
 }
 
 .hover\:bg-primary-500:hover{
-  background-color: #FAE800;
+  background-color: #ff7583;
 }
 
 .hover\:bg-primary-600:hover{
@@ -1992,7 +1992,7 @@ video {
 }
 
 .focus\:bg-primary-500:focus{
-  background-color: #FAE800;
+  background-color: #ff7583;
 }
 
 .focus\:bg-primary-600:focus{
@@ -2524,7 +2524,7 @@ video {
 }
 
 .border-primary-500{
-  border-color: #FAE800;
+  border-color: #ff7583;
 }
 
 .border-primary-600{
@@ -2976,7 +2976,7 @@ video {
 }
 
 .hover\:border-primary-500:hover{
-  border-color: #FAE800;
+  border-color: #ff7583;
 }
 
 .hover\:border-primary-600:hover{
@@ -3428,7 +3428,7 @@ video {
 }
 
 .focus\:border-primary-500:focus{
-  border-color: #FAE800;
+  border-color: #ff7583;
 }
 
 .focus\:border-primary-600:focus{
@@ -10649,23 +10649,23 @@ video {
 }
 
 .placeholder-primary-500::-webkit-input-placeholder{
-  color: #FAE800;
+  color: #ff7583;
 }
 
 .placeholder-primary-500::-moz-placeholder{
-  color: #FAE800;
+  color: #ff7583;
 }
 
 .placeholder-primary-500:-ms-input-placeholder{
-  color: #FAE800;
+  color: #ff7583;
 }
 
 .placeholder-primary-500::-ms-input-placeholder{
-  color: #FAE800;
+  color: #ff7583;
 }
 
 .placeholder-primary-500::placeholder{
-  color: #FAE800;
+  color: #ff7583;
 }
 
 .placeholder-primary-600::-webkit-input-placeholder{
@@ -12909,23 +12909,23 @@ video {
 }
 
 .focus\:placeholder-primary-500:focus::-webkit-input-placeholder{
-  color: #FAE800;
+  color: #ff7583;
 }
 
 .focus\:placeholder-primary-500:focus::-moz-placeholder{
-  color: #FAE800;
+  color: #ff7583;
 }
 
 .focus\:placeholder-primary-500:focus:-ms-input-placeholder{
-  color: #FAE800;
+  color: #ff7583;
 }
 
 .focus\:placeholder-primary-500:focus::-ms-input-placeholder{
-  color: #FAE800;
+  color: #ff7583;
 }
 
 .focus\:placeholder-primary-500:focus::placeholder{
-  color: #FAE800;
+  color: #ff7583;
 }
 
 .focus\:placeholder-primary-600:focus::-webkit-input-placeholder{
@@ -13860,7 +13860,7 @@ video {
 }
 
 .text-primary-500{
-  color: #FAE800;
+  color: #ff7583;
 }
 
 .text-primary-600{
@@ -14312,7 +14312,7 @@ video {
 }
 
 .hover\:text-primary-500:hover{
-  color: #FAE800;
+  color: #ff7583;
 }
 
 .hover\:text-primary-600:hover{
@@ -14764,7 +14764,7 @@ video {
 }
 
 .focus\:text-primary-500:focus{
-  color: #FAE800;
+  color: #ff7583;
 }
 
 .focus\:text-primary-600:focus{
@@ -15216,7 +15216,7 @@ video {
 }
 
 .visited\:text-primary-500:visited{
-  color: #FAE800;
+  color: #ff7583;
 }
 
 .visited\:text-primary-600:visited{
@@ -19977,7 +19977,7 @@ code {
 }
 
 .btn-primary {
-  background-color: #FAE800;
+  background-color: #ff7583;
   color: #fff;
 }
 
@@ -20649,7 +20649,7 @@ code {
   transition: 0.5s ease-in-out;
   cursor: pointer;
   box-shadow: 0 0 0 6px var(--primary);
-  background-color: #FAE800;
+  background-color: #ff7583;
 }
 
 .nav-toggle-wrap {
@@ -20820,7 +20820,7 @@ code {
 }
 
 .social-menu li:hover {
-  color: #FAE800;
+  color: #ff7583;
 }
 
 .social-menu li a {
@@ -21377,7 +21377,7 @@ code {
   }
 
   .sm\:bg-primary-500{
-    background-color: #FAE800;
+    background-color: #ff7583;
   }
 
   .sm\:bg-primary-600{
@@ -21829,7 +21829,7 @@ code {
   }
 
   .sm\:hover\:bg-primary-500:hover{
-    background-color: #FAE800;
+    background-color: #ff7583;
   }
 
   .sm\:hover\:bg-primary-600:hover{
@@ -22281,7 +22281,7 @@ code {
   }
 
   .sm\:focus\:bg-primary-500:focus{
-    background-color: #FAE800;
+    background-color: #ff7583;
   }
 
   .sm\:focus\:bg-primary-600:focus{
@@ -22813,7 +22813,7 @@ code {
   }
 
   .sm\:border-primary-500{
-    border-color: #FAE800;
+    border-color: #ff7583;
   }
 
   .sm\:border-primary-600{
@@ -23265,7 +23265,7 @@ code {
   }
 
   .sm\:hover\:border-primary-500:hover{
-    border-color: #FAE800;
+    border-color: #ff7583;
   }
 
   .sm\:hover\:border-primary-600:hover{
@@ -23717,7 +23717,7 @@ code {
   }
 
   .sm\:focus\:border-primary-500:focus{
-    border-color: #FAE800;
+    border-color: #ff7583;
   }
 
   .sm\:focus\:border-primary-600:focus{
@@ -30938,23 +30938,23 @@ code {
   }
 
   .sm\:placeholder-primary-500::-webkit-input-placeholder{
-    color: #FAE800;
+    color: #ff7583;
   }
 
   .sm\:placeholder-primary-500::-moz-placeholder{
-    color: #FAE800;
+    color: #ff7583;
   }
 
   .sm\:placeholder-primary-500:-ms-input-placeholder{
-    color: #FAE800;
+    color: #ff7583;
   }
 
   .sm\:placeholder-primary-500::-ms-input-placeholder{
-    color: #FAE800;
+    color: #ff7583;
   }
 
   .sm\:placeholder-primary-500::placeholder{
-    color: #FAE800;
+    color: #ff7583;
   }
 
   .sm\:placeholder-primary-600::-webkit-input-placeholder{
@@ -33198,23 +33198,23 @@ code {
   }
 
   .sm\:focus\:placeholder-primary-500:focus::-webkit-input-placeholder{
-    color: #FAE800;
+    color: #ff7583;
   }
 
   .sm\:focus\:placeholder-primary-500:focus::-moz-placeholder{
-    color: #FAE800;
+    color: #ff7583;
   }
 
   .sm\:focus\:placeholder-primary-500:focus:-ms-input-placeholder{
-    color: #FAE800;
+    color: #ff7583;
   }
 
   .sm\:focus\:placeholder-primary-500:focus::-ms-input-placeholder{
-    color: #FAE800;
+    color: #ff7583;
   }
 
   .sm\:focus\:placeholder-primary-500:focus::placeholder{
-    color: #FAE800;
+    color: #ff7583;
   }
 
   .sm\:focus\:placeholder-primary-600:focus::-webkit-input-placeholder{
@@ -34149,7 +34149,7 @@ code {
   }
 
   .sm\:text-primary-500{
-    color: #FAE800;
+    color: #ff7583;
   }
 
   .sm\:text-primary-600{
@@ -34601,7 +34601,7 @@ code {
   }
 
   .sm\:hover\:text-primary-500:hover{
-    color: #FAE800;
+    color: #ff7583;
   }
 
   .sm\:hover\:text-primary-600:hover{
@@ -35053,7 +35053,7 @@ code {
   }
 
   .sm\:focus\:text-primary-500:focus{
-    color: #FAE800;
+    color: #ff7583;
   }
 
   .sm\:focus\:text-primary-600:focus{
@@ -35505,7 +35505,7 @@ code {
   }
 
   .sm\:visited\:text-primary-500:visited{
-    color: #FAE800;
+    color: #ff7583;
   }
 
   .sm\:visited\:text-primary-600:visited{
@@ -40534,7 +40534,7 @@ code {
   }
 
   .md\:bg-primary-500{
-    background-color: #FAE800;
+    background-color: #ff7583;
   }
 
   .md\:bg-primary-600{
@@ -40986,7 +40986,7 @@ code {
   }
 
   .md\:hover\:bg-primary-500:hover{
-    background-color: #FAE800;
+    background-color: #ff7583;
   }
 
   .md\:hover\:bg-primary-600:hover{
@@ -41438,7 +41438,7 @@ code {
   }
 
   .md\:focus\:bg-primary-500:focus{
-    background-color: #FAE800;
+    background-color: #ff7583;
   }
 
   .md\:focus\:bg-primary-600:focus{
@@ -41970,7 +41970,7 @@ code {
   }
 
   .md\:border-primary-500{
-    border-color: #FAE800;
+    border-color: #ff7583;
   }
 
   .md\:border-primary-600{
@@ -42422,7 +42422,7 @@ code {
   }
 
   .md\:hover\:border-primary-500:hover{
-    border-color: #FAE800;
+    border-color: #ff7583;
   }
 
   .md\:hover\:border-primary-600:hover{
@@ -42874,7 +42874,7 @@ code {
   }
 
   .md\:focus\:border-primary-500:focus{
-    border-color: #FAE800;
+    border-color: #ff7583;
   }
 
   .md\:focus\:border-primary-600:focus{
@@ -50095,23 +50095,23 @@ code {
   }
 
   .md\:placeholder-primary-500::-webkit-input-placeholder{
-    color: #FAE800;
+    color: #ff7583;
   }
 
   .md\:placeholder-primary-500::-moz-placeholder{
-    color: #FAE800;
+    color: #ff7583;
   }
 
   .md\:placeholder-primary-500:-ms-input-placeholder{
-    color: #FAE800;
+    color: #ff7583;
   }
 
   .md\:placeholder-primary-500::-ms-input-placeholder{
-    color: #FAE800;
+    color: #ff7583;
   }
 
   .md\:placeholder-primary-500::placeholder{
-    color: #FAE800;
+    color: #ff7583;
   }
 
   .md\:placeholder-primary-600::-webkit-input-placeholder{
@@ -52355,23 +52355,23 @@ code {
   }
 
   .md\:focus\:placeholder-primary-500:focus::-webkit-input-placeholder{
-    color: #FAE800;
+    color: #ff7583;
   }
 
   .md\:focus\:placeholder-primary-500:focus::-moz-placeholder{
-    color: #FAE800;
+    color: #ff7583;
   }
 
   .md\:focus\:placeholder-primary-500:focus:-ms-input-placeholder{
-    color: #FAE800;
+    color: #ff7583;
   }
 
   .md\:focus\:placeholder-primary-500:focus::-ms-input-placeholder{
-    color: #FAE800;
+    color: #ff7583;
   }
 
   .md\:focus\:placeholder-primary-500:focus::placeholder{
-    color: #FAE800;
+    color: #ff7583;
   }
 
   .md\:focus\:placeholder-primary-600:focus::-webkit-input-placeholder{
@@ -53306,7 +53306,7 @@ code {
   }
 
   .md\:text-primary-500{
-    color: #FAE800;
+    color: #ff7583;
   }
 
   .md\:text-primary-600{
@@ -53758,7 +53758,7 @@ code {
   }
 
   .md\:hover\:text-primary-500:hover{
-    color: #FAE800;
+    color: #ff7583;
   }
 
   .md\:hover\:text-primary-600:hover{
@@ -54210,7 +54210,7 @@ code {
   }
 
   .md\:focus\:text-primary-500:focus{
-    color: #FAE800;
+    color: #ff7583;
   }
 
   .md\:focus\:text-primary-600:focus{
@@ -54662,7 +54662,7 @@ code {
   }
 
   .md\:visited\:text-primary-500:visited{
-    color: #FAE800;
+    color: #ff7583;
   }
 
   .md\:visited\:text-primary-600:visited{
@@ -59691,7 +59691,7 @@ code {
   }
 
   .lg\:bg-primary-500{
-    background-color: #FAE800;
+    background-color: #ff7583;
   }
 
   .lg\:bg-primary-600{
@@ -60143,7 +60143,7 @@ code {
   }
 
   .lg\:hover\:bg-primary-500:hover{
-    background-color: #FAE800;
+    background-color: #ff7583;
   }
 
   .lg\:hover\:bg-primary-600:hover{
@@ -60595,7 +60595,7 @@ code {
   }
 
   .lg\:focus\:bg-primary-500:focus{
-    background-color: #FAE800;
+    background-color: #ff7583;
   }
 
   .lg\:focus\:bg-primary-600:focus{
@@ -61127,7 +61127,7 @@ code {
   }
 
   .lg\:border-primary-500{
-    border-color: #FAE800;
+    border-color: #ff7583;
   }
 
   .lg\:border-primary-600{
@@ -61579,7 +61579,7 @@ code {
   }
 
   .lg\:hover\:border-primary-500:hover{
-    border-color: #FAE800;
+    border-color: #ff7583;
   }
 
   .lg\:hover\:border-primary-600:hover{
@@ -62031,7 +62031,7 @@ code {
   }
 
   .lg\:focus\:border-primary-500:focus{
-    border-color: #FAE800;
+    border-color: #ff7583;
   }
 
   .lg\:focus\:border-primary-600:focus{
@@ -69252,23 +69252,23 @@ code {
   }
 
   .lg\:placeholder-primary-500::-webkit-input-placeholder{
-    color: #FAE800;
+    color: #ff7583;
   }
 
   .lg\:placeholder-primary-500::-moz-placeholder{
-    color: #FAE800;
+    color: #ff7583;
   }
 
   .lg\:placeholder-primary-500:-ms-input-placeholder{
-    color: #FAE800;
+    color: #ff7583;
   }
 
   .lg\:placeholder-primary-500::-ms-input-placeholder{
-    color: #FAE800;
+    color: #ff7583;
   }
 
   .lg\:placeholder-primary-500::placeholder{
-    color: #FAE800;
+    color: #ff7583;
   }
 
   .lg\:placeholder-primary-600::-webkit-input-placeholder{
@@ -71512,23 +71512,23 @@ code {
   }
 
   .lg\:focus\:placeholder-primary-500:focus::-webkit-input-placeholder{
-    color: #FAE800;
+    color: #ff7583;
   }
 
   .lg\:focus\:placeholder-primary-500:focus::-moz-placeholder{
-    color: #FAE800;
+    color: #ff7583;
   }
 
   .lg\:focus\:placeholder-primary-500:focus:-ms-input-placeholder{
-    color: #FAE800;
+    color: #ff7583;
   }
 
   .lg\:focus\:placeholder-primary-500:focus::-ms-input-placeholder{
-    color: #FAE800;
+    color: #ff7583;
   }
 
   .lg\:focus\:placeholder-primary-500:focus::placeholder{
-    color: #FAE800;
+    color: #ff7583;
   }
 
   .lg\:focus\:placeholder-primary-600:focus::-webkit-input-placeholder{
@@ -72463,7 +72463,7 @@ code {
   }
 
   .lg\:text-primary-500{
-    color: #FAE800;
+    color: #ff7583;
   }
 
   .lg\:text-primary-600{
@@ -72915,7 +72915,7 @@ code {
   }
 
   .lg\:hover\:text-primary-500:hover{
-    color: #FAE800;
+    color: #ff7583;
   }
 
   .lg\:hover\:text-primary-600:hover{
@@ -73367,7 +73367,7 @@ code {
   }
 
   .lg\:focus\:text-primary-500:focus{
-    color: #FAE800;
+    color: #ff7583;
   }
 
   .lg\:focus\:text-primary-600:focus{
@@ -73819,7 +73819,7 @@ code {
   }
 
   .lg\:visited\:text-primary-500:visited{
-    color: #FAE800;
+    color: #ff7583;
   }
 
   .lg\:visited\:text-primary-600:visited{
@@ -78848,7 +78848,7 @@ code {
   }
 
   .xl\:bg-primary-500{
-    background-color: #FAE800;
+    background-color: #ff7583;
   }
 
   .xl\:bg-primary-600{
@@ -79300,7 +79300,7 @@ code {
   }
 
   .xl\:hover\:bg-primary-500:hover{
-    background-color: #FAE800;
+    background-color: #ff7583;
   }
 
   .xl\:hover\:bg-primary-600:hover{
@@ -79752,7 +79752,7 @@ code {
   }
 
   .xl\:focus\:bg-primary-500:focus{
-    background-color: #FAE800;
+    background-color: #ff7583;
   }
 
   .xl\:focus\:bg-primary-600:focus{
@@ -80284,7 +80284,7 @@ code {
   }
 
   .xl\:border-primary-500{
-    border-color: #FAE800;
+    border-color: #ff7583;
   }
 
   .xl\:border-primary-600{
@@ -80736,7 +80736,7 @@ code {
   }
 
   .xl\:hover\:border-primary-500:hover{
-    border-color: #FAE800;
+    border-color: #ff7583;
   }
 
   .xl\:hover\:border-primary-600:hover{
@@ -81188,7 +81188,7 @@ code {
   }
 
   .xl\:focus\:border-primary-500:focus{
-    border-color: #FAE800;
+    border-color: #ff7583;
   }
 
   .xl\:focus\:border-primary-600:focus{
@@ -88409,23 +88409,23 @@ code {
   }
 
   .xl\:placeholder-primary-500::-webkit-input-placeholder{
-    color: #FAE800;
+    color: #ff7583;
   }
 
   .xl\:placeholder-primary-500::-moz-placeholder{
-    color: #FAE800;
+    color: #ff7583;
   }
 
   .xl\:placeholder-primary-500:-ms-input-placeholder{
-    color: #FAE800;
+    color: #ff7583;
   }
 
   .xl\:placeholder-primary-500::-ms-input-placeholder{
-    color: #FAE800;
+    color: #ff7583;
   }
 
   .xl\:placeholder-primary-500::placeholder{
-    color: #FAE800;
+    color: #ff7583;
   }
 
   .xl\:placeholder-primary-600::-webkit-input-placeholder{
@@ -90669,23 +90669,23 @@ code {
   }
 
   .xl\:focus\:placeholder-primary-500:focus::-webkit-input-placeholder{
-    color: #FAE800;
+    color: #ff7583;
   }
 
   .xl\:focus\:placeholder-primary-500:focus::-moz-placeholder{
-    color: #FAE800;
+    color: #ff7583;
   }
 
   .xl\:focus\:placeholder-primary-500:focus:-ms-input-placeholder{
-    color: #FAE800;
+    color: #ff7583;
   }
 
   .xl\:focus\:placeholder-primary-500:focus::-ms-input-placeholder{
-    color: #FAE800;
+    color: #ff7583;
   }
 
   .xl\:focus\:placeholder-primary-500:focus::placeholder{
-    color: #FAE800;
+    color: #ff7583;
   }
 
   .xl\:focus\:placeholder-primary-600:focus::-webkit-input-placeholder{
@@ -91620,7 +91620,7 @@ code {
   }
 
   .xl\:text-primary-500{
-    color: #FAE800;
+    color: #ff7583;
   }
 
   .xl\:text-primary-600{
@@ -92072,7 +92072,7 @@ code {
   }
 
   .xl\:hover\:text-primary-500:hover{
-    color: #FAE800;
+    color: #ff7583;
   }
 
   .xl\:hover\:text-primary-600:hover{
@@ -92524,7 +92524,7 @@ code {
   }
 
   .xl\:focus\:text-primary-500:focus{
-    color: #FAE800;
+    color: #ff7583;
   }
 
   .xl\:focus\:text-primary-600:focus{
@@ -92976,7 +92976,7 @@ code {
   }
 
   .xl\:visited\:text-primary-500:visited{
-    color: #FAE800;
+    color: #ff7583;
   }
 
   .xl\:visited\:text-primary-600:visited{
@@ -98005,7 +98005,7 @@ code {
   }
 
   .maxsm\:bg-primary-500{
-    background-color: #FAE800;
+    background-color: #ff7583;
   }
 
   .maxsm\:bg-primary-600{
@@ -98457,7 +98457,7 @@ code {
   }
 
   .maxsm\:hover\:bg-primary-500:hover{
-    background-color: #FAE800;
+    background-color: #ff7583;
   }
 
   .maxsm\:hover\:bg-primary-600:hover{
@@ -98909,7 +98909,7 @@ code {
   }
 
   .maxsm\:focus\:bg-primary-500:focus{
-    background-color: #FAE800;
+    background-color: #ff7583;
   }
 
   .maxsm\:focus\:bg-primary-600:focus{
@@ -99441,7 +99441,7 @@ code {
   }
 
   .maxsm\:border-primary-500{
-    border-color: #FAE800;
+    border-color: #ff7583;
   }
 
   .maxsm\:border-primary-600{
@@ -99893,7 +99893,7 @@ code {
   }
 
   .maxsm\:hover\:border-primary-500:hover{
-    border-color: #FAE800;
+    border-color: #ff7583;
   }
 
   .maxsm\:hover\:border-primary-600:hover{
@@ -100345,7 +100345,7 @@ code {
   }
 
   .maxsm\:focus\:border-primary-500:focus{
-    border-color: #FAE800;
+    border-color: #ff7583;
   }
 
   .maxsm\:focus\:border-primary-600:focus{
@@ -107566,23 +107566,23 @@ code {
   }
 
   .maxsm\:placeholder-primary-500::-webkit-input-placeholder{
-    color: #FAE800;
+    color: #ff7583;
   }
 
   .maxsm\:placeholder-primary-500::-moz-placeholder{
-    color: #FAE800;
+    color: #ff7583;
   }
 
   .maxsm\:placeholder-primary-500:-ms-input-placeholder{
-    color: #FAE800;
+    color: #ff7583;
   }
 
   .maxsm\:placeholder-primary-500::-ms-input-placeholder{
-    color: #FAE800;
+    color: #ff7583;
   }
 
   .maxsm\:placeholder-primary-500::placeholder{
-    color: #FAE800;
+    color: #ff7583;
   }
 
   .maxsm\:placeholder-primary-600::-webkit-input-placeholder{
@@ -109826,23 +109826,23 @@ code {
   }
 
   .maxsm\:focus\:placeholder-primary-500:focus::-webkit-input-placeholder{
-    color: #FAE800;
+    color: #ff7583;
   }
 
   .maxsm\:focus\:placeholder-primary-500:focus::-moz-placeholder{
-    color: #FAE800;
+    color: #ff7583;
   }
 
   .maxsm\:focus\:placeholder-primary-500:focus:-ms-input-placeholder{
-    color: #FAE800;
+    color: #ff7583;
   }
 
   .maxsm\:focus\:placeholder-primary-500:focus::-ms-input-placeholder{
-    color: #FAE800;
+    color: #ff7583;
   }
 
   .maxsm\:focus\:placeholder-primary-500:focus::placeholder{
-    color: #FAE800;
+    color: #ff7583;
   }
 
   .maxsm\:focus\:placeholder-primary-600:focus::-webkit-input-placeholder{
@@ -110777,7 +110777,7 @@ code {
   }
 
   .maxsm\:text-primary-500{
-    color: #FAE800;
+    color: #ff7583;
   }
 
   .maxsm\:text-primary-600{
@@ -111229,7 +111229,7 @@ code {
   }
 
   .maxsm\:hover\:text-primary-500:hover{
-    color: #FAE800;
+    color: #ff7583;
   }
 
   .maxsm\:hover\:text-primary-600:hover{
@@ -111681,7 +111681,7 @@ code {
   }
 
   .maxsm\:focus\:text-primary-500:focus{
-    color: #FAE800;
+    color: #ff7583;
   }
 
   .maxsm\:focus\:text-primary-600:focus{
@@ -112133,7 +112133,7 @@ code {
   }
 
   .maxsm\:visited\:text-primary-500:visited{
-    color: #FAE800;
+    color: #ff7583;
   }
 
   .maxsm\:visited\:text-primary-600:visited{
@@ -117162,7 +117162,7 @@ code {
   }
 
   .maxmd\:bg-primary-500{
-    background-color: #FAE800;
+    background-color: #ff7583;
   }
 
   .maxmd\:bg-primary-600{
@@ -117614,7 +117614,7 @@ code {
   }
 
   .maxmd\:hover\:bg-primary-500:hover{
-    background-color: #FAE800;
+    background-color: #ff7583;
   }
 
   .maxmd\:hover\:bg-primary-600:hover{
@@ -118066,7 +118066,7 @@ code {
   }
 
   .maxmd\:focus\:bg-primary-500:focus{
-    background-color: #FAE800;
+    background-color: #ff7583;
   }
 
   .maxmd\:focus\:bg-primary-600:focus{
@@ -118598,7 +118598,7 @@ code {
   }
 
   .maxmd\:border-primary-500{
-    border-color: #FAE800;
+    border-color: #ff7583;
   }
 
   .maxmd\:border-primary-600{
@@ -119050,7 +119050,7 @@ code {
   }
 
   .maxmd\:hover\:border-primary-500:hover{
-    border-color: #FAE800;
+    border-color: #ff7583;
   }
 
   .maxmd\:hover\:border-primary-600:hover{
@@ -119502,7 +119502,7 @@ code {
   }
 
   .maxmd\:focus\:border-primary-500:focus{
-    border-color: #FAE800;
+    border-color: #ff7583;
   }
 
   .maxmd\:focus\:border-primary-600:focus{
@@ -126723,23 +126723,23 @@ code {
   }
 
   .maxmd\:placeholder-primary-500::-webkit-input-placeholder{
-    color: #FAE800;
+    color: #ff7583;
   }
 
   .maxmd\:placeholder-primary-500::-moz-placeholder{
-    color: #FAE800;
+    color: #ff7583;
   }
 
   .maxmd\:placeholder-primary-500:-ms-input-placeholder{
-    color: #FAE800;
+    color: #ff7583;
   }
 
   .maxmd\:placeholder-primary-500::-ms-input-placeholder{
-    color: #FAE800;
+    color: #ff7583;
   }
 
   .maxmd\:placeholder-primary-500::placeholder{
-    color: #FAE800;
+    color: #ff7583;
   }
 
   .maxmd\:placeholder-primary-600::-webkit-input-placeholder{
@@ -128983,23 +128983,23 @@ code {
   }
 
   .maxmd\:focus\:placeholder-primary-500:focus::-webkit-input-placeholder{
-    color: #FAE800;
+    color: #ff7583;
   }
 
   .maxmd\:focus\:placeholder-primary-500:focus::-moz-placeholder{
-    color: #FAE800;
+    color: #ff7583;
   }
 
   .maxmd\:focus\:placeholder-primary-500:focus:-ms-input-placeholder{
-    color: #FAE800;
+    color: #ff7583;
   }
 
   .maxmd\:focus\:placeholder-primary-500:focus::-ms-input-placeholder{
-    color: #FAE800;
+    color: #ff7583;
   }
 
   .maxmd\:focus\:placeholder-primary-500:focus::placeholder{
-    color: #FAE800;
+    color: #ff7583;
   }
 
   .maxmd\:focus\:placeholder-primary-600:focus::-webkit-input-placeholder{
@@ -129934,7 +129934,7 @@ code {
   }
 
   .maxmd\:text-primary-500{
-    color: #FAE800;
+    color: #ff7583;
   }
 
   .maxmd\:text-primary-600{
@@ -130386,7 +130386,7 @@ code {
   }
 
   .maxmd\:hover\:text-primary-500:hover{
-    color: #FAE800;
+    color: #ff7583;
   }
 
   .maxmd\:hover\:text-primary-600:hover{
@@ -130838,7 +130838,7 @@ code {
   }
 
   .maxmd\:focus\:text-primary-500:focus{
-    color: #FAE800;
+    color: #ff7583;
   }
 
   .maxmd\:focus\:text-primary-600:focus{
@@ -131290,7 +131290,7 @@ code {
   }
 
   .maxmd\:visited\:text-primary-500:visited{
-    color: #FAE800;
+    color: #ff7583;
   }
 
   .maxmd\:visited\:text-primary-600:visited{
@@ -136319,7 +136319,7 @@ code {
   }
 
   .maxlg\:bg-primary-500{
-    background-color: #FAE800;
+    background-color: #ff7583;
   }
 
   .maxlg\:bg-primary-600{
@@ -136771,7 +136771,7 @@ code {
   }
 
   .maxlg\:hover\:bg-primary-500:hover{
-    background-color: #FAE800;
+    background-color: #ff7583;
   }
 
   .maxlg\:hover\:bg-primary-600:hover{
@@ -137223,7 +137223,7 @@ code {
   }
 
   .maxlg\:focus\:bg-primary-500:focus{
-    background-color: #FAE800;
+    background-color: #ff7583;
   }
 
   .maxlg\:focus\:bg-primary-600:focus{
@@ -137755,7 +137755,7 @@ code {
   }
 
   .maxlg\:border-primary-500{
-    border-color: #FAE800;
+    border-color: #ff7583;
   }
 
   .maxlg\:border-primary-600{
@@ -138207,7 +138207,7 @@ code {
   }
 
   .maxlg\:hover\:border-primary-500:hover{
-    border-color: #FAE800;
+    border-color: #ff7583;
   }
 
   .maxlg\:hover\:border-primary-600:hover{
@@ -138659,7 +138659,7 @@ code {
   }
 
   .maxlg\:focus\:border-primary-500:focus{
-    border-color: #FAE800;
+    border-color: #ff7583;
   }
 
   .maxlg\:focus\:border-primary-600:focus{
@@ -145880,23 +145880,23 @@ code {
   }
 
   .maxlg\:placeholder-primary-500::-webkit-input-placeholder{
-    color: #FAE800;
+    color: #ff7583;
   }
 
   .maxlg\:placeholder-primary-500::-moz-placeholder{
-    color: #FAE800;
+    color: #ff7583;
   }
 
   .maxlg\:placeholder-primary-500:-ms-input-placeholder{
-    color: #FAE800;
+    color: #ff7583;
   }
 
   .maxlg\:placeholder-primary-500::-ms-input-placeholder{
-    color: #FAE800;
+    color: #ff7583;
   }
 
   .maxlg\:placeholder-primary-500::placeholder{
-    color: #FAE800;
+    color: #ff7583;
   }
 
   .maxlg\:placeholder-primary-600::-webkit-input-placeholder{
@@ -148140,23 +148140,23 @@ code {
   }
 
   .maxlg\:focus\:placeholder-primary-500:focus::-webkit-input-placeholder{
-    color: #FAE800;
+    color: #ff7583;
   }
 
   .maxlg\:focus\:placeholder-primary-500:focus::-moz-placeholder{
-    color: #FAE800;
+    color: #ff7583;
   }
 
   .maxlg\:focus\:placeholder-primary-500:focus:-ms-input-placeholder{
-    color: #FAE800;
+    color: #ff7583;
   }
 
   .maxlg\:focus\:placeholder-primary-500:focus::-ms-input-placeholder{
-    color: #FAE800;
+    color: #ff7583;
   }
 
   .maxlg\:focus\:placeholder-primary-500:focus::placeholder{
-    color: #FAE800;
+    color: #ff7583;
   }
 
   .maxlg\:focus\:placeholder-primary-600:focus::-webkit-input-placeholder{
@@ -149091,7 +149091,7 @@ code {
   }
 
   .maxlg\:text-primary-500{
-    color: #FAE800;
+    color: #ff7583;
   }
 
   .maxlg\:text-primary-600{
@@ -149543,7 +149543,7 @@ code {
   }
 
   .maxlg\:hover\:text-primary-500:hover{
-    color: #FAE800;
+    color: #ff7583;
   }
 
   .maxlg\:hover\:text-primary-600:hover{
@@ -149995,7 +149995,7 @@ code {
   }
 
   .maxlg\:focus\:text-primary-500:focus{
-    color: #FAE800;
+    color: #ff7583;
   }
 
   .maxlg\:focus\:text-primary-600:focus{
@@ -150447,7 +150447,7 @@ code {
   }
 
   .maxlg\:visited\:text-primary-500:visited{
-    color: #FAE800;
+    color: #ff7583;
   }
 
   .maxlg\:visited\:text-primary-600:visited{
@@ -155476,7 +155476,7 @@ code {
   }
 
   .maxl\:bg-primary-500{
-    background-color: #FAE800;
+    background-color: #ff7583;
   }
 
   .maxl\:bg-primary-600{
@@ -155928,7 +155928,7 @@ code {
   }
 
   .maxl\:hover\:bg-primary-500:hover{
-    background-color: #FAE800;
+    background-color: #ff7583;
   }
 
   .maxl\:hover\:bg-primary-600:hover{
@@ -156380,7 +156380,7 @@ code {
   }
 
   .maxl\:focus\:bg-primary-500:focus{
-    background-color: #FAE800;
+    background-color: #ff7583;
   }
 
   .maxl\:focus\:bg-primary-600:focus{
@@ -156912,7 +156912,7 @@ code {
   }
 
   .maxl\:border-primary-500{
-    border-color: #FAE800;
+    border-color: #ff7583;
   }
 
   .maxl\:border-primary-600{
@@ -157364,7 +157364,7 @@ code {
   }
 
   .maxl\:hover\:border-primary-500:hover{
-    border-color: #FAE800;
+    border-color: #ff7583;
   }
 
   .maxl\:hover\:border-primary-600:hover{
@@ -157816,7 +157816,7 @@ code {
   }
 
   .maxl\:focus\:border-primary-500:focus{
-    border-color: #FAE800;
+    border-color: #ff7583;
   }
 
   .maxl\:focus\:border-primary-600:focus{
@@ -165037,23 +165037,23 @@ code {
   }
 
   .maxl\:placeholder-primary-500::-webkit-input-placeholder{
-    color: #FAE800;
+    color: #ff7583;
   }
 
   .maxl\:placeholder-primary-500::-moz-placeholder{
-    color: #FAE800;
+    color: #ff7583;
   }
 
   .maxl\:placeholder-primary-500:-ms-input-placeholder{
-    color: #FAE800;
+    color: #ff7583;
   }
 
   .maxl\:placeholder-primary-500::-ms-input-placeholder{
-    color: #FAE800;
+    color: #ff7583;
   }
 
   .maxl\:placeholder-primary-500::placeholder{
-    color: #FAE800;
+    color: #ff7583;
   }
 
   .maxl\:placeholder-primary-600::-webkit-input-placeholder{
@@ -167297,23 +167297,23 @@ code {
   }
 
   .maxl\:focus\:placeholder-primary-500:focus::-webkit-input-placeholder{
-    color: #FAE800;
+    color: #ff7583;
   }
 
   .maxl\:focus\:placeholder-primary-500:focus::-moz-placeholder{
-    color: #FAE800;
+    color: #ff7583;
   }
 
   .maxl\:focus\:placeholder-primary-500:focus:-ms-input-placeholder{
-    color: #FAE800;
+    color: #ff7583;
   }
 
   .maxl\:focus\:placeholder-primary-500:focus::-ms-input-placeholder{
-    color: #FAE800;
+    color: #ff7583;
   }
 
   .maxl\:focus\:placeholder-primary-500:focus::placeholder{
-    color: #FAE800;
+    color: #ff7583;
   }
 
   .maxl\:focus\:placeholder-primary-600:focus::-webkit-input-placeholder{
@@ -168248,7 +168248,7 @@ code {
   }
 
   .maxl\:text-primary-500{
-    color: #FAE800;
+    color: #ff7583;
   }
 
   .maxl\:text-primary-600{
@@ -168700,7 +168700,7 @@ code {
   }
 
   .maxl\:hover\:text-primary-500:hover{
-    color: #FAE800;
+    color: #ff7583;
   }
 
   .maxl\:hover\:text-primary-600:hover{
@@ -169152,7 +169152,7 @@ code {
   }
 
   .maxl\:focus\:text-primary-500:focus{
-    color: #FAE800;
+    color: #ff7583;
   }
 
   .maxl\:focus\:text-primary-600:focus{
@@ -169604,7 +169604,7 @@ code {
   }
 
   .maxl\:visited\:text-primary-500:visited{
-    color: #FAE800;
+    color: #ff7583;
   }
 
   .maxl\:visited\:text-primary-600:visited{

@@ -257,6 +257,7 @@ var modalMarca = function modalMarca($) {
   });
   $('.marca-modal-close').on('click', function (e) {
     $('#marca-modal').removeClass('marca-modal-active');
+    $('#marca-modal-info').html('');
   });
 };
 
