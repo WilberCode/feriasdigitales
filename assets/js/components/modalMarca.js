@@ -20,8 +20,7 @@ let modalMarca = ($)=>{
                 <div class="w-full py-2 bg-gray-200 loading mt-10" ></div>
                 <div class="w-full py-2 bg-gray-200 loading mt-2 sm:w-56 " ></div>
                 <div class="w-full py-2 bg-gray-200 loading mt-10" ></div>
-                <div class="w-full py-2 bg-gray-200 loading mt-2 sm:w-56  "></div>
-                
+                <div class="w-full py-2 bg-gray-200 loading mt-2 sm:w-56  "></div> 
             </div>
         </article>
         ` )
