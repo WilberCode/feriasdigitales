@@ -2,7 +2,30 @@ let modalMarca = ($)=>{
     $('.marca-card').on('click', function(e){
         e.preventDefault() 
         document.documentElement.style.setProperty('--offsettop-modal-marca',`${e.target.offsetTop+'px'}`);
- 
+        
+        $('#marca-modal-info').html( ` 
+        <article class="grid grid-cols-1 sm:grid-cols-2 gap-8 sm:gap-10  placeholder " >
+            <div>
+                <div class="w-full py-32 bg-gray-200 loading mb-4" ></div> 
+                <div class="w-full py-35 bg-gray-200 loading" ></div> 
+            </div>
+            <div>
+                <div class="w-full sm:w-56 py-12 bg-gray-200 loading" ></div>
+                <div class="w-full py-2 bg-gray-200 loading mt-12" ></div>
+                <div class="w-full py-2 bg-gray-200 loading mt-2 sm:w-56 " ></div>
+                <div class="w-full py-2 bg-gray-200 loading mt-10" ></div>
+                <div class="w-full py-2 bg-gray-200 loading mt-2 sm:w-56 " ></div>
+                <div class="w-full py-2 bg-gray-200 loading mt-10" ></div>
+                <div class="w-full py-2 bg-gray-200 loading mt-2 sm:w-56  "></div>
+                <div class="w-full py-2 bg-gray-200 loading mt-10" ></div>
+                <div class="w-full py-2 bg-gray-200 loading mt-2 sm:w-56 " ></div>
+                <div class="w-full py-2 bg-gray-200 loading mt-10" ></div>
+                <div class="w-full py-2 bg-gray-200 loading mt-2 sm:w-56  "></div>
+                
+            </div>
+        </article>
+        ` )
+             
         $('#marca-modal').toggleClass('marca-modal-active')
             
             e.preventDefault();

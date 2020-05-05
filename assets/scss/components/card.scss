@@ -41,41 +41,31 @@
     } 
 }
 
-// .placeholder{
-//     &-category{
-//         max-width: 90px;
-//     }
-//     &-btn{
-//         max-width: 80px;
-//     }
-//     &-price{
-//         max-width: 100px;
-//     }
-// }
  
-// .loading {
-//     position: relative;
-//     overflow: hidden;
-//     &::after {
-//       content: "";
-//       display: block;
-//     //   background-color: #dddfe2;
-//       background: linear-gradient(to right, #eeeeee 8%, #dddddd 18%, #eeeeee 33%);
-//       position: absolute;
-//       top: 0;
-//       bottom: 0;
-//       width: 100%;
-//       height: 100%;
-//       transform: translateX(0);
-//       animation: 1.5s loading-placeholder ease-in-out infinite;
-//     }
-//   }
+ 
+.loading {
+    position: relative;
+    overflow: hidden;
+    &::after {
+      content: "";
+      display: block;
+    //   background-color: #dddfe2;
+      background: linear-gradient(to right, #edf3fa 8%, #ececec 18%, #edf3fa 33%);
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      width: 100%;
+      height: 100%;
+      transform: translateX(0);
+      animation: 1.2s loading-placeholder ease-in-out infinite;
+    }
+  }
   
-//   @keyframes loading-placeholder {
-//     0% {
-//       transform: translateX(-100%);
-//     }
-//     100% {
-//       transform: translateX(100%);
-//     }
-//   }
+  @keyframes loading-placeholder {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(100%);
+    }
+  }

@@ -18,7 +18,7 @@
 						<article class="grid grid-cols-3 mb-4 shadow-md hover:underline  ">
 							<?php if(thumbnail_image_url('full')){  ?> 
                             <a href="<?php the_permalink();?>" class=" col-span-1 " >
-                                <img  class="block"  src="<?php echo thumbnail_image_url('full'); ?>" alt="">
+                                <img  class="block p-6 "  src="<?php echo thumbnail_image_url('full'); ?>" alt="">
 							</a>
 							<div class=" col-span-2  flex justify-start items-center py-5 px-8 "> 
 								<a href="<?php the_permalink(); ?>" class="text-xl text-secondary-500 ">  
@@ -32,7 +32,7 @@
 							<?php }?>
 						</article>  
 			<?php endwhile;  ?>
-			<div class="msearch-navigation">
+			<div class="msearch-navigation mb-4">
 				<?php echo paginate_links();?>
 			</div>
 			<?php else:?>
