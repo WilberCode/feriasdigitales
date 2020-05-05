@@ -40,12 +40,10 @@
       @apply  mt-2 max-w-full #{!important};  
     } 
 }
-
- 
  
 .loading {
     position: relative;
-    overflow: hidden;
+    overflow: hidden; 
     &::after {
       content: "";
       display: block;
