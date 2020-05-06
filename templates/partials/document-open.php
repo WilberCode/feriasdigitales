@@ -9,6 +9,16 @@
     <script>document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/, 'js');</script>
     <meta name="google-site-verification" content="WDw7jVppxrNYVp4G8Y8qv8XgyIe0JybUlpUqOVUJv28" />
     <?php wp_head() ?>      
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-165440476-1"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-165440476-1');
+    </script>
+
 
 </head>
 <body <?php body_class() ?>   >
