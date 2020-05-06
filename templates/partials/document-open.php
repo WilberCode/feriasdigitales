@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en" class="no-js">
+<html lang="es" class="no-js">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
@@ -7,7 +7,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title><?= wp_get_document_title() ?></title>
     <script>document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/, 'js');</script>
-    <?php wp_head() ?>    
+    <meta name="google-site-verification" content="WDw7jVppxrNYVp4G8Y8qv8XgyIe0JybUlpUqOVUJv28" />
+    <?php wp_head() ?>      
 
 </head>
 <body <?php body_class() ?>   >
