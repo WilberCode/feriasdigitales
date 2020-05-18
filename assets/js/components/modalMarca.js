@@ -2,8 +2,9 @@ let modalMarca = ($)=>{
     $('.marca-card').on('click', function(e){
         e.preventDefault() 
         document.documentElement.style.setProperty('--offsettop-modal-marca',`${e.target.offsetTop+'px'}`);
-        
-        $('#marca-modal-info').html( ` 
+        let modalActive = false
+        if(!modalActive){
+            $('#marca-modal-info').html( ` 
         <article class="grid grid-cols-1 sm:grid-cols-2 gap-8 sm:gap-10  placeholder " >
             <div>
                 <div class="w-full py-32 bg-gray-200 loading mb-4" ></div> 
@@ -24,6 +25,7 @@ let modalMarca = ($)=>{
             </div>
         </article>
         ` )
+        }
              
         $('#marca-modal').toggleClass('marca-modal-active')
             
@@ -42,6 +44,7 @@ let modalMarca = ($)=>{
             .then(response => {  
                 return response.ok ? response.json() : 'No información de la marca...'; 
             }).then(json_response => {  
+                modalActive = true
                 if(json_response){
                     json_response.map((post)=>{   
                         html_marca_modal_info += `   

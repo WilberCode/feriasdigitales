@@ -98,76 +98,35 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_posts__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./components/posts */ "./assets/js/components/posts.js");
 /* harmony import */ var _components_modalMarca__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./components/modalMarca */ "./assets/js/components/modalMarca.js");
 var $ = jQuery.noConflict();
+ // import menuMobile from  './components/menuMobile'
 
- // Shorthand 
-
-var Id = document.getElementById.bind(document);
-var className = document.getElementsByClassName.bind(document);
-var tagName = document.getElementsByTagName.bind(document); // function redirectPage(){
+ // function redirectPage(){
 //     return window.location.replace('https://feriasdigitales.pe/')
 // }
 // redirectPage()
-
-function menuMobile() {
-  var mobileNav = Id('mobile-nav-wrap');
-  var navToggle = Id('nav-toggle');
-  $('#nav-toggle').on('click', function () {
-    navToggle.classList.toggle('nav-toggle-active');
-    mobileNav.classList.toggle('nav-active');
-  });
-  $('#mobile-menu li').on('click', function () {
-    navToggle.classList.toggle('nav-toggle-active');
-    mobileNav.classList.toggle('nav-active');
-  });
-} // function separateFirstText(){
-//     $('.card__title').each(function() { 
-//         var text = this.innerHTML;
-//         var firstSpaceIndex = text.indexOf(" "); 
-//         if (firstSpaceIndex > 0) {  
-//             var substrBefore = text.substring(0,firstSpaceIndex);
-//             var substrAfter = text.substring(firstSpaceIndex, text.length) 
-//             var newText = '<span class="card-category">' + substrBefore + '</span>' + substrAfter;
-//             this.innerHTML = newText;
-//         } else {
-//             this.innerHTML = '<span class="card-category">' + text + '</span>';
-//         }
-//     }); 
-// }
-// function showVideos(){
-//     $('.show-videos').click(()=>{
-//         $('.vimeography-theme-harvestone').toggleClass('show-video') 
+// function activeCategory(){
+//     $('.marca-category-filter').on('click',function(e){
+//         $('.marca-category-filter').each(function(u) {  
+//             $(this).removeClass('marca-category-active')  
+//         });  
+//         $(this).toggleClass('marca-category-active') 
 //     })
-// } 
-
-
-function activeCategory() {
-  $('.marca-category-filter').on('click', function (e) {
-    $('.marca-category-filter').each(function (u) {
-      $(this).removeClass('marca-category-active');
-    });
-    $(this).toggleClass('marca-category-active');
-  });
-}
+// }
 
 jQuery(function ($) {
   $(document).ready(function () {
-    // menuMobile()        // Menu Mobile: Show menu and hide 
-    // separateFirstText() // Card title: serate the first word in a span 
-    // showVideos()  
-    // Button show the videos
-    activeCategory(); // Active color of categories
+    // menuMobile($)       // Menu Mobile: Show menu and hide   
+    Object(_components_modalMarca__WEBPACK_IMPORTED_MODULE_1__["default"])($); // Active Modal of marca  
 
-    Object(_components_modalMarca__WEBPACK_IMPORTED_MODULE_1__["default"])($); // Active Modal of marca 
-    // $('#marca-modal').on('click', function(e){  
-    //     const parentID = e.target.parentNode.id 
-    //     console.log(parentID )
-    //     console.log($(this) )
-    //      if (parentID !== 'marca-modal-body' && e.target.id !== 'marca-modal-body' ) {
-    //         $('#marca-modal').removeClass('marca-modal-active')
-    //     } else {
-    //         return;
-    //     }
-    // })
+    $('#marca-modal').on('click', function (e) {
+      var marcaModalID = e.target.id;
+
+      if (marcaModalID == 'marca-modal') {
+        $('#marca-modal').removeClass('marca-modal-active');
+      } else {
+        return;
+      }
+    });
   });
 });
 
@@ -229,7 +188,12 @@ var modalMarca = function modalMarca($) {
   $('.marca-card').on('click', function (e) {
     e.preventDefault();
     document.documentElement.style.setProperty('--offsettop-modal-marca', "".concat(e.target.offsetTop + 'px'));
-    $('#marca-modal-info').html(" \n        <article class=\"grid grid-cols-1 sm:grid-cols-2 gap-8 sm:gap-10  placeholder \" >\n            <div>\n                <div class=\"w-full py-32 bg-gray-200 loading mb-4\" ></div> \n                <div class=\"w-full py-35 bg-gray-200 loading\" ></div> \n            </div>\n            <div>\n                <div class=\"w-full sm:w-56 py-12 bg-gray-200 loading\" ></div>\n                <div class=\"w-full py-2 bg-gray-200 loading mt-12\" ></div>\n                <div class=\"w-full py-2 bg-gray-200 loading mt-2 sm:w-56 \" ></div>\n                <div class=\"w-full py-2 bg-gray-200 loading mt-10\" ></div>\n                <div class=\"w-full py-2 bg-gray-200 loading mt-2 sm:w-56 \" ></div>\n                <div class=\"w-full py-2 bg-gray-200 loading mt-10\" ></div>\n                <div class=\"w-full py-2 bg-gray-200 loading mt-2 sm:w-56  \"></div>\n                <div class=\"w-full py-2 bg-gray-200 loading mt-10\" ></div>\n                <div class=\"w-full py-2 bg-gray-200 loading mt-2 sm:w-56 \" ></div>\n                <div class=\"w-full py-2 bg-gray-200 loading mt-10\" ></div>\n                <div class=\"w-full py-2 bg-gray-200 loading mt-2 sm:w-56  \"></div> \n            </div>\n        </article>\n        ");
+    var modalActive = false;
+
+    if (!modalActive) {
+      $('#marca-modal-info').html(" \n        <article class=\"grid grid-cols-1 sm:grid-cols-2 gap-8 sm:gap-10  placeholder \" >\n            <div>\n                <div class=\"w-full py-32 bg-gray-200 loading mb-4\" ></div> \n                <div class=\"w-full py-35 bg-gray-200 loading\" ></div> \n            </div>\n            <div>\n                <div class=\"w-full sm:w-56 py-12 bg-gray-200 loading\" ></div>\n                <div class=\"w-full py-2 bg-gray-200 loading mt-12\" ></div>\n                <div class=\"w-full py-2 bg-gray-200 loading mt-2 sm:w-56 \" ></div>\n                <div class=\"w-full py-2 bg-gray-200 loading mt-10\" ></div>\n                <div class=\"w-full py-2 bg-gray-200 loading mt-2 sm:w-56 \" ></div>\n                <div class=\"w-full py-2 bg-gray-200 loading mt-10\" ></div>\n                <div class=\"w-full py-2 bg-gray-200 loading mt-2 sm:w-56  \"></div>\n                <div class=\"w-full py-2 bg-gray-200 loading mt-10\" ></div>\n                <div class=\"w-full py-2 bg-gray-200 loading mt-2 sm:w-56 \" ></div>\n                <div class=\"w-full py-2 bg-gray-200 loading mt-10\" ></div>\n                <div class=\"w-full py-2 bg-gray-200 loading mt-2 sm:w-56  \"></div> \n            </div>\n        </article>\n        ");
+    }
+
     $('#marca-modal').toggleClass('marca-modal-active');
     e.preventDefault();
     var postIdMarca = $(this).data('postidmarca');
@@ -245,6 +209,8 @@ var modalMarca = function modalMarca($) {
     }).then(function (response) {
       return response.ok ? response.json() : 'No información de la marca...';
     }).then(function (json_response) {
+      modalActive = true;
+
       if (json_response) {
         json_response.map(function (post) {
           html_marca_modal_info += "   \n                        <div  class=\"grid grid-cols-1 sm:grid-cols-2 gap-8 sm:gap-10\">\n                            <div>   \n                                ".concat(post.images == null ? '' : post.images.map(function (image) {
