@@ -116,17 +116,7 @@ var $ = jQuery.noConflict();
 jQuery(function ($) {
   $(document).ready(function () {
     // menuMobile($)       // Menu Mobile: Show menu and hide   
-    Object(_components_modalMarca__WEBPACK_IMPORTED_MODULE_1__["default"])($); // Active Modal of marca  
-
-    $('#marca-modal').on('click', function (e) {
-      var marcaModalID = e.target.id;
-
-      if (marcaModalID == 'marca-modal') {
-        $('#marca-modal').removeClass('marca-modal-active');
-      } else {
-        return;
-      }
-    });
+    Object(_components_modalMarca__WEBPACK_IMPORTED_MODULE_1__["default"])($); // Active Modal of marca   
   });
 });
 
@@ -191,11 +181,10 @@ var modalMarca = function modalMarca($) {
     var modalActive = false;
 
     if (!modalActive) {
-      $('#marca-modal-info').html(" \n        <article class=\"grid grid-cols-1 sm:grid-cols-2 gap-8 sm:gap-10  placeholder \" >\n            <div>\n                <div class=\"w-full py-32 bg-gray-200 loading mb-4\" ></div> \n                <div class=\"w-full py-35 bg-gray-200 loading\" ></div> \n            </div>\n            <div>\n                <div class=\"w-full sm:w-56 py-12 bg-gray-200 loading\" ></div>\n                <div class=\"w-full py-2 bg-gray-200 loading mt-12\" ></div>\n                <div class=\"w-full py-2 bg-gray-200 loading mt-2 sm:w-56 \" ></div>\n                <div class=\"w-full py-2 bg-gray-200 loading mt-10\" ></div>\n                <div class=\"w-full py-2 bg-gray-200 loading mt-2 sm:w-56 \" ></div>\n                <div class=\"w-full py-2 bg-gray-200 loading mt-10\" ></div>\n                <div class=\"w-full py-2 bg-gray-200 loading mt-2 sm:w-56  \"></div>\n                <div class=\"w-full py-2 bg-gray-200 loading mt-10\" ></div>\n                <div class=\"w-full py-2 bg-gray-200 loading mt-2 sm:w-56 \" ></div>\n                <div class=\"w-full py-2 bg-gray-200 loading mt-10\" ></div>\n                <div class=\"w-full py-2 bg-gray-200 loading mt-2 sm:w-56  \"></div> \n            </div>\n        </article>\n        ");
+      $('#marca-modal-info').html(" \n                <article class=\"grid grid-cols-1 sm:grid-cols-2 gap-8 sm:gap-10  placeholder \" >\n                    <div>\n                        <div class=\"w-full py-32 bg-gray-200 loading mb-4\" ></div> \n                        <div class=\"w-full py-35 bg-gray-200 loading\" ></div> \n                    </div>\n                    <div>\n                        <div class=\"w-full sm:w-56 py-12 bg-gray-200 loading\" ></div>\n                        <div class=\"w-full py-2 bg-gray-200 loading mt-12\" ></div>\n                        <div class=\"w-full py-2 bg-gray-200 loading mt-2 sm:w-56 \" ></div>\n                        <div class=\"w-full py-2 bg-gray-200 loading mt-10\" ></div>\n                        <div class=\"w-full py-2 bg-gray-200 loading mt-2 sm:w-56 \" ></div>\n                        <div class=\"w-full py-2 bg-gray-200 loading mt-10\" ></div>\n                        <div class=\"w-full py-2 bg-gray-200 loading mt-2 sm:w-56  \"></div>\n                        <div class=\"w-full py-2 bg-gray-200 loading mt-10\" ></div>\n                        <div class=\"w-full py-2 bg-gray-200 loading mt-2 sm:w-56 \" ></div>\n                        <div class=\"w-full py-2 bg-gray-200 loading mt-10\" ></div>\n                        <div class=\"w-full py-2 bg-gray-200 loading mt-2 sm:w-56  \"></div> \n                    </div>\n                </article>\n           ");
     }
 
     $('#marca-modal').toggleClass('marca-modal-active');
-    e.preventDefault();
     var postIdMarca = $(this).data('postidmarca');
     var html_marca_modal_info = '';
     var headers = new Headers({
@@ -213,9 +202,9 @@ var modalMarca = function modalMarca($) {
 
       if (json_response) {
         json_response.map(function (post) {
-          html_marca_modal_info += "   \n                        <div  class=\"grid grid-cols-1 sm:grid-cols-2 gap-8 sm:gap-10\">\n                            <div>   \n                                ".concat(post.images == null ? '' : post.images.map(function (image) {
+          html_marca_modal_info += "   \n                    <div  class=\"grid grid-cols-1 sm:grid-cols-2 gap-8 sm:gap-10\">\n                        <div>   \n                            ".concat(post.images == null ? '' : post.images.map(function (image) {
             return "<img class=\"mb-4\" src=\"".concat(image.marca_imagenes_individual, "\" />");
-          }).join(''), "\n                            </div>  \n                            <div  class=\"pl-0 sm:pl-6\"> \n                                <img  class=\" w-34 mb-10 sm:w-40 md:w-54 \"  src=\"").concat(post.thumbnail, "\" alt=\"").concat(post.title, "\">\n                                 ").concat(post.content, " \n                            </div>\n                            \n                        </div>\n                         ");
+          }).join(''), "\n                        </div>  \n                        <div  class=\"pl-0 sm:pl-6\"> \n                            <img  class=\" w-34 mb-10 sm:w-40 md:w-54 \"  src=\"").concat(post.thumbnail, "\" alt=\"").concat(post.title, "\">\n                                ").concat(post.content, " \n                        </div>\n                        \n                    </div>\n                        ");
         });
       }
 
@@ -225,6 +214,16 @@ var modalMarca = function modalMarca($) {
   $('.marca-modal-close').on('click', function (e) {
     $('#marca-modal').removeClass('marca-modal-active');
     $('#marca-modal-info').html('');
+  });
+  $('#marca-modal').on('click', function (e) {
+    var marcaModalID = e.target.id;
+
+    if (marcaModalID == 'marca-modal') {
+      $('#marca-modal').removeClass('marca-modal-active');
+      $('#marca-modal-info').html('');
+    } else {
+      return;
+    }
   });
 };
 

@@ -25,16 +25,7 @@ import modalMarca from  './components/modalMarca'
 jQuery(function ($) {  
     $(document).ready(function () {  
         // menuMobile($)       // Menu Mobile: Show menu and hide   
-        modalMarca($)       // Active Modal of marca  
-        $('#marca-modal').on('click', function(e){   
-            const marcaModalID = e.target.id  
-            if(marcaModalID == 'marca-modal' ) {
-                $('#marca-modal').removeClass('marca-modal-active')
-            } else {
-                return;
-            } 
-           
-        })
+        modalMarca($)       // Active Modal of marca   
     });  
 });
  
