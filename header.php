@@ -8,8 +8,8 @@
     </div>   
     <div class="container m-auto flex h-14  sm:h-24 justify-start items-center "> 
         <div class=" flex ">
-        <a href="https://www.instagram.com/feriasdigitales/"  class=" no-underline mr-4 " > <svg class=" w-6 h-6 "><use href="<?php echo get_bloginfo('template_directory').'/assets/svg/icons.svg#instagram'; ?>"></svg> </a>
-        <a href="https://www.facebook.com/feriasdigitales/"  class=" no-underline " > <svg class=" w-6 h-6 "><use href="<?php echo get_bloginfo('template_directory').'/assets/svg/icons.svg#facebook'; ?>"></svg> </a>
+            <a href="https://www.instagram.com/feriasdigitales/"  class=" no-underline mr-4 " > <svg class=" w-6 h-6 "><use href="<?php echo get_bloginfo('template_directory').'/assets/svg/icons.svg#instagram'; ?>"></svg> </a>
+            <a href="https://www.facebook.com/feriasdigitales/"  class=" no-underline " > <svg class=" w-6 h-6 "><use href="<?php echo get_bloginfo('template_directory').'/assets/svg/icons.svg#facebook'; ?>"></svg> </a>
          </div>
      </div> 
 </header>
