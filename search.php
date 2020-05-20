@@ -36,7 +36,7 @@
 				<?php echo paginate_links();?>
 			</div>
 			<?php else:?>
-			<div class="msearch-not">
+			<div class="msearch-not mb-6">
 				<h2 class="m-0">No se han encontrado resultados.</h2>
 				<p class="text-sm m-0 text-secondary-400 ">Prueba con otras palabras clave.</p>
 			</div>
