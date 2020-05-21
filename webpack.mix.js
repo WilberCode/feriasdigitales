@@ -23,11 +23,15 @@ if (local.proxy) {
         ]
     });
 }
-
+ 
 mix.tailwind();
+
+ 
 
 mix.js('assets/js/app.js', 'js');
 mix.sass('assets/scss/app.scss', 'css');
+
+
 
 // The package internally limits running to production builds so we don't need
 // to wrap this up with a condition.
@@ -37,9 +41,13 @@ mix.purgeCss({
         path.join(__dirname, 'templates/**/*.php'),
         path.join(__dirname, 'build/js/**/*.js'),
     ]),
+    // whitelist: ['search' ],
+    // whitelistPatterns: [/^search-/],
+    whitelistPatternsChildren: [/^search-/,/^rslides_nav/]
 });
 
 if (mix.inProduction()) {
-    mix.versionHash();
-    mix.sourceMaps();
+    // mix.versionHash();
+    // mix.version(['build/js/random.js']); 
 }
+

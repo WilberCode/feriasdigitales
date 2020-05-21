@@ -5,13 +5,7 @@ import './components/posts'
 // import menuMobile from  './components/menuMobile'
 import modalMarca from  './components/modalMarca'
 
-
-// function redirectPage(){
-//     return window.location.replace('https://feriasdigitales.pe/')
-// }
-// redirectPage()
- 
- 
+   
 // function activeCategory(){
 //     $('.marca-category-filter').on('click',function(e){
 //         $('.marca-category-filter').each(function(u) {  
