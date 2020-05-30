@@ -48,7 +48,7 @@ let modalMarca = ($)=>{
                     html_marca_modal_info += `   
                     <div  class="grid grid-cols-1 sm:grid-cols-2 gap-8 sm:gap-10">
                         <div>   
-                            ${post.images == null?'':post.images.map((image)=>`<img class="mb-4" src="${image.marca_imagenes_individual}" />`).join('')}
+                            ${post.images == null?'':post.images.map((image)=>`<img class="mb-4" src="${image.marca_imagenes_individual}" alt="${post.title}" />`).join('')}
                         </div>  
                         <div  class="pl-0 sm:pl-6"> 
                             <img  class=" w-34 mb-10 sm:w-40 md:w-54 "  src="${post.thumbnail}" alt="${post.title}">

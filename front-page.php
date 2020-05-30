@@ -1,5 +1,9 @@
-
-<?php 
+<?php
+/*
+Template Name:Home
+Template Post Type: post, page, event
+*/
+ 
 get_header();?> 
 
 <?php $file = './tailwind.js';?>   
@@ -42,15 +46,14 @@ get_header();?>
                         }    
                         ?>   
                        <div class="marca-card" data-postidmarca="<?php the_ID(); ?>" >
-                             <div  class="marca-card-image   flex justify-center items-center h-56 sm:h-65 p-4 " >
-                                 <img  class="w-full marca-card-image-<?php the_ID(); ?>"  src=" <?php  echo thumbnail_image_url('full');  ?>" >  
+                             <div  class="marca-card-image   flex justify-center items-center h-56 sm:h-65 p-4" >
+                                 <img  class="w-full marca-card-image-<?php the_ID(); ?>"  src=" <?php  echo thumbnail_image_url('full');  ?>" title="<?php the_title(); ?>" alt="<?php the_title(); ?>" >  
                              </div>
                             <h2  class="text-lg font-medium text-secondary-300 mt-2 " ><?php echo  $terms_slugs_string ?> </h2>
-                           
                         </div> 
                         <?php  endwhile;
                 else:
-                    printf('<p>Sin contenido</p>');
+                    printf('<p>Sin contenido </p>');
                 endif;
                 rewind_posts(); 
                 ?>  
