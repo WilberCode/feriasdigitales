@@ -1,14 +1,15 @@
 <!doctype html>
-<html lang="es" class="no-js">
+<html lang="ES" class="no-js">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title><?= wp_get_document_title() ?></title>
+    
     <script>document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/, 'js');</script>
     <meta name="google-site-verification" content="WDw7jVppxrNYVp4G8Y8qv8XgyIe0JybUlpUqOVUJv28" />
-    <?php wp_head() ?>      
+    <meta name="keywords" content="Grupo Tendenze Comunicaciones, Ferias digitales, promoción, dia del padre, dia del madre, feria digital mamá, feria digital papá, muestra con tu marca, participa con una promoción"> 
+    <?php wp_head() ?>    
    
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-165440476-1"></script>
