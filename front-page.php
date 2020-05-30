@@ -18,7 +18,7 @@ get_header();?>
 
 <div class=" pt-10 sm:pt-20 px-4 xl:px-0">   
    <div class="max-w-5xl m-auto"> 
-        <h3  class="text-secondary-300 font-medium mb-10 text-lg " >#YoMeQuedoEnCasa</h3> 
+        <h1  class="text-secondary-300 font-medium mb-10 text-lg " >#YoMeQuedoEnCasa</h1> 
         <!-- Start - Grid Marcas-->
         <div id="marca-grid"  class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4  row-gap-12 sm:row-gap-16  col-gap-4 sm:col-gap-6" > 
         <?php
