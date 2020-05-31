@@ -2,7 +2,7 @@
  
 var $ = jQuery.noConflict();
 import './components/posts'
-// import menuMobile from  './components/menuMobile'
+import menuMobile from  './components/menuMobile'
 import modalMarca from  './components/modalMarca'
 
    
@@ -18,7 +18,7 @@ import modalMarca from  './components/modalMarca'
 
 jQuery(function ($) {  
     $(document).ready(function () {  
-        // menuMobile($)       // Menu Mobile: Show menu and hide   
+        menuMobile($)       // Menu Mobile: Show menu and hide   
         modalMarca($)       // Active Modal of marca   
     });  
 });

@@ -28,9 +28,9 @@
     &-menu,& > ul{
         @apply flex m-0 h-full relative flex-no-wrap ; 
         &>.menu-item, & > li{
-              @apply block ml-6 mr-6 ;
+              @apply block ml-6 ;
               @screen maxlg {
-                @apply ml-3 mr-3 ;
+                @apply ml-3  ;
               }
               &:hover .sub-menu{
                   display: block;
@@ -85,6 +85,9 @@
                 opacity: 0;
                 @apply h-screen; 
             } 
+            @screen maxsm { 
+                top: 84px;
+            } 
             @screen md{
                 @apply relative w-auto px-0 py-0  ;
                 top:0;
@@ -99,7 +102,7 @@
         }
         li{ 
             a{
-                @apply py-3 text-secondary-500 block text-center text-2xl font-bold ; 
+                @apply py-3 text-black block text-center text-2xl font-bold ; 
                 border-bottom: 1px solid rgba(white, 0.1);  
                 &:hover{
                  @apply underline ; 
@@ -139,7 +142,7 @@
         box-shadow: 0 0 0 6px var(--primary);
         @apply bg-primary-500 ; 
         span {
-            @apply bg-secondary-500 ;
+            @apply bg-white ;
             display: block;
             position: absolute;
             height: 5px;
