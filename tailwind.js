@@ -50,8 +50,8 @@ module.exports = {
             },
             colors: {
                 link: {
-                    'default': '#3182ce',
-                    'hover': '#63b3ed',
+                    'default': '#152268',
+                    'hover': '#152268',
                 },
                 transparent: 'transparent',
                 black: '#414042',

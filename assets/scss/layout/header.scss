@@ -70,12 +70,13 @@
 
 .mobile{  
     &-nav{
-        @apply w-full ;  
+        @apply w-full mt-14 ;
+
          @screen md {
              @apply hidden;
          }
         &-wrap{
-            @apply absolute w-full px-2 py-3 z-20 ; 
+            @apply absolute w-full px-2 py-3 z-20 ;
             background: rgba(white, 0.90);
             @screen maxmd { 
                 left: 0;
