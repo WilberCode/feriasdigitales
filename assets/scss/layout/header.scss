@@ -39,7 +39,7 @@
                 @apply block; 
               }
            & > a{
-                @apply block h-full flex items-center text-black relative font-semibold text-lg; 
+                @apply block h-full flex items-center text-black relative font-semibold text-xs; 
                 &::before{
                     content: '';
                     @apply bg-secondary-500 absolute hidden;
@@ -103,7 +103,7 @@
         }
         li{ 
             a{
-                @apply py-3 text-black block text-center text-2xl font-bold ; 
+                @apply py-3 text-black block text-center text-base font-bold ; 
                 border-bottom: 1px solid rgba(white, 0.1);  
                 &:hover{
                  @apply underline ; 
