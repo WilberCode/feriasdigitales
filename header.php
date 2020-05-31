@@ -2,7 +2,7 @@
 <?php get_template_part( 'templates/partials/document-open' ); ?> 
 <!-- Site header markup goes here -->
 <header class=" bg-white header">
-    <div class="bg-black h-8 sm:h-16 w-full relative z-40" > 
+    <div class="bg-black h-8 sm:h-16 w-full relative z-40" >    
     </div>   
     <div class="container m-auto flex h-14  sm:h-24 justify-between items-center "> 
         <div class=" flex relative z-40 ">
