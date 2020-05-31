@@ -44,7 +44,7 @@ mix.purgeCss({
     ]),
     // whitelist: ['search' ],
     // whitelistPatterns: [/^search-/],
-    whitelistPatternsChildren: [/^search-/,/^rslides_nav/]
+    whitelistPatternsChildren: [/^search-/,/^rslides_nav/, /^wp-block/]
 });
 
 if (mix.inProduction()) {
