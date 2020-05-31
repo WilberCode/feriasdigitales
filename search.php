@@ -26,7 +26,7 @@
 								</a>
 							</div> 
 							<?php }else{	?>
-								<a href="<?php the_permalink(); ?>" class=" flex justify-center items-center py-5 px-8 text-xl col-span-3 text-secondary-500  ">  
+								<a href="<?php the_permalink(); ?>" class=" flex justify-center items-center py-5 px-8 text-xl col-span-3 text-black  ">  
 								 <?php the_title(); ?> 
 								</a>
 							<?php }?>

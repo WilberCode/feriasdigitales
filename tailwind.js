@@ -55,6 +55,7 @@ module.exports = {
                 },
                 transparent: 'transparent',
                 black: '#414042',
+                title:'#58595b',
                 white: '#fff',
                 url:'#152268',                
                 primary: { 

@@ -84,7 +84,7 @@
                 transform: translateY(-80em);
                 transition: all .6s cubic-bezier(0, 0.88, 1, 1);
                 opacity: 0;
-                @apply h-screen; 
+                @apply h-screen;  
             } 
             @screen maxsm { 
                 top: 84px;
