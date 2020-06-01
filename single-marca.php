@@ -3,7 +3,7 @@
 
 <?php get_header(); ?>   
   
-<div class="bg-white relative mb-10" > 
+<div class="bg-white relative mb-10 mt-2" > 
             <div class="marca-modal-body " id="marca-modal-body "    >
                 <span  class="marca-modal-close"> <a href="<?php echo get_home_url('url'); ?>">X</a> </span>
                
@@ -39,7 +39,7 @@
         </div> 
     </div>  
     <div class="max-w-4xl m-auto pt-6 ">
-    <a href="<?php echo get_home_url('url'); ?>"  class="font-bold underline " >VER MÁS MARCAS</a>
+    <a href="<?php echo get_home_url('url'); ?>"  class="font-bold underline " >Ir a Home</a>
     </div>
 </div>  
 

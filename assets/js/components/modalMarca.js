@@ -46,7 +46,7 @@ let modalMarca = ($)=>{
             if(json_response){
                 json_response.map((post)=>{   
                     html_marca_modal_info += `   
-                    <div  class="grid grid-cols-1 sm:grid-cols-2 gap-8 sm:gap-10">
+                    <div  class="grid grid-cols-1 sm:grid-cols-2 gap-8 sm:gap-10 relative">
                         <div>   
                             ${post.images == null?'':post.images.map((image)=>`<img class="mb-4" src="${image.marca_imagenes_individual}" alt="${post.title}" />`).join('')}
                         </div>  
@@ -54,7 +54,7 @@ let modalMarca = ($)=>{
                             <img  class=" w-34 mb-10 sm:w-40 md:w-54 "  src="${post.thumbnail}" alt="${post.title}">
                                 ${post.content} 
                         </div>
-                        
+                        <a href="${post.link}" class="text-base text-title absolute bottom-0 left-0  -mb-10 sm:-mb-8 hover:underline ">Compartir</a>
                     </div>
                         `;   
                 }) 
