@@ -15,13 +15,13 @@
                         <ul class="header-menu">
                             <li><a href="<?php echo home_url(); ?>" class="hidden md:block" >Feria Digital Mayo 2020</a></li>
                         </ul>
-                    </nav>
+                    </nav> 
                 <?php } else{ ?> 
              <?php  
                 wp_nav_menu(array(
                     'theme_location'  => 'main',
                     'container'       => 'nav',
-                    'container_class' => 'header-nav',
+                    'container_class' => 'header-nav',   
                     'container_id'    => 'header-nav',  
                     'menu' => 'ul',
                     'menu_class'      => 'header-menu',
