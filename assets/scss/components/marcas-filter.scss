@@ -109,12 +109,19 @@
         }
     }
     &-social{
-        @apply inline-flex flex-no-wrap;  
+        @apply inline-flex flex-no-wrap; 
+        @at-root{
+            .wp-block-columns{
+                @apply mb-0 ;
+            }
+        }
         .wp-block-column{
             margin-left: 6px;
             figure{
                 width:50px;
-                height:50px;
+                height:50px; 
+                @apply mt-2 mb-0 ;
+
                 img{
                     width:50px;
                     height:50px;
