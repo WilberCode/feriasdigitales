@@ -38,12 +38,9 @@
                 </div>
         </div> 
     </div>  
-    <div class="max-w-4xl m-auto pt-6 ">
+    <div class="max-w-4xl m-auto pt-6 pl-6 lg:pl-0 ">
     <a href="<?php echo get_home_url('url'); ?>"  class="font-bold underline " >Ir a Home</a>
     </div>
-</div>  
-
-
- 
+</div>   
  
 <?php get_footer(); ?>

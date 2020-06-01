@@ -44,7 +44,7 @@ mix.purgeCss({
     ]),
     // whitelist: ['search' ],
     // whitelistPatterns: [/^search-/],
-    whitelistPatternsChildren: [/^search-/,/^rslides_nav/, /^wp-block/]
+    whitelistPatternsChildren: [/^search-/,/^rslides_nav/, /^wp-block/,/^marca-social/]
 });
 
 if (mix.inProduction()) {

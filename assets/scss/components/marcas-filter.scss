@@ -108,6 +108,19 @@
             }
         }
     }
-    
+    &-social{
+        @apply inline-flex flex-no-wrap;  
+        .wp-block-column{
+            margin-left: 6px;
+            figure{
+                width:50px;
+                height:50px;
+                img{
+                    width:50px;
+                    height:50px;
+                }
+            }
+        }
+    }
     
 }
