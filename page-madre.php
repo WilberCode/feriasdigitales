@@ -1,17 +1,16 @@
 <?php
 /*
-Template Name: Dia del madre
+Template Name: Home
 Template Post Type: post, page, event
-*/
- 
-get_header();?> 
+*/ 
+get_header();?>
 
 <?php $file = './tailwind.js';?>   
 
 <div class="celebration">
     <div class="celebration-banner bg-white"> 
         <?php 
-            echo do_shortcode('[metaslider id="355"]'); 
+            echo do_shortcode('[metaslider id="186"]'); 
         ?> 
     </div>  
 </div>
@@ -25,14 +24,14 @@ get_header();?>
         //Query post  marcas
         global $post;
                 $args = array(
-                    'post_type'		=> 'marca',
-                    'numberposts'	=> -1,
-                    'post_status' => 'publish',
-                    'posts_per_page'   => -1,
+                    'post_type'		 => 'marca',  
+                    'numberposts'	 => -1,
+                    'post_status'    => 'publish',
+                    'posts_per_page' => -1,  
                     'tax_query' => array(
                         array(
-                            'taxonomy' => 'marcas', 
-                            'terms'    => 'marca_mama'
+                            'taxonomy' => 'marcas_papa', 
+                            'terms'    => 'marca_papa',
                         ),
                     ),
                 ); 
@@ -42,7 +41,7 @@ get_header();?>
                 if( $the_query->have_posts() ): 
                  while( $the_query->have_posts() ) :$the_query->the_post(); 
                         $terms_slugs_string = '';
-                        $terms = get_the_terms( $post->ID, 'marcas' );
+                        $terms = get_the_terms( $post->ID, 'marcas_papa' );
                         if ( $terms && ! is_wp_error( $terms ) ) {                
                             $term_slugs_array = array();
                             foreach ( $terms as $term ) {
@@ -83,3 +82,4 @@ get_header();?>
  <?php  
 get_footer();
 ?>
+

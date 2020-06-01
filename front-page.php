@@ -1,9 +1,8 @@
 <?php
 /*
-Template Name:Home
+Template Name: Dia del madre
 Template Post Type: post, page, event
-*/
- 
+*/ 
 get_header();?> 
 
 <?php $file = './tailwind.js';?>   
@@ -11,7 +10,7 @@ get_header();?>
 <div class="celebration">
     <div class="celebration-banner bg-white"> 
         <?php 
-            echo do_shortcode('[metaslider id="186"]'); 
+            echo do_shortcode('[metaslider id="355"]'); 
         ?> 
     </div>  
 </div>
@@ -25,14 +24,14 @@ get_header();?>
         //Query post  marcas
         global $post;
                 $args = array(
-                    'post_type'		 => 'marca',  
-                    'numberposts'	 => -1,
-                    'post_status'    => 'publish',
-                    'posts_per_page' => -1,  
+                    'post_type'		=> 'marca',
+                    'numberposts'	=> -1,
+                    'post_status' => 'publish',
+                    'posts_per_page'   => -1,
                     'tax_query' => array(
                         array(
-                            'taxonomy' => 'marcas_papa', 
-                            'terms'    => 'marca_papa',
+                            'taxonomy' => 'marcas', 
+                            'terms'    => 'marca_mama'
                         ),
                     ),
                 ); 
@@ -42,7 +41,7 @@ get_header();?>
                 if( $the_query->have_posts() ): 
                  while( $the_query->have_posts() ) :$the_query->the_post(); 
                         $terms_slugs_string = '';
-                        $terms = get_the_terms( $post->ID, 'marcas_papa' );
+                        $terms = get_the_terms( $post->ID, 'marcas' );
                         if ( $terms && ! is_wp_error( $terms ) ) {                
                             $term_slugs_array = array();
                             foreach ( $terms as $term ) {
