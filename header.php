@@ -13,7 +13,7 @@
          <?php if(is_page('1ra-feria-digital-mama')){?>
                     <nav class="header-nav" >
                         <ul class="header-menu">
-                            <li><a href="<?php echo home_url(); ?>" class="hidden md:block" >Feria Digital Mayo 2020</a></li>
+                            <li><a href="<?php echo home_url(); ?>" class="hidden md:block" >Feria Digital Junio 2020</a></li>
                         </ul>
                     </nav> 
                 <?php } else{ ?> 
