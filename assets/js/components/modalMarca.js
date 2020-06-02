@@ -1,7 +1,8 @@
 let modalMarca = ($)=>{
     $('.marca-card').on('click', function(e){
         e.preventDefault() 
-        document.documentElement.style.setProperty('--offsettop-modal-marca',`${e.target.offsetTop+'px'}`);
+        let top_modal =  Number(e.target.getBoundingClientRect().top.toFixed()) - 20
+        document.documentElement.style.setProperty('--offsettop-modal-marca',`${(e.target.offsetTop-top_modal)+'px'}`);
         let modalActive = false
         if(!modalActive){
             $('#marca-modal-info').html( ` 
