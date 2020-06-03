@@ -4,7 +4,7 @@
 <header class=" bg-white header">
     <div class="bg-black h-8 sm:h-16 w-full relative z-40" >    
     </div>   
-    <div class="container m-auto flex h-14  sm:h-24 justify-between items-center "> 
+    <div class="header-wrap container m-auto flex h-14  sm:h-24 justify-between items-center "> 
         <div class=" flex relative z-40 ">
             <a href="https://www.instagram.com/feriasdigitales/"  class=" no-underline mr-4 " > <svg class=" text-primary-500 fill-current  w-6 h-6 "><use href="<?php echo get_bloginfo('template_directory').'/assets/svg/icons.svg#instagrams'; ?>"></svg> </a>
             <a href="https://www.facebook.com/feriasdigitales/"  class=" no-underline " > <svg class="text-primary-500 fill-current  w-6 h-6 "><use href="<?php echo get_bloginfo('template_directory').'/assets/svg/icons.svg#facebooks'; ?>"></svg> </a>
