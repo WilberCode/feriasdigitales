@@ -18,8 +18,7 @@ Meat Fest, Carnes, Gourmet, Piel Seca, Experiencia, Vinos, Meditación">
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date()); 
         gtag('config', 'UA-165440476-1');
-    </script>
-
+    </script> 
     <!-- Facebook Pixel Code -->
     <script>
         !function(f,b,e,v,n,t,s)
