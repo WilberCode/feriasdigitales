@@ -4,7 +4,6 @@ Template Name: Home
 Template Post Type: post, page, event
 */ 
 get_header();?>
-
 <?php $file = './tailwind.js';?>   
 
 <div class="celebration">
@@ -62,8 +61,7 @@ get_header();?>
                 endif;
                 rewind_posts(); 
                 ?>  
-        </div> 
-
+        </div>  
         <div class="marca-modal"  id="marca-modal" > 
             <div class="marca-modal-body" id="marca-modal-body" >
                 <span  class="marca-modal-close">X</span>
@@ -74,9 +72,7 @@ get_header();?>
   </div>
  </div> 
  
-<div class="h-20" >
-
-</div>
+<div class="h-20" ></div>
 
 
  <?php  

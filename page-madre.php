@@ -5,8 +5,7 @@ Template Post Type: post, page, event
 */ 
 get_header();?> 
 
-<?php $file = './tailwind.js';?>   
-    
+<?php $file = './tailwind.js';?>    
 <div class="celebration">
     <div class="celebration-banner bg-white"> 
         <?php 
