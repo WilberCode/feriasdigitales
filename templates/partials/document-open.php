@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
      <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
      <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title><?= wp_get_document_title() ?></title> 
+    <title><?= wp_get_document_title() ?></title>  
     <script>document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/, 'js');</script>
     <meta name="google-site-verification" content="WDw7jVppxrNYVp4G8Y8qv8XgyIe0JybUlpUqOVUJv28" />
     <meta name="keywords" content="Grupo Tendenze Comunicaciones, Ferias digitales, feria digital mamá, feria digital papá, muestra con tu marca, promoción, Belleza, Deco Vintage, Seguros, Nutrición, Maternidad, Accesorios, Video mamá, Detalles, Postres, Flores, 
