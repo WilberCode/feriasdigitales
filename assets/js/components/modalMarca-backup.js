@@ -1,16 +1,11 @@
-
-let modalMarca = ($)=>{ 
-    let loading_place = ''
-    for (let i = 0; i <= 5; i++) { 
-        loading_place += `<div class="w-full py-2 loading mt-10" ></div><div class="w-34 py-2 loading mt-2 sm:w-56"> </div> `
-    }
-    $('.marca-card').on('click', function(e){
+import axios  from 'axios'
+let modalMarca = ($)=>{
+    $('.marca-card').on('click', async function(e){
         e.preventDefault() 
         let top_modal =  Number(e.target.getBoundingClientRect().top.toFixed()) - 20
         document.documentElement.style.setProperty('--offsettop-modal-marca',`${(e.target.offsetTop-top_modal)+'px'}`);
-      
         let modalActive = false
-        if(!modalActive){ 
+        if(!modalActive){
             $('#marca-modal-info').html( ` 
                 <article class="grid grid-cols-1 sm:grid-cols-2 gap-8 sm:gap-10  placeholder " >
                     <div>
@@ -18,8 +13,17 @@ let modalMarca = ($)=>{
                         <div class="w-full py-35 loading" ></div> 
                     </div>
                     <div>
-                        <div class="w-full sm:w-56 py-12 loading mb-12" ></div> 
-                        ${loading_place}
+                        <div class="w-full sm:w-56 py-12 loading" ></div>
+                        <div class="w-full py-2 loading mt-12" ></div>
+                        <div class="w-full py-2 loading mt-2 sm:w-56 " ></div>
+                        <div class="w-full py-2 loading mt-10" ></div>
+                        <div class="w-full py-2 loading mt-2 sm:w-56 " ></div>
+                        <div class="w-full py-2 loading mt-10" ></div>
+                        <div class="w-full py-2 loading mt-2 sm:w-56  "></div>
+                        <div class="w-full py-2 loading mt-10" ></div>
+                        <div class="w-full py-2 loading mt-2 sm:w-56 " ></div>
+                        <div class="w-full py-2 loading mt-10" ></div>
+                        <div class="w-full py-2 loading mt-2 sm:w-56  "></div> 
                     </div>
                 </article>
            ` )
@@ -32,20 +36,20 @@ let modalMarca = ($)=>{
             'Content-Type': 'application/json',
             'X-WP-Nonce': ajax_marcas.nonce
         }); 
-        fetch(`${ajax_marcas.url}/?post_id=${postIdMarca}`, {
+        const options = {
             method: 'get',
             headers: headers,
             credentials: 'same-origin'
-        })
-        .then(response => {  
-            return response.ok ? response.json() : 'No información de la marca...'; 
-        }).then(json_response => {  
-            modalActive = true
-            if(json_response){
-                json_response.map((post)=>{   
+        }
+        
+        try {
+            const {data} = await axios.get(`${ajax_marcas.url}/?post_id=${postIdMarca}`,options)  
+            if(data){
+                modalActive = true
+                data.map((post)=>{   
                     html_marca_modal_info += `   
                     <div  class="grid grid-cols-1 sm:grid-cols-2 gap-8 sm:gap-10 relative">
-                        <div>   
+                        <div >   
                             ${post.images == null?'':post.images.map((image)=>`<img class="mb-4" src="${image.marca_imagenes_individual}" alt="${post.title}" />`).join('')}
                         </div>  
                         <div  class="pl-0 sm:pl-6"> 
@@ -56,9 +60,12 @@ let modalMarca = ($)=>{
                     </div>
                         `;   
                 }) 
+                $('#marca-modal-info').html(html_marca_modal_info); 
             }
-            $('#marca-modal-info').html(html_marca_modal_info); 
-        }) 
+
+        } catch (error) {
+            console.log(error.message)
+        } 
      }) 
      $('.marca-modal-close').on('click', function(e){ 
         $('#marca-modal').removeClass('marca-modal-active');
