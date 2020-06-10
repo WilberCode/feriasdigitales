@@ -57,16 +57,16 @@ module.exports = {
                 black: '#414042',
                 title:'#58595b',
                 white: '#fff',
-                url:'#152268',                
+                url:'#152268',  
                 primary: { 
                     500: '#61c5d3', 
                 },
                 secondary: { 
-                    500: '#fd7752', 
+                    500: '#fd7752',  
+                },
+                third: { 
+                    500: '#172069', 
                 }
-                // secondary: { 
-                //     500: '#414042', 
-                // }
             }, 
             fontSize: {
                 xxs: '0.675rem',

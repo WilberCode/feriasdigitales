@@ -1,56 +1,19 @@
-.slogan{
-    img{
-        max-width: 356px;
-        @screen maxsm{
-            max-width: 180px;
-        }
-    }
-}
-.footer{ 
-    &__contact{
-        @apply relative;
-        &::before{ 
-            content: '';
-            position: absolute;
-            background: url(../../assets/svg/triangulo.svg) no-repeat;
-            background-size: 80%;
-            z-index: 2;
-            width: 60px;
-            height: 26px;
-            right: 30px;
-            bottom: -26px;
-            @screen maxsm{
-                bottom: -25px;
-            }
-        }
-    }
-}
-
-.social{
-    &-nav{
-        @apply w-full flex justify-end   ;
-
+.social{   
+        @apply flex flex-no-wrap m-0 ;
         @screen  maxsm{
-            @apply  justify-start   ; 
+            @apply justify-center ; 
         }
-    }
-    &-menu{
-          @apply flex flex-no-wrap m-0 ;
         li{ 
-            @apply mx-1 text-white relative flex justify-center items-center; 
-            width: 42px; 
-            height: 42px;
-            font-size: 35px;
+            @apply mx-1 text-white flex justify-center items-center; 
+            width: 60px; 
+            height: 60px; 
             @screen  maxsm{
                 font-size: 25px; 
-            }
-            &:hover{
-                @apply  text-primary-500 ; 
-            }
+                width: 40px; 
+                height: 40px; 
+            } 
             a{
-                @apply w-full h-full absolute rounded-full text-white  ;   
-                font-size: 0;
+                @apply w-full h-full   ;   
             }
-        } 
-    } 
+        }  
 }

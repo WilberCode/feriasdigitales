@@ -13,7 +13,7 @@
             @apply mb-1 text-2xl;  
             @screen maxmd{
                 @apply text-base ; 
-            }
+            } 
         }
         h3{
             @screen maxmd{ 
@@ -21,10 +21,12 @@
             }
         }
         p{
-            @apply text-xl m-0 ; 
+            @apply m-0 ; 
+            font-size: 1.3rem;
             @screen maxmd{   
                  @apply text-base ; 
-            }
+            } 
+
         }
         .qubely{
             &-container{
@@ -37,7 +39,9 @@
             @apply relative my-2;
             li{
              @apply text-xl relative ; 
-
+             @screen maxmd{   
+                @apply text-base ; 
+           } 
              &::before{
                 content: '';
                 width: 10px;
@@ -45,6 +49,12 @@
                 top: 10px;
                 left: -19px; 
                 @apply absolute bg-secondary-500 rounded-full ;
+                @screen maxsm{   
+                    width: 6px;
+                    height: 6px; 
+                    left: -14px; 
+
+               }
             }
 
             }
