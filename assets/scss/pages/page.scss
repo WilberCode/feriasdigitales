@@ -1,0 +1,54 @@
+.page{
+    .main{
+        h1,h2,h3{
+            @apply font-bold;  
+        }
+        h1{
+            @apply mb-4 mt-4 ;  
+            @screen maxmd{
+                @apply text-xl; 
+            }
+        }
+        h2{
+            @apply mb-1 text-2xl;  
+            @screen maxmd{
+                @apply text-base ; 
+            }
+        }
+        h3{
+            @screen maxmd{ 
+                @apply text-sm ;
+            }
+        }
+        p{
+            @apply text-xl m-0 ; 
+            @screen maxmd{   
+                 @apply text-base ; 
+            }
+        }
+        .qubely{
+            &-container{
+             @apply max-w-full p-0 ; 
+                img{ 
+                }
+            }
+        }
+        ul{
+            @apply relative my-2;
+            li{
+             @apply text-xl relative ; 
+
+             &::before{
+                content: '';
+                width: 10px;
+                height: 10px; 
+                top: 10px;
+                left: -19px; 
+                @apply absolute bg-secondary-500 rounded-full ;
+            }
+
+            }
+          
+        }
+    }
+}
