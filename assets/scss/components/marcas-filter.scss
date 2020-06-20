@@ -87,7 +87,8 @@
                 }
             }
             h2{
-                @apply mb-1 ; 
+                // @apply mb-1 ; 
+                margin-bottom: .15rem;
                 @screen maxmd{
                     @apply text-base ; 
                 }
@@ -99,6 +100,7 @@
             }
             p{
                 @apply text-xl m-0 ; 
+                line-height: 1.4;
                 @screen maxmd{   
                      @apply text-base ; 
                 }
