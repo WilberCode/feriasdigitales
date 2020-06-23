@@ -9,17 +9,7 @@
     }
     &-banner{
         .metaslider{ 
-                .rslides{
-                    // display: flex;
-                    // flex-flow: column nowrap;
-                    // overflow-x: initial;
-                    // overflow-y:initial;
-                    // li:nth-child(1) {
-                    //     img{ 
-                    //         margin-top: -7.8%;
-                    //         z-index: 3000; 
-                    //     } 
-                    // }
+                .rslides{ 
                     &_nav{
                         right: 58px;
                         top: 53px;

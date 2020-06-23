@@ -1,4 +1,6 @@
-.social{   
+
+.footer{
+    &-social{   
         @apply flex flex-no-wrap m-0 ;
         @screen  maxsm{
             @apply justify-center ; 
@@ -13,7 +15,13 @@
                 height: 40px; 
             } 
             a{
-                @apply w-full h-full   ;   
+                @apply w-full h-full ;   
             }
         }  
+     }
+    &-info{
+        p{
+            @apply text-white text-xs font-medium text-justify text-gray-400 tracking-wider;
+        }
+    }
 }

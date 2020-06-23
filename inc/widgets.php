@@ -123,11 +123,13 @@ add_action( 'after_setup_theme', 'wph_theme_support' );
  
 function wph_front_widgets(){
     register_sidebar(array(
-        'name' => __('Footer - Contacto'),
-        'id' =>'footer-contact',
-        'description'   => 'Contactos de la empresa',
-        'before_widget' => '<div class="footer-contact">',
-        'after_widget'  => '</div>'  
+        'name' => __('Footer - Información de pie de página'),
+        'id' =>'footer-info',
+        'description'   => 'Informaciion dela ',
+        'before_widget' => '<div class="footer-info">',
+		'after_widget'  => '</div>',
+		'before_title' => '<h2 class="hidden">',
+        'after_title'  => '</h2>'
     ));   
   
 }
