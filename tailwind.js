@@ -2,7 +2,7 @@ module.exports = {
     theme: {
         container: {
             padding: '1.2rem',
-        },
+        }, 
         extend: {
             spacing: {
                 px: '1px',

@@ -91,11 +91,7 @@ function get_marcas($request){
 	}else{ 
 		return [];
 	}
-}
- 
-
-
- 
+} 
 
 
 
