@@ -39,7 +39,7 @@
                         }
                         &.prev{ 
                             display: none;
-                            background-image: url(../../assets/svg/next.svg);
+                            background-image: url(../svg/next.svg);
                             transform: rotate(-180deg);
                             left: 58px;
                             @screen maxlg{
@@ -51,7 +51,7 @@
                             
                         }
                         &.next{ 
-                            background-image: url(../../assets/svg/next.svg);
+                            background-image: url(../svg/next.svg);
                             right: 58px; 
                             @screen maxlg{
                                 right: 36px; 

@@ -125,7 +125,7 @@ function wph_front_widgets(){
     register_sidebar(array(
         'name' => __('Footer - Información de pie de página'),
         'id' =>'footer-info',
-        'description'   => 'Informaciion dela ',
+        'description'   => 'Informacion legal de la empresa',
         'before_widget' => '<div class="footer-info">',
 		'after_widget'  => '</div>',
 		'before_title' => '<h2 class="hidden">',

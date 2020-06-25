@@ -219,27 +219,11 @@
                 }
             }
         }
-    }
-
+    } 
     .menu {
         &-item:last-child a {
             border-right-color: transparent;
-        }
-
-        &__link {
-            // @media (max-width:$lg) {
-            //     border: none;
-            //     transition: padding .5s cubic-bezier(0.56, 2.14, 1, 1);
-            //     color: #fff;
-
-            //     &:hover {
-            //         border-color: initial;
-            //         border-left: 4px solid currentColor;
-            //         padding-left: 1em;
-            //         background: rgba(#000000, .05);
-            //     }
-            // }
-        }
+        } 
     }
 
 }

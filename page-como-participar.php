@@ -26,9 +26,9 @@ get_header();?>
         <div class="sm:flex items-center " >
             <h2  class="text-white sm:mr-10 italic font-medium text-xl sm:text-3xl mb-5 sm:mb-0  text-center sm:text-left " >¿Listo para participar?</h2> 
             <ul  class="footer-social" >
-                <li><a href="https://facebook.com/feriasdigitales/"><img src="<?php echo get_bloginfo('template_directory').'/assets/img/facebook.png'; ?>" alt="Facebook"></a></li>
-                <li><a href="https://www.instagram.com/feriasdigitales/"><img src="<?php echo get_bloginfo('template_directory').'/assets/img/instagram.png'; ?>" alt="Instagram"></a></li>
-                <li><a href="https://api.whatsapp.com/send?phone=+51998315039"><img src="<?php echo get_bloginfo('template_directory').'/assets/img/whatsapp.png'; ?>" alt="whatsapp"></a></li>
+                <li><a href="https://facebook.com/feriasdigitales/"><img src="<?php echo get_bloginfo('template_directory').'/build/img/facebook.png'; ?>" alt="Facebook"></a></li>
+                <li><a href="https://www.instagram.com/feriasdigitales/"><img src="<?php echo get_bloginfo('template_directory').'/build/img/instagram.png'; ?>" alt="Instagram"></a></li>
+                <li><a href="https://api.whatsapp.com/send?phone=+51998315039"><img src="<?php echo get_bloginfo('template_directory').'/build/img/whatsapp.png'; ?>" alt="whatsapp"></a></li>
             </ul>
         </div>
     </div>

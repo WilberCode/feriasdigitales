@@ -29,7 +29,9 @@ mix.tailwind();
  
 
 mix.js('assets/js/app.js', 'js');
-mix.sass('assets/scss/app.scss', 'css');
+mix.sass('assets/scss/app.scss', 'css').options({ processCssUrls: false});  
+mix.copy('assets/img', 'build/img');
+mix.copy('assets/svg', 'build/svg');
 
 
 
@@ -47,8 +49,8 @@ mix.purgeCss({
     whitelistPatternsChildren: [/^search-/,/^rslides_nav/, /^wp-block/,/^marca-social/,/^qubely-/]
 });
 
-if (mix.inProduction()) {
-    // mix.versionHash();
-    // mix.version(['build/js/random.js']); 
-}
+// if (mix.inProduction()) {
+//    mix.versionHash();
+//      mix.version(['build/js/random.js']); 
+// }
 
