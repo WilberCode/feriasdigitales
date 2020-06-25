@@ -1,0 +1,135 @@
+ .marca{
+    &-categories{ 
+        @apply  flex flex-wrap;
+        li{ 
+            @apply text-secondary-500  ;
+            a{
+                @apply  font-semibold mx-2 ;
+                color: inherit;
+
+            }
+        }
+        li:first-child a{
+            margin-left: 0; 
+        }
+    } 
+    &-category-active{
+        color: #c9d151 !important ;
+        a{ 
+            color: inherit;
+
+        } 
+    }
+    &-card{
+        cursor: pointer;
+        &-image{ 
+            border: 8px solid rgba($color:$primary , $alpha: .45); 
+            img{
+                max-width: 160px;
+                @screen maxsm{
+                    max-width: 105px   ;
+                }
+            }
+            // Se agrega mas tamaño
+            &-201,&-214{
+                max-width: 215px !important;
+                @screen maxsm{
+                    max-width: 124px!important;
+                    width:124px;  
+                }
+            }
+        }
+        h2{
+            ul{
+                @apply  m-0 ; 
+
+            }
+            a{
+                color: inherit;
+            }
+        }
+    }
+
+    &-modal{
+        @apply w-full  h-full absolute flex justify-center z-50 top-0 left-0 right-0 bottom-0 hidden ; 
+        background: rgba($color: white, $alpha: 0.8); 
+        height: 700vh;
+        padding-top:var(--offsettop-modal-marca); 
+        &-body{ 
+            border: 12px solid rgba($color:$primary , $alpha: .45); 
+            @apply  w-full max-w-5xl py-16 px-12 m-auto bg-white relative ; 
+            @screen maxmd{
+                @apply  px-6 ; 
+            }
+        }
+        &-close{
+            position: absolute;
+            right:25px;
+            top: 18px;
+            font-size: 30px;
+            @apply font-medium ;
+            cursor: pointer;
+            @screen maxsm{
+                top: 14px;
+            }
+        }
+        &-active{
+            display: block;
+        }
+        &-info{
+            h1,h2,h3{
+                @apply font-bold;  
+            }
+            h1{
+                @apply mb-4 mt-4 ;  
+                @screen maxmd{
+                    @apply text-xl; 
+                }
+            }
+            h2{
+                // @apply mb-1 ; 
+                margin-bottom: .15rem;
+                @screen maxmd{
+                    @apply text-base ; 
+                }
+            }
+            h3{
+                @screen maxmd{ 
+                    @apply text-sm ;
+                }
+            }
+            p{
+                @apply text-xl m-0 ; 
+                line-height: 1.4;
+                @screen maxmd{   
+                     @apply text-base ; 
+                }
+            }
+            figure{ 
+                @apply mt-2 mb-0 ;
+            }
+        }
+    }
+    &-social{
+        @apply inline-flex flex-no-wrap; 
+        @at-root{
+            .wp-block-columns{
+                @apply mb-0 ;
+            }
+        }
+        .wp-block-column{
+            margin-left: 6px;
+            figure{
+                width:60px;
+                height:60px; 
+                @apply mt-2 mb-0 ;
+
+                img{
+                    width:60px;
+                    height:60px;
+                }
+            }
+        }
+    }
+    
+}

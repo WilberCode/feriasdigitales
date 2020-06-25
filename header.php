@@ -54,6 +54,6 @@
                     </button>
                 </div>   
             </div>
-     </div> 
+     </div>  
 </header>
  <?php }  ?> 
