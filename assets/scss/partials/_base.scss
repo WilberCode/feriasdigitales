@@ -1,0 +1,48 @@
+// Add any custom base CSS can go here
+
+
+// Foundation
+// =≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠
+html {
+  @apply antialiased ;
+  font-size: 15px;
+  text-rendering: optimizeLegibility; 
+  @apply font-roboto #{!important};
+  // scroll-behavior: smooth;
+  // -webkit-font-smoothing: antialiased;
+  @screen md {
+    font-size: 18px;
+  }
+}
+ 
+// Anchors
+// =≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠
+a { 
+  transition: all 0.24s ease;
+} 
+h1 {
+  @apply text-2xl;
+}
+
+h2 {
+  @apply text-xl;
+}
+
+h3 {
+  @apply text-lg;
+}
+h4, h5 {
+  @apply text-sm;
+}
+ 
+
+// Other
+// =≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠
+p, ul, ol, .wp-block-embed {
+  @apply my-5;
+}
+
+code {
+  @apply font-mono inline-block px-1 rounded-sm text-sm align-baseline bg-pink-100 text-pink-600;
+}
+

@@ -1,0 +1,68 @@
+ 
+.celebration{
+    &-contact{
+        @media (max-width:280px) {
+            font-size: 8px;
+            padding-top: .15rem;
+            padding-bottom: .15rem;
+        }
+    }
+    &-banner{
+        .metaslider{ 
+                .rslides{ 
+                    &_nav{
+                        right: 58px;
+                        top: 53px;
+                        color: transparent;
+                        background-color: transparent;
+                        background-size: contain; 
+                        background-repeat: no-repeat;
+                        opacity: 1;
+                        font-size: 0;
+                        width: 35px;
+                        height: 35px; 
+                        padding: 0;
+                        @screen maxlg{
+                           width: 25px;
+                           height: 25px; 
+                           top: 45px; 
+                        }
+                        @screen maxmd{
+                           width: 20px;
+                           height: 20px;  
+                           top: 28px; 
+                        }
+                        @screen maxsm{
+                           width: 15px;
+                           height: 15px;  
+                           top: 25px; 
+                        }
+                        &.prev{ 
+                            display: none;
+                            background-image: url(../svg/next.svg);
+                            transform: rotate(-180deg);
+                            left: 58px;
+                            @screen maxlg{
+                                left: 36px; 
+                             }
+                            @screen maxmd{
+                                left: 6px; 
+                             }
+                            
+                        }
+                        &.next{ 
+                            background-image: url(../svg/next.svg);
+                            right: 58px; 
+                            @screen maxlg{
+                                right: 36px; 
+                             }
+                            @screen maxmd{
+                                right: 6px; 
+                             }
+                        }
+                    }
+                }
+            }
+        } 
+}
+
