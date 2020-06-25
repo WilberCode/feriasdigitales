@@ -1,8 +1,11 @@
 .idea
 .vscode
-node_modules 
+node_modules
+assets
+local.json
+package.json
+package-lock.json
+tailwind.js
 tailwind-example.js
 tareas.md
-package-lock.json
-page-madre-backup.php
-assets/js/components/modalMarca-cambios.js
+webpack.mix.js
