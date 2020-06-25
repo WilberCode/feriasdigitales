@@ -7,5 +7,4 @@ package.json
 package-lock.json
 tailwind.js
 tailwind-example.js
-tareas.md
 webpack.mix.js
