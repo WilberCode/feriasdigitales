@@ -26,13 +26,10 @@ if (local.proxy) {
  
 mix.tailwind();
 
- 
-
 mix.js('assets/js/app.js', 'js');
 mix.sass('assets/scss/app.scss', 'css').options({ processCssUrls: false});  
 mix.copy('assets/img', 'build/img');
 mix.copy('assets/svg', 'build/svg');
-
 
 
 // The package internally limits running to production builds so we don't need
