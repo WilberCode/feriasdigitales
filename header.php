@@ -1,12 +1,10 @@
-
 <?php get_template_part( 'templates/partials/document-open' ); ?> 
-<!-- Site header markup goes here -->
-
+<!-- Site header markup goes here --> 
 
 <?php if(!is_page('como-participar')){?>
 <header class=" bg-white header">
     <div class="bg-black h-8 sm:h-16 w-full relative z-40" >    
-    </div>   
+    </div>
     <div class="header-wrap container m-auto flex h-14  sm:h-24 justify-between items-center "> 
         <div class=" flex relative z-40 ">
             <a href="https://www.instagram.com/feriasdigitales/"  class=" no-underline mr-4 " > <svg class=" text-primary-500 fill-current  w-6 h-6 "><use href="<?php echo get_bloginfo('template_directory').'/build/svg/icons.svg#instagrams'; ?>"></svg> </a>
