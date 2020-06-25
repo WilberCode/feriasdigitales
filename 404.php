@@ -15,8 +15,7 @@ get_header();?>
             <a class=" font-medium text-secondary-800 block mt-8 hover:underline" href="<?php echo esc_url(home_url("/"));?>">Volver a la página principal</a>
         </div> 
    </div>
- </div>    
- 
+ </div>     
  <?php 
 get_footer();
 ?>
