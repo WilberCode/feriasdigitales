@@ -12,7 +12,7 @@
          </div>
          <div class=" items-center md:h-full " >
          <?php if(is_page('1ra-feria-digital-mama')){?>
-                    <nav class="header-nav" >
+                    <nav class="header-nav" > 
                         <ul class="header-menu">
                             <li><a href="<?php echo home_url(); ?>" class="hidden md:block" >Feria Digital Junio 2020</a></li>
                         </ul>
