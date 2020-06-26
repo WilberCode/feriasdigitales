@@ -75,9 +75,7 @@ get_header();?>
  
 <div class="h-20" >
 
-</div>
-
-
+</div> 
  <?php  
 get_footer();
 ?>
