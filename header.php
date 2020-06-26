@@ -17,7 +17,7 @@
                             <li><a href="<?php echo home_url(); ?>" class="hidden md:block" >Feria Digital Junio 2020</a></li>
                         </ul>
                     </nav> 
-                <?php } else{ ?> 
+                <?php } else{ ?>   
              <?php  
                 wp_nav_menu(array(
                     'theme_location'  => 'main',
