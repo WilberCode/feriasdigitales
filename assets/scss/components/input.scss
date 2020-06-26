@@ -1,0 +1,41 @@
+
+
+ 
+ 
+.everest-forms {
+    .evf-container{
+        @apply mb-0;
+    }
+    .evf-field-container .evf-frontend-row {
+        input {
+            @apply appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight #{!important};
+    
+            &:focus {
+                @apply border-gray-500 bg-white outline-none #{!important};
+            }
+        }
+        .select-wrapper{
+            input,svg,ul{
+                display: none !important;
+            }
+
+        }
+        textarea, select{ 
+          @apply  block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight #{!important};
+          &:focus {
+            @apply border-gray-500 bg-white outline-none #{!important};
+          }
+        }
+        & select{
+            height: 45px;
+        } 
+    }
+    .evf-submit-container {
+        button{
+            @apply bg-blue-500 w-full text-white font-bold py-2 px-4 rounded border-none text-base;
+            &:hover{
+                @apply bg-blue-700 text-white ;
+            }
+        }
+    }
+}

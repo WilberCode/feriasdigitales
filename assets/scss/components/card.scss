@@ -1,0 +1,42 @@
+.card{
+    @apply bg-white w-full flex flex-col flex-no-wrap justify-between text-black outline-none; 
+     
+    &-body{
+        @apply pt-6 pb-0 px-3 bg-white flex-1; 
+    }
+    &-category, &__title{ 
+      @apply  mb-2 m-0  font-bold text-black text-xl leading-6 block ;
+    } 
+    &-descriptions{
+      @apply pt-2; 
+    }
+    &-descriptions p{
+      @apply  m-0  font-light text-black text-lg ; 
+    } 
+    &-footer{
+       @apply   mt-8  flex-1;  
+    }
+    &-price{ 
+      @apply  flex items-center justify-center ; 
+      @screen maxsm {
+         transform:scale(0.8);
+       
+      }
+      &-description{
+        @apply  flex items-start  flex-col  flex-no-wrap; 
+      } 
+      &-from{
+        @apply text-lg font-medium leading-7 ; 
+      }  
+      &-simbol{
+        @apply text-4xl font-light leading-9 ; 
+      }
+      var{
+           @apply  block  not-italic text-black font-light ;
+           font-size: 4.5rem;
+      } 
+    }
+    &__more{
+      @apply  mt-2 max-w-full #{!important};  
+    } 
+}
