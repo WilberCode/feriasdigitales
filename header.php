@@ -10,7 +10,7 @@
             <a href="https://www.instagram.com/feriasdigitales/"  class=" no-underline mr-4 " > <svg class=" text-primary-500 fill-current  w-6 h-6 "><use href="<?php echo get_bloginfo('template_directory').'/build/svg/icons.svg#instagrams'; ?>"></svg> </a>
             <a href="https://www.facebook.com/feriasdigitales/"  class=" no-underline " > <svg class="text-primary-500 fill-current  w-6 h-6 "><use href="<?php echo get_bloginfo('template_directory').'/build/svg/icons.svg#facebooks'; ?>"></svg> </a>
          </div>
-         <div class=" items-center md:h-full " >
+         <div class=" items-center md:h-full " >  
          <?php if(is_page('1ra-feria-digital-mama')){?>
                     <nav class="header-nav" > 
                         <ul class="header-menu">
