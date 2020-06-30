@@ -56,10 +56,10 @@ get_header();?>
                             <h2  class="text-lg font-medium text-title mt-2 " ><?php echo  $terms_slugs_string ?> </h2>
                         </div> 
                         <?php  endwhile;
-                else:
+                else: 
                     printf('<p>Sin contenido </p>');
                 endif;
-                rewind_posts(); 
+                rewind_posts();  
                 ?>  
         </div>  
         <div class="marca-modal"  id="marca-modal" > 
