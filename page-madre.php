@@ -12,8 +12,7 @@ get_header();?>
             echo do_shortcode('[metaslider id="355"]'); 
         ?> 
     </div>  
-</div>
-
+</div> 
 <div class=" pt-10 sm:pt-20 px-4 xl:px-0">   
    <div class="max-w-5xl m-auto"> 
         <h1  class="text-title font-medium mb-10 text-lg " >#YoMeQuedoEnCasa</h1> 
