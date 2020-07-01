@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: Home
+Template Name: Día del padre
 Template Post Type: post, page, event
 */ 
 get_header();?>
@@ -9,8 +9,8 @@ get_header();?>
 <div class="celebration">
     <div class="celebration-banner bg-white"> 
         <?php 
-            echo do_shortcode('[metaslider id="336"]'); 
-        ?>  
+            echo do_shortcode('[metaslider id="186"]'); 
+        ?> 
     </div>  
 </div>
 

@@ -10,6 +10,7 @@
             <a href="https://www.instagram.com/feriasdigitales/"  class="no-underline mr-4 "> <svg class=" text-primary-500 fill-current  w-6 h-6 "><use href="<?php echo get_bloginfo('template_directory').'/build/svg/icons.svg#instagrams'; ?>"></svg> </a>
             <a href="https://www.facebook.com/feriasdigitales/"  class="no-underline "> <svg class="text-primary-500 fill-current  w-6 h-6 "><use href="<?php echo get_bloginfo('template_directory').'/build/svg/icons.svg#facebooks'; ?>"></svg> </a>
          </div>
+<<<<<<< HEAD
          <div class=" items-center md:h-full " >  
          <?php if(is_page('1ra-feria-digital-mama')){?>
                     <nav class="header-nav" > 
@@ -18,6 +19,9 @@
                         </ul>
                     </nav> 
                 <?php } else{ ?>   
+=======
+         <div class=" items-center md:h-full " > 
+>>>>>>> develop
              <?php  
                 wp_nav_menu(array(
                     'theme_location'  => 'main',
@@ -28,7 +32,12 @@
                     'menu_class'      => 'header-menu',
                     'menu_id'         => 'header-menu',
                 ));  
+<<<<<<< HEAD
              } ?> 
+=======
+            ?>
+                
+>>>>>>> develop
                 <div class="mobile-nav-wrap" id="mobile-nav-wrap"  > 
                     <?php  
                     wp_nav_menu(array(
