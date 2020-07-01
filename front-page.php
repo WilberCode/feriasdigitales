@@ -9,8 +9,8 @@ get_header();?>
 <div class="celebration">
     <div class="celebration-banner bg-white"> 
         <?php 
-            echo do_shortcode('[metaslider id="186"]'); 
-        ?> 
+            echo do_shortcode('[metaslider id="336"]'); 
+        ?>  
     </div>  
 </div>
 

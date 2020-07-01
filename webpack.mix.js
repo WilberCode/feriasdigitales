@@ -41,7 +41,7 @@ mix.purgeCss({
         path.join(__dirname, 'inc/*.php'),
         path.join(__dirname, 'build/js/**/*.js'),
     ]),
-    // whitelist: ['search' ],
+    whitelist: ['current-menu-item' ],
     // whitelistPatterns: [/^search-/],
     whitelistPatternsChildren: [/^search-/,/^rslides_nav/, /^wp-block/,/^marca-social/,/^qubely-/]
 });
