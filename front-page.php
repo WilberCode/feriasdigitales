@@ -29,8 +29,8 @@ get_header();?>
                     'posts_per_page' => -1,  
                     'tax_query' => array(
                         array(
-                            'taxonomy' => 'marcas_papa', 
-                            'terms'    => 'marca_papa',
+                            'taxonomy' => 'marcas_mespatrio', 
+                            'terms'    => 'marca_mespatrio',
                         ),
                     ),
                 ); 
@@ -40,7 +40,7 @@ get_header();?>
                 if( $the_query->have_posts() ): 
                  while( $the_query->have_posts() ) :$the_query->the_post(); 
                         $terms_slugs_string = '';
-                        $terms = get_the_terms( $post->ID, 'marcas_papa' );
+                        $terms = get_the_terms( $post->ID, 'marcas_mespatrio' );
                         if ( $terms && ! is_wp_error( $terms ) ) {                
                             $term_slugs_array = array();
                             foreach ( $terms as $term ) {
@@ -57,7 +57,7 @@ get_header();?>
                         </div> 
                         <?php  endwhile;
                 else:
-                    printf('<p>Sin contenido </p>');
+                    printf('<p>Sea el primero en mostrar tu marca </p>');
                 endif;
                 rewind_posts(); 
                 ?>  
