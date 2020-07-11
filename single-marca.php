@@ -16,7 +16,7 @@
 
                            //$image = get_sub_field('marca_imagenes_individual');  
                             ?> 
-                             <img class="mb-4 w-full" src="<?php echo  get_sub_field('marca_imagenes_individual'); ?>"  />
+                             <img class="mb-4 w-full" src="<?php echo  get_sub_field('marca_imagenes_individual'); ?>" alt="<?php the_title(); ?>"  />
             
                     <?php  endwhile; ?> 
                     <?php  endif; ?> 
