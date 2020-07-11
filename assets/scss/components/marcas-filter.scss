@@ -57,7 +57,7 @@
         padding-top:var(--offsettop-modal-marca); 
         &-body{ 
             border: 12px solid rgba($color:$primary , $alpha: .45); 
-            @apply  w-full max-w-5xl py-16 px-12 m-auto bg-white relative ; 
+            @apply  w-full max-w-modal py-16 px-12 m-auto bg-white relative ; 
             @screen maxmd{
                 @apply  px-6 ; 
             }
@@ -127,6 +127,8 @@
                 img{
                     width:60px;
                     height:60px;
+                    @apply rounded-full border border-gray-100 ;
+                    
                 }
             }
         }
