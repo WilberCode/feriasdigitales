@@ -9,10 +9,10 @@ get_header();?>
 
  
 <div class="page max-w-5xl m-auto "> 
-   <main class="main px-6 sm:px-5 xl:px-0  ">  
+   <main class="main px-4 sm:px-5 xl:px-0  ">  
 
             
-        <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 sm:gap-5 pt-8" >
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-2 sm:gap-5 pt-8" >
             <div class="text-center" >
                     <a href="<?php echo esc_url(home_url("/"));?>"><img  class="w-32 sm:w-50"  src="https://feriasdigitales.pe/wp-content/uploads/2020/06/ferias-digitales-logo.png" alt="Ferias digitales"></a>
                     <img  class="w-full mt-8"  src="https://feriasdigitales.pe/wp-content/uploads/2020/06/venta-por-telefono.jpg" alt="Ferias digitales">
@@ -52,12 +52,9 @@ a tu marca <br>
 visibilidad a
 bajo costo</h3>
                 </div>
-        </div>
-        <p  class="block text-center text-lg sm:text-xl  md:text-2xl lg:text-3xl mt-10 " >Ferias Digitales es un producto de Grupo Tendenze Comunicaciones.</p>
-
-
+        </div> 
        
-        <div class=" sm:flex bg-third-500  w-full py-6 sm:py-8 px-6 sm:px-12  " >
+        <div class=" sm:flex bg-third-500  w-full  sm:py-8 px-6 sm:px-12  mt-6 sm:mt-10  py-6 " >
                  <div class="text-center sm:w-32 md:w-45 lg:w-50">
                     <img  class=" w-16 sm:w-20 md:w-24 lg:w-27 m-auto sm:m-0 "  src="https://feriasdigitales.pe/wp-content/uploads/2020/06/Publicidad-pagadaddd.png" alt="Ferias digitales">
                  </div>
@@ -77,7 +74,7 @@ bajo costo</h3>
         </li>
     </ul>
 
-    <img class="w-full my-16" src="https://feriasdigitales.pe/wp-content/uploads/2020/07/participa-por-1-es.png" alt="participa x S/150 por 1 mes">
+    <img class="w-full my-10 sm:my-16" src="https://feriasdigitales.pe/wp-content/uploads/2020/07/participa-por-1-es.png" alt="participa x S/150 por 1 mes">
 
     <ul class="list-post mt-20" >
         <li> <span >1 post </span> multimarcas semanal con pauta.</li>
