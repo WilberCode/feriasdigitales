@@ -23,6 +23,7 @@ module.exports = {
                 '20': '5rem',
                 '24': '6rem',
                 '26': '7rem',
+                '27': '7.8rem',
                 '32': '8rem',
                 '33': '9.4rem',
                 '34': '9.6rem',
@@ -47,6 +48,7 @@ module.exports = {
                 '64': '16rem',
                 '65': '18rem',
                 '66': '19rem',
+                '67': '20.5rem',
             },
             colors: {
                 link: {
@@ -70,6 +72,20 @@ module.exports = {
             }, 
             fontSize: {
                 xxs: '0.675rem',
+                xs: '0.75rem',
+                sm: '0.875rem',
+                base: '1rem',
+                lg: '1.125rem',
+                xl: '1.25rem',
+                '2xl': '1.5rem',
+                '3xl': '1.875rem',
+                '4xl': '2.25rem',
+                '5xl': '3rem',
+                '6xl': '4rem',
+                 // leading como participar
+                '4xlp1': '2.50rem',
+                '4xlp2': '2.60rem',
+                '5xlp1': '3.40rem', 
             },
             lineHeight: {
                 tighter: '1.125',

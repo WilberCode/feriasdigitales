@@ -1,61 +1,61 @@
 // Como participar
 .page{
     .main{
-        h1,h2,h3{
-            @apply font-bold;  
-        }
-        h1{
-            @apply mb-4 mt-4 ;  
-            @screen maxmd{
-                @apply text-xl; 
-            }
-        }
-        h2{
-            @apply mb-1 text-2xl;  
-            @screen maxmd{
-                @apply text-base ; 
-            } 
-        }
-        h3{
-            @screen maxmd{ 
-                @apply text-sm ;
-            }
-        }
-        p{
-            @apply m-0 ; 
-            font-size: 1.4rem;
-            @screen maxmd{   
-                 @apply text-base ; 
-            } 
+        // h1,h2,h3{
+        //     @apply font-bold;  
+        // }
+        // h1{
+        //     @apply mb-4 mt-4 ;  
+        //     @screen maxmd{
+        //         @apply text-xl; 
+        //     }
+        // }
+        // h2{
+        //     @apply mb-1 text-2xl;  
+        //     @screen maxmd{
+        //         @apply text-base ; 
+        //     } 
+        // }
+        // h3{
+        //     @screen maxmd{ 
+        //         @apply text-sm ;
+        //     }
+        // }
+        // p{
+        //     @apply m-0 ; 
+        //     font-size: 1.4rem;
+        //     @screen maxmd{   
+        //          @apply text-base ; 
+        //     } 
 
-        }
-        .qubely{
-            &-container{
-             @apply max-w-full p-0 ; 
-                img{ 
-                }
-            }
-        }
-        ul{
+        // }
+        // .qubely{
+        //     &-container{
+        //      @apply max-w-full p-0 ; 
+        //         img{ 
+        //         }
+        //     }
+        // }
+        .list{
             @apply relative my-2;
             li{
-             @apply relative ; 
-             font-size: 1.4rem;
-             @screen maxmd{   
-                @apply text-base ; 
+             @apply relative text-4xl flex flex-wrap items-center pl-3 font-normal ;  
+             @screen maxlg{   
+                @apply text-xl  ; 
+           } 
+             @screen maxsm{   
+                @apply text-base pl-2 ; 
            } 
              &::before{
                 content: '';
-                width: 10px;
-                height: 10px; 
-                top: 14px;
+                width: 15px;
+                height: 15px;  
                 left: -19px; 
                 @apply absolute bg-secondary-500 rounded-full ;
-                @screen maxsm{   
+                @screen maxmd{   
                     width: 6px;
                     height: 6px; 
-                    top: 6px; 
-                    left: -14px; 
+                    left: -8px;  
 
                }
             }
@@ -63,5 +63,26 @@
             }
           
         }
+        .list-post{
+            @apply relative my-2;
+            li{
+                @apply relative text-4xl  pl-3 font-normal  mb-3;  
+                @screen maxlg{   
+                    @apply text-xl pl-0 ; 
+               } 
+                 @screen maxsm{   
+                    @apply text-base ; 
+               } 
+                span{
+                    @apply font-semibold text-third-500 ;
+                }
+            }
+        }
     }
 }
+@screen maxsm{   
+    .brnone br{
+        @apply hidden ; 
+    }
+    
+} 
