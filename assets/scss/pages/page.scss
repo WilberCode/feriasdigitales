@@ -44,7 +44,9 @@
                 @apply text-xl  ; 
            } 
              @screen maxsm{   
-                @apply text-base pl-2 ; 
+                @apply   pl-2 ; 
+                font-size: 0.9rem #{!important};
+
            } 
              &::before{
                 content: '';
@@ -71,7 +73,7 @@
                     @apply text-xl pl-0 ; 
                } 
                  @screen maxsm{   
-                    @apply text-base ; 
+                    font-size: 0.9rem #{!important};
                } 
                 span{
                     @apply font-semibold text-third-500 ;
