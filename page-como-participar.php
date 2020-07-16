@@ -83,7 +83,7 @@ bajo costo</h3>
         <li> <span >1 post </span> multimarcas semanal con pauta.</li>
         <li><span >1 post </span> orgánico semanal de la marca.</li>
         <li><span >1 story </span> orgánico semanal de la marca.</li> 
-        <li> <span >1 e-mail </span> multimarcas al mes a base de datos <br> propia conformada por parejas entre 25 y 45 años (8,000).</li>
+        <li> <span >1 e-mail </span> multimarcas al mes a base de datos propia<br>conformada por parejas entre 25 y 45 años (8,000).</li>
     </ul>
     </main>  
 </div>
