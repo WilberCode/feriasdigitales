@@ -72,8 +72,7 @@ get_header();?>
   </div>
  </div> 
  
-<div class="h-20" ></div>
-
+<div class="h-20" ></div> 
 
  <?php  
 get_footer();
