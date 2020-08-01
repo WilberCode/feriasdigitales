@@ -1,5 +1,5 @@
 <?php get_header();?>
-<div class="msearch">
+<div class="msearch"> 
     <div class="bg-gray-200 py-10">
         <div class="container">
             <div  class="max-w-lg m-auto" ><?php get_search_form(true);?></div>
