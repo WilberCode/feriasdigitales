@@ -38,20 +38,10 @@ function thumbnail_image_url($size){
     return $main_image[0];
 }
 
-// Obtiene la Url de carpeta upload
-function tz_get_upload_dir_var( $param, $subfolder = '' ) {
-    $upload_dir = wp_upload_dir();
-    $url = $upload_dir[ $param ];
- 
-    if ( $param === 'baseurl' && is_ssl() ) {
-        $url = str_replace( 'http://', 'https://', $url );
-    }
- 
-    return $url . $subfolder;
-}
+//  Register Endpoint
  
 function events_endpoint() {
-	register_rest_route( 'marcas/', 'destacados/', array(
+	register_rest_route( 'marcas', '/destacados/', array(
         'methods'  =>   'GET' ,
         'callback' => 'get_marcas',
     )); 
@@ -80,8 +70,7 @@ function get_marcas($request){
 			$data[$i]['title']          =   get_the_title(); 
 			$data[$i]['thumbnail']      =   get_the_post_thumbnail_url(get_the_ID(), 'full');
 			$data[$i]['link']           =   get_the_permalink(); 
-			$data[$i]['content']        =   get_the_content();  
-			$data[$i]['informations']	=   get_field('marca_informacion');
+			$data[$i]['content']        =   get_the_content();   
 			$data[$i]['images']			=   get_field('marca_imagenes'); 
 			$data[$i]['id']             =   get_the_ID();  
 			$i++;
