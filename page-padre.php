@@ -14,7 +14,7 @@ get_header();?>
     </div>  
 </div>
 
-<div class=" pt-10 sm:pt-20 px-4 xl:px-0">      
+<div class=" pt-10 sm:pt-20 px-4 xl:px-0 mb-20">      
    <div class="max-w-5xl m-auto"> 
         <h1  class="text-title font-medium mb-10 text-lg " >#YoMeQuedoEnCasa</h1> 
         <!-- Start - Grid Marcas-->
@@ -71,9 +71,7 @@ get_header();?>
         </div>     
   </div>
  </div> 
- 
-<div class="h-20" ></div>
-
+  
 
  <?php  
 get_footer();

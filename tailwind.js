@@ -2,6 +2,12 @@ module.exports = {
     theme: {
         container: {
             padding: '1.2rem',
+            screens: {
+                sm: "100%",
+                md: "100%",
+                lg: "1280px",
+                xl: "1280px"
+             }
         },
         extend: {
             spacing: {
