@@ -7,7 +7,7 @@ get_header();?>
 <?php $file = './tailwind.js';?>   
 
 <div class="celebration">
-    <div class="celebration-banner bg-white"> 
+    <div class="celebration-banner bg-white   "> 
         <?php 
             echo do_shortcode('[metaslider id="623"]'); 
         ?>  
@@ -62,7 +62,7 @@ get_header();?>
                 rewind_posts(); 
                 ?>  
         </div>  
-        <div class="marca-modal"  id="marca-modal" > 
+        <div class="marca-modal "  id="marca-modal" > 
             <div class="marca-modal-body" id="marca-modal-body" >
                 <span  class="marca-modal-close">X</span>
                 <div class="marca-modal-info" id="marca-modal-info">  
