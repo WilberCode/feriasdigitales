@@ -2,14 +2,21 @@
 /*
 Template Name: Home
 Template Post Type: post, page, event
-*/ 
+*/
+ 
 get_header();?>
-<?php $file = './tailwind.js';?>   
-
+   
+ <?php $file = './tailwind.js';?>    
 <div class="celebration">
-    <div class="celebration-banner bg-white   "> 
-        <?php 
-            echo do_shortcode('[metaslider id="623"]'); 
+    <div class="celebration-banner bg-white">  
+			<?php if(have_posts()):
+					while(have_posts()):  the_post(); ?>  
+                    <?php the_content(); ?>
+						 
+			<?php endwhile;  ?> 
+        <?php else:?> 
+        <?php endif;
+            rewind_posts();  
         ?>  
     </div>  
 </div>
