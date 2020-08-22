@@ -131,6 +131,15 @@ function wph_front_widgets(){
 		'before_title' => '<h2 class="hidden">',
         'after_title'  => '</h2>'
     ));   
+    register_sidebar(array(
+        'name' => __('El hashtag'),
+        'id' =>'hashtag',
+        'description'   => 'Información del momento actual',
+        'before_widget' => '<div class="hashtag">',
+		'after_widget'  => '</div>',
+		'before_title' => '<h2 class="text-title font-medium mb-10 text-lg">',
+        'after_title'  => '</h2>'
+    ));   
   
 }
 add_action('widgets_init', 'wph_front_widgets');
