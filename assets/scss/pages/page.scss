@@ -56,3 +56,21 @@ body{
     }
     
 } 
+ 
+    .como-participar-description{
+        @apply text-2xl-1 ;   
+        @screen maxl{   
+            br{
+                @apply hidden ; 
+            }
+          
+        } 
+        @screen maxlg{  
+            @apply text-2xl ;   
+ 
+        } 
+        @screen maxsm{  
+            @apply text-lg ;   
+        } 
+
+    } 

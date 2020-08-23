@@ -12,18 +12,17 @@ get_header();?>
    <main class="main px-4 sm:px-5 xl:px-0  ">  
 
             
-        <div class="grid grid-cols-1 sm:grid-cols-2 gap-2 sm:gap-5 pt-8" >
-            <div class="text-center" >
-                    <a href="<?php echo esc_url(home_url("/"));?>"><img  class="w-32 sm:w-50"  src="https://feriasdigitales.pe/wp-content/uploads/2020/06/ferias-digitales-logo.png" alt="Ferias digitales"></a>
-                    <img  class="w-full mt-8"  src="https://feriasdigitales.pe/wp-content/uploads/2020/06/venta-por-telefono.jpg" alt="Ferias digitales">
-                </div>
-                <div class="" >
-                    <img class=" mt-2 sm:mt-35 w-full pt-2" src="https://feriasdigitales.pe/wp-content/uploads/2020/06/chico.jpg" alt="Ferias digitales"> 
-                </div>
-        </div>
-
-
-        <div class="text-center mt-12 sm:mt-20" >
+         <a href="<?php echo esc_url(home_url("/"));?>"><img  class=" w-32 sm:w-45 md:w-50 lg:w-75  m-auto" src="https://feriasdigitales.pe/wp-content/uploads/2020/08/Ferias-digitales-Logo.png" alt="Ferias digitales"></a>
+        <p  class="como-participar-description text-center text-3xl mb-10 mt-2" ><span class="font-bold" >
+            Te preguntarás cuál es el beneficio de una feria digital. </span> A diferencia de un <br>
+e-commerce, la feria digital se asemeja a una presencial ¿Cómo? Nosotros <br>
+fomentamos las visitas, te damos un espacio y tú eres el encargado de la venta <br>
+directa. Tú eres quién se encarga de concretar, esto es beneficioso porque estás <br>
+dando un trato humano y cercano a tu consumidor. Si tus tácticas comerciales <br>
+son las correctas y tu producto satisface la necesidad de tu cliente, te será más <br>
+fácil fidelizarlos porque cuentan con el trato directo y esto genera confianza.</p>
+        <img  class="m-auto max-w-4xl-1" src="https://feriasdigitales.pe/wp-content/uploads/2020/08/Te-preguntarás-cuál-es-el-beneficio-de-una-feria-digital.jpg" alt="Te preguntarás cuál es el beneficio de una feria digital."> 
+        <div class="text-center mt-6 sm:mt-8" >
         <h1 class=" bg-blue text-xl sm:text-2xl md:text-3xl  lg:text-5xl text-center text-third-500 font-bold brnone " >Bienvenido a Ferias Digitales <br>
 ¡Llevamos tu oferta a +250,000 personas!</h1>
 

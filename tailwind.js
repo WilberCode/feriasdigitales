@@ -55,6 +55,7 @@ module.exports = {
                 '65': '18rem',
                 '66': '19rem',
                 '67': '20.5rem',
+                '75': '30.68rem',
             },
             colors: {
                 link: {
@@ -84,6 +85,8 @@ module.exports = {
                 lg: '1.125rem',
                 xl: '1.25rem',
                 '2xl': '1.5rem',
+                '2xl': '1.5rem',
+                '2xl-1': '1.78rem',
                 '3xl': '1.875rem',
                 '4xl': '2.25rem',
                 '5xl': '3rem',
@@ -105,6 +108,7 @@ module.exports = {
                 '2xl': '42rem',
                 '3xl': '48rem',
                 '4xl': '56rem',
+                '4xl-1': '60rem',
                 '5xl': '64rem',
                 '6xl': '72rem',
                 'modal': '66rem',
