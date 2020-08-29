@@ -19,7 +19,7 @@ if (local.proxy) {
         injectChanges: true,
         open: false,
         files: [
-            'build/**/*.{css,js}'
+            'build/**/*.{css,js,woff}'
         ]
     });
 }
@@ -30,6 +30,8 @@ mix.js('assets/js/app.js', 'js');
 mix.sass('assets/scss/app.scss', 'css').options({ processCssUrls: false});  
 mix.copy('assets/img', 'build/img');
 mix.copy('assets/svg', 'build/svg');
+mix.copy('assets/font', 'build/font');
+
 
 
 // The package internally limits running to production builds so we don't need

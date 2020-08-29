@@ -3,7 +3,7 @@
 @import "~tailwindcss/components";  
 @import "~tailwindcss/utilities";  
 // Custom styles 
-// @import "../font/font"; 
+@import "lib/font"; 
 @import "partials/base";
 @import "partials/variables";
 @import "partials/hacks"; 
