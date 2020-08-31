@@ -1,8 +1,7 @@
 .blog{ 
     .wp-block-image{ 
         figure{ 
-            @apply w-full;
-
+            @apply w-full my-0; 
             img{
                 @apply w-full;
             }
