@@ -21,7 +21,7 @@ directa. Tú eres quién se encarga de concretar, esto es beneficioso porque est
 dando un trato humano y cercano a tu consumidor. Si tus tácticas comerciales <br>
 son las correctas y tu producto satisface la necesidad de tu cliente, te será más <br>
 fácil fidelizarlos porque cuentan con el trato directo y esto genera confianza.</p>
-        <img  class="m-auto max-w-4xl-1" src="https://feriasdigitales.pe/wp-content/uploads/2020/08/Te-preguntarás-cuál-es-el-beneficio-de-una-feria-digital.jpg" alt="Te preguntarás cuál es el beneficio de una feria digital."> 
+        <img  class="m-auto w-full max-w-4xl-1" src="https://feriasdigitales.pe/wp-content/uploads/2020/08/Te-preguntarás-cuál-es-el-beneficio-de-una-feria-digital.jpg" alt="Te preguntarás cuál es el beneficio de una feria digital."> 
         <div class="text-center mt-6 sm:mt-8" >
         <h1 class=" bg-blue text-xl sm:text-2xl md:text-3xl  lg:text-5xl text-center text-third-500 font-bold brnone " >Bienvenido a Ferias Digitales <br>
 ¡Llevamos tu oferta a +250,000 personas!</h1>

@@ -97,26 +97,7 @@ function wph_theme_support() {
 add_action( 'after_setup_theme', 'wph_theme_support' );
 
 
-
-
-//  Menus
-
-// function wph_menus() {
-
-// 	$locations = array(
-// 		'primary'  => __( 'Menu Principal', 'wph' ),
-// 		'expanded' => __( 'Menu Alternativo', 'wph' ),
-// 		'mobile'   => __( 'Menu Mobile', 'wph' ),
-// 		'footer'   => __( 'Menu Footer ', 'wph' ),
-// 		'social'   => __( 'Redes Sociales', 'wph' ),
-// 	);
-
-// 	register_nav_menus( $locations );
-// 	 // register Menu 
-// }
-
-// add_action( 'init', 'wph_menus' );
-
+ 
 
 
 // Widgets
