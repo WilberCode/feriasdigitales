@@ -7,7 +7,7 @@
 	</div> 
  
     <div class="container">  
-		<main class="mb-8" >
+		<main class="mb-20" >
 		<?php if(have_posts()): 
 					while(have_posts()):  the_post(); ?>   
 						 <a href="<?php the_permalink(); ?>" class="max-w-blog-post blog-post   bg-white grid grid-cols-1 sm:grid-cols-2 m-auto mb-8 sm:mb-5 " >
