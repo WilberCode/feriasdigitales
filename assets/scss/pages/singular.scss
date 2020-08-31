@@ -1,0 +1,10 @@
+.singular{
+    &-content{
+        p{
+            @apply mt-0 mb-8;
+            strong{
+              @apply font-black; 
+            }
+        }
+    }
+}

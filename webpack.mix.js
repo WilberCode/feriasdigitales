@@ -19,7 +19,7 @@ if (local.proxy) {
         injectChanges: true,
         open: false,
         files: [
-            'build/**/*.{css,js,woff}'
+            'build/**/*.{css,js,woff}', 
         ]
     });
 }
@@ -45,7 +45,7 @@ mix.purgeCss({
     ]),
     whitelist: ['current-menu-item' ],
     // whitelistPatterns: [/^search-/],
-    whitelistPatternsChildren: [/^search-/,/^rslides_nav/, /^wp-block/,/^marca-social/,/^qubely-/]
+    whitelistPatternsChildren: [/^search-/,/^rslides_nav/, /^wp-block/,/^marca-social/,/^page/,/^blog/]
 });
 
 // if (mix.inProduction()) {
