@@ -1,11 +1,10 @@
 <?php
- /*
-Template Name: Home
+/*
+Template Name: Marca Agosto
 Template Post Type: post, page, event
-*/ 
+*/
  
-get_header();?>
-      
+get_header();?> 
 <div class="celebration">
     <div class="celebration-banner bg-white">  
 			<?php if(have_posts()):
@@ -15,8 +14,8 @@ get_header();?>
         <?php else:?> 
         <?php endif;
             rewind_posts();  
-        ?> 
-    </div>   
+        ?>  
+    </div>  
 </div>
 
 <div class=" pt-10 sm:pt-20 px-4 xl:px-0">      
@@ -34,8 +33,8 @@ get_header();?>
                     'posts_per_page' => -1,  
                     'tax_query' => array(
                         array(
-                            'taxonomy' => 'marcas_septiembre', 
-                            'terms'    => 'marca_septiembre',
+                            'taxonomy' => 'marcas_ferias_agosto', 
+                            'terms'    => 'marca_mespatrio',
                         ),
                     ),
                 ); 
@@ -45,7 +44,7 @@ get_header();?>
                 if( $the_query->have_posts() ): 
                  while( $the_query->have_posts() ) :$the_query->the_post(); 
                         $terms_slugs_string = '';
-                        $terms = get_the_terms( $post->ID, 'marcas_septiembre' );
+                        $terms = get_the_terms( $post->ID, 'marcas_ferias_agosto' );
                         if ( $terms && ! is_wp_error( $terms ) ) {                
                             $term_slugs_array = array();
                             foreach ( $terms as $term ) {
