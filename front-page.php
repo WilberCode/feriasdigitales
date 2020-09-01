@@ -1,24 +1,22 @@
 <?php
-/*
+ /*
 Template Name: Home
 Template Post Type: post, page, event
-*/
+*/ 
  
 get_header();?>
-   
- <?php $file = './tailwind.js';?>    
+      
 <div class="celebration">
     <div class="celebration-banner bg-white">  
 			<?php if(have_posts()):
 					while(have_posts()):  the_post(); ?>  
-                    <?php the_content(); ?>
-						 
+                    <?php the_content(); ?> 
 			<?php endwhile;  ?> 
         <?php else:?> 
         <?php endif;
             rewind_posts();  
-        ?>  
-    </div>  
+        ?> 
+    </div>   
 </div>
 
 <div class=" pt-10 sm:pt-20 px-4 xl:px-0">      
@@ -36,8 +34,8 @@ get_header();?>
                     'posts_per_page' => -1,  
                     'tax_query' => array(
                         array(
-                            'taxonomy' => 'marcas_ferias_agosto', 
-                            'terms'    => 'marca_mespatrio',
+                            'taxonomy' => 'marcas_septiembre', 
+                            'terms'    => 'marca_septiembre',
                         ),
                     ),
                 ); 
@@ -47,7 +45,7 @@ get_header();?>
                 if( $the_query->have_posts() ): 
                  while( $the_query->have_posts() ) :$the_query->the_post(); 
                         $terms_slugs_string = '';
-                        $terms = get_the_terms( $post->ID, 'marcas_ferias_agosto' );
+                        $terms = get_the_terms( $post->ID, 'marcas_septiembre' );
                         if ( $terms && ! is_wp_error( $terms ) ) {                
                             $term_slugs_array = array();
                             foreach ( $terms as $term ) {
@@ -69,13 +67,7 @@ get_header();?>
                 rewind_posts(); 
                 ?>  
         </div>  
-        <div class="marca-modal "  id="marca-modal" > 
-            <div class="marca-modal-body" id="marca-modal-body" >
-                <span  class="marca-modal-close">X</span>
-                <div class="marca-modal-info" id="marca-modal-info">  
-                </div>
-            </div> 
-        </div>     
+        
   </div>
  </div> 
  

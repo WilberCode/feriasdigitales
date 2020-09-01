@@ -1,20 +1,25 @@
 <?php
 /*
-Template Name: Dia del madre
+Template Name: Marca Agosto
 Template Post Type: post, page, event
-*/ 
+*/
+ 
 get_header();?> 
-
-<?php $file = './tailwind.js';?>    
 <div class="celebration">
-    <div class="celebration-banner bg-white"> 
-        <?php 
-            echo do_shortcode('[metaslider id="355"]'); 
-        ?> 
+    <div class="celebration-banner bg-white">  
+			<?php if(have_posts()):
+					while(have_posts()):  the_post(); ?>  
+                    <?php the_content(); ?> 
+			<?php endwhile;  ?> 
+        <?php else:?> 
+        <?php endif;
+            rewind_posts();  
+        ?>  
     </div>  
-</div> 
-<div class=" pt-10 sm:pt-20 px-4 xl:px-0">   
-   <div class="max-w-5xl m-auto"> 
+</div>
+
+<div class=" pt-10 sm:pt-20 px-4 xl:px-0">      
+   <div class="max-w-5xl m-auto">  
         <?php dynamic_sidebar('hashtag') ?>   
         <!-- Start - Grid Marcas-->
         <div id="marca-grid"  class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4  row-gap-12 sm:row-gap-16  col-gap-4 sm:col-gap-6" > 
@@ -22,14 +27,14 @@ get_header();?>
         //Query post  marcas
         global $post;
                 $args = array(
-                    'post_type'		=> 'marca',
-                    'numberposts'	=> -1,
-                    'post_status' => 'publish',
-                    'posts_per_page'   => -1,
+                    'post_type'		 => 'marca',  
+                    'numberposts'	 => -1,
+                    'post_status'    => 'publish',
+                    'posts_per_page' => -1,  
                     'tax_query' => array(
                         array(
-                            'taxonomy' => 'marcas', 
-                            'terms'    => 'marca_mama'
+                            'taxonomy' => 'marcas_ferias_agosto', 
+                            'terms'    => 'marca_mespatrio',
                         ),
                     ),
                 ); 
@@ -39,7 +44,7 @@ get_header();?>
                 if( $the_query->have_posts() ): 
                  while( $the_query->have_posts() ) :$the_query->the_post(); 
                         $terms_slugs_string = '';
-                        $terms = get_the_terms( $post->ID, 'marcas' );
+                        $terms = get_the_terms( $post->ID, 'marcas_ferias_agosto' );
                         if ( $terms && ! is_wp_error( $terms ) ) {                
                             $term_slugs_array = array();
                             foreach ( $terms as $term ) {
@@ -56,18 +61,19 @@ get_header();?>
                         </div> 
                         <?php  endwhile;
                 else:
-                    printf('<p>Sin contenido </p>');
+                    printf('<p>Sea el primero en mostrar tu marca </p>');
                 endif;
                 rewind_posts(); 
                 ?>  
-        </div> 
- 
+        </div>  
+        
   </div>
  </div> 
  
-<div class="h-20" >
+<div class="h-20" ></div>
 
-</div> 
+
  <?php  
 get_footer();
 ?>
+

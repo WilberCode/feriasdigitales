@@ -53,20 +53,22 @@
                 }
             }
            & >.sub-menu{
-                @apply absolute bg-white z-20 overflow-hidden shadow py-3 ;
-                border-radius:0 6px 6px 6px ; 
-                max-width: 430px;
-                top:32px; 
-                display: none;
+                @apply absolute bg-white z-20 overflow-hidden shadow py-3 m-0  right-0 top-0 mt-24 hidden;
+                border-radius:0 6px 6px 6px ;    
                 li{
                     a{
-                       @apply text-black py-2 px-6 block  text-sm;
-
+                       @apply text-black py-2 px-6 block  text-sm whitespace-no-wrap transition-none ;
+                        &:hover{
+                            @apply bg-secondary-500 text-white;
+                        }
+                    }
+                    &.current-menu-item a{
+                        @apply bg-secondary-500 text-white;
                     }
                 }
             }
         } 
-        & .current-menu-item{
+        & .current-menu-item, .current-menu-parent{ 
             a::before{
                 @apply block #{!important}; 
            }
@@ -82,7 +84,7 @@
              @apply hidden;
          }
         &-wrap{
-            @apply absolute w-full px-2 py-3 z-20 ;
+            @apply absolute w-full   py-3 z-20 ;
             background: rgba(white, 0.90);
             @screen maxmd { 
                 left: 0;
@@ -106,10 +108,10 @@
         @apply block;
         @screen lg{
             @apply  hidden;
-        }
+        } 
         li{ 
             a{
-                @apply py-3 text-black block text-center text-base font-bold ; 
+                @apply px-2 py-3 text-black block text-center text-base font-bold ; 
                 border-bottom: 1px solid rgba(white, 0.1);  
                 &:hover{
                  @apply underline ; 
@@ -117,8 +119,28 @@
                 }
             } 
              &:last-child > a{
-                     border-bottom: none; 
+                border-bottom: none; 
              } 
+             & >.sub-menu{
+                &-active{
+                    @apply block; 
+                }
+                @apply  bg-white z-20 overflow-hidden shadow py-3 m-0  right-0 top-0   hidden; 
+                li{
+                    a{
+                       @apply text-black py-2 px-6 block  text-sm whitespace-no-wrap transition-none ;
+                        &:hover{
+                            @apply bg-secondary-500 text-white;
+                        }
+                    }
+                    &.current-menu-item a{
+                        @apply bg-secondary-500 text-white;
+                    }
+                }
+            }
+        } 
+        & .current-menu-item a,& .current-menu-parent > a{ 
+            @apply bg-secondary-500 text-white; 
         }
        
     }
@@ -128,11 +150,13 @@
 // Toggle
 
 .nav {   
-    &-active { 
-        transform: translateY(0);
-        opacity: 1; 
-        display: block;
-    }  
+    @screen maxmd{
+        &-active { 
+            transform: translateY(0);
+            opacity: 1; 
+            display: block;
+        }  
+    }
     &-toggle {
         &-wrap { 
             height: 28px; 

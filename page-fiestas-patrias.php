@@ -61,18 +61,11 @@ get_header();?>
                 endif;
                 rewind_posts(); 
                 ?>  
-        </div>  
-        <div class="marca-modal"  id="marca-modal" > 
-            <div class="marca-modal-body" id="marca-modal-body" >
-                <span  class="marca-modal-close">X</span>
-                <div class="marca-modal-info" id="marca-modal-info">  
-                </div>
-            </div> 
-        </div>     
+        </div>   
   </div>
  </div> 
  
-<div class="h-20" ></div> 
+<div class="h-20"></div> 
 
  <?php  
 get_footer();
