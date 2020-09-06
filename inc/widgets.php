@@ -83,7 +83,7 @@ function wph_theme_support() {
 
 	// Add theme support for selective refresh for widgets.
 	add_theme_support( 'customize-selective-refresh-widgets' );
-
+	// Menu
 	register_nav_menus(array(
 		'main'=>'Menu Principal',
 		'mobile'=>'Menú móvil', 
@@ -178,7 +178,7 @@ add_filter( 'get_custom_logo', 'tz_get_custom_logo' );
 
 
 
-//Menu
+// html5 support
 function wph_setup(){ 
   add_theme_support('html5', array(
     'comment-list',
