@@ -51,14 +51,18 @@
                 @apply  bg-no-repeat absolute top-0 right-0 bottom-0 left-0; 
 
             } 
-            &-logo{ 
-                height:60.009px; 
-                @apply m-auto w-auto; 
+            &-logo{  
+                max-height: 67.009px;
+                @apply m-auto w-auto  ; 
+                max-width: 146px;
                 @screen maxsm{
-                    height:60.009px;  
+                    max-height:60.009px;  
+                    max-width: 138px;
                 }
                 @screen maxs{
-                    height:50.009px;  
+                    max-height:52.009px;  
+                    max-width: 110px;
+
                 }
             }
         }

@@ -23,7 +23,7 @@ get_header();?>
    <div class="max-w-5xl m-auto">  
         <?php dynamic_sidebar('hashtag') ?>   
         <!-- Start - Grid Marcas-->
-        <div id="marca-grid"  class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4  row-gap-12 sm:row-gap-16  col-gap-4 sm:col-gap-6" > 
+        <div id="marca-grid"  class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4  row-gap-12 sm:row-gap-16  col-gap-3 xs:col-gap-4 sm:col-gap-6" > 
         <?php
         //Query post  marcas
         global $post;
@@ -56,7 +56,7 @@ get_header();?>
                         ?>   
                        <div class="marca-card" data-postidmarca="<?php the_ID(); ?>" > 
                              <?php  if(get_field('marca_card_image')):?>
-                                <div  class="marca-card-content inline-flex flex-col  p-1 h-57 xs:h-67 sm:h-67 md:h-61 w-full " >  
+                                <div  class="marca-card-content inline-flex flex-col  p-1 h-64 xs:h-70 sm:h-67 md:h-61 w-full " >  
                                 <div>
                                     <img  class="w-full block"  src=" <?php the_field('marca_card_image'); ?>" title="<?php the_title(); ?>" alt="<?php the_title(); ?>" >  
                                 </div>
@@ -65,7 +65,7 @@ get_header();?>
                                     </div>
                                 </div>
                             <?php  else:?> 
-                                <div  class="marca-card-image   flex justify-center items-center h-57 xs:h-67 sm:h-67 md:h-61 p-4" >  
+                                <div  class="marca-card-image   flex justify-center items-center h-64  xs:h-70 sm:h-67 md:h-61 p-4" >  
                                  <img  class="w-full marca-card-image-<?php the_ID(); ?>"  src=" <?php  echo thumbnail_image_url('full');  ?>" title="<?php the_title(); ?>" alt="<?php the_title(); ?>" >  
                                 </div>
                             <?php endif; ?>
