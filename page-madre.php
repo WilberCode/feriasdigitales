@@ -49,7 +49,7 @@ get_header();?>
                         }    
                         ?>   
                        <div class="marca-card" data-postidmarca="<?php the_ID(); ?>" >
-                             <div  class="marca-card-image   flex justify-center items-center h-64  xs:h-70 sm:h-67 md:h-61 p-4" >
+                             <div  class="marca-card-image   flex justify-center items-center h-59  xs:h-70 sm:h-67 md:h-61 p-4" >
                                  <img  class="w-full marca-card-image-<?php the_ID(); ?>"  src=" <?php  echo thumbnail_image_url('full');  ?>" title="<?php the_title(); ?>" alt="<?php the_title(); ?>" >  
                              </div>
                             <h2  class="text-lg font-medium text-title mt-2 " ><?php echo  $terms_slugs_string ?> </h2>
