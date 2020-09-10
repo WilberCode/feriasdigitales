@@ -39,6 +39,29 @@
                 }
             }
         }
+        &-content{
+            border: 8px solid rgba($color:$primary , $alpha: .45);   
+            @apply relative ;
+            padding-top: 11.2%;  
+            &::before{
+                content: '';
+                background-image: url(https://feriasdigitales.pe/wp-content/uploads/2020/09/colores-tienda.png); 
+                background-position: center 1.4%;
+                background-size: 97%;
+                @apply  bg-no-repeat absolute top-0 right-0 bottom-0 left-0; 
+
+            } 
+            &-logo{ 
+                height:70.009px; 
+                @apply m-auto w-auto; 
+                @screen maxsm{
+                    height:60.009px;  
+                }
+                @screen maxs{
+                    height:50.009px;  
+                }
+            }
+        }
         h2{
             ul{
                 @apply  m-0 ; 

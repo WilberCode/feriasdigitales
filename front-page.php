@@ -54,10 +54,19 @@ get_header();?>
                             $terms_slugs_string = join( " & ", $term_slugs_array ); 
                         }    
                         ?>   
-                       <div class="marca-card" data-postidmarca="<?php the_ID(); ?>" >
-                             <div  class="marca-card-image   flex justify-center items-center h-56 sm:h-65 p-4" >
+                       <div class="marca-card" data-postidmarca="<?php the_ID(); ?>" > 
+                             <?php  if(get_field('marca_card_image')):?>
+                                <div  class="marca-card-content inline-flex flex-col  p-1 h-57 xs:h-67 sm:h-67 md:h-61 w-full " >  
+                                    <img  class="w-full block"  src=" <?php the_field('marca_card_image'); ?>" title="<?php the_title(); ?>" alt="<?php the_title(); ?>" >  
+                                    <div  class=" inline-flex items-center h-full " >
+                                        <img  class="w-full marca-card-content-logo marca-card-image-<?php the_ID(); ?>"  src=" <?php  echo thumbnail_image_url('full');  ?>" title="<?php the_title(); ?>" alt="<?php the_title(); ?>" >  
+                                    </div>
+                                </div>
+                            <?php  else:?> 
+                                <div  class="marca-card-image   flex justify-center items-center h-57 xs:h-67 sm:h-67 md:h-61 p-4" >  
                                  <img  class="w-full marca-card-image-<?php the_ID(); ?>"  src=" <?php  echo thumbnail_image_url('full');  ?>" title="<?php the_title(); ?>" alt="<?php the_title(); ?>" >  
-                             </div>
+                                </div>
+                            <?php endif; ?>
                             <h2  class="text-lg font-medium text-title mt-2 " ><?php echo  $terms_slugs_string ?> </h2>
                         </div> 
                         <?php  endwhile;

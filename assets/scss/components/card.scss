@@ -1,4 +1,4 @@
-.card{
+/* .card{
     @apply bg-white w-full flex flex-col flex-no-wrap justify-between text-black outline-none; 
      
     &-body{
@@ -39,15 +39,17 @@
     &__more{
       @apply  mt-2 max-w-full #{!important};  
     } 
-}
+} */
 /* purgecss start ignore */
 // Adorno card
 .page-template-front-page{
-  .marca-card-image{
-    background-image: url(https://feriasdigitales.pe/wp-content/uploads/2020/08/tienda.png); 
-    background-position: center 2%;
-    background-size: 95%;
-    @apply  bg-no-repeat;
+  .marca-card{
+    &-image{
+      background-image: url(https://feriasdigitales.pe/wp-content/uploads/2020/09/colores-tienda.png); 
+      background-position: center 1.4%;
+      background-size: 95%;
+      @apply  bg-no-repeat;
+    }
   }
 }
 
