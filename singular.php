@@ -11,8 +11,13 @@
 							<div  class="flex items-center flex-1  " >
 								<div   class="bg-white     pr-5 sm:pr-19 pl-5 sm:pl-9 py-6  sm:pt-13 sm:pb-8 flex flex-col   relative  h-full  w-full "  >
 									<div class="text-third-500  " >
-									
-										<h1  class=" lg:text-6xl-1 font-light leading-tight"> Redes Sociales: <br> <?php the_title();?></h1>
+									 <h1  class=" lg:text-6xl-1 font-light leading-tight">
+									<?php 
+											$categories = get_the_category();
+											if ( ! empty( $categories ) ) {?>  
+													 	<?php echo esc_html( $categories[0]->name ); ?>: 
+											 <?php } ?>
+										<br> <?php the_title();?></h1>
 										<p class=" lg:text-2xl  font-normal tracking-normal text-title mt-8 " ><?php the_excerpt(); ?> </p>
 
 									</div>

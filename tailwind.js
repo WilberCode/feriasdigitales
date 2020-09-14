@@ -31,6 +31,7 @@ module.exports = {
                 '14': '3.6rem',
                 '15': '3.8rem',
                 '16': '4rem',
+                '18': '4.5rem',
                 '19': '4.7rem',
                 '20': '5rem',
                 '21': '5.3rem',
@@ -110,8 +111,8 @@ module.exports = {
                 '4xlp2': '2.60rem',
                 '5xlp1': '3.40rem',
                 //Blog posts
-                'bt-xl':'39.86px',  
-                'bc-xl':'29.89px', 
+                'bt-xl':'40px',  
+                'bc-xl':'25px', 
                 //Blog singular
                 'bp-xl':'21.92px', 
 
@@ -137,8 +138,8 @@ module.exports = {
                 '6xl': '72rem',
                 'modal': '66rem', 
                 //blog posts 
+                'blog-post': '1141.3031px',
                 'blog-image':'510.457px',
-                'blog-post': '1098.826px',
                 'blog-content': '619.902px', 
                // Blog singular
                 'blog-body':'1000.23px',
