@@ -1,0 +1,32 @@
+.blog{ 
+    .wp-block-image{ 
+        figure{ 
+            @apply w-full my-0; 
+            img{
+                @apply w-full;
+            }
+        }
+    } 
+    &-content{  
+        &::before{
+            content: "";
+            @apply block self-end mr-1 ; 
+            background-image: url('../svg/flag.svg');
+            background-position: right;
+            background-size: contain; 
+            background-repeat: no-repeat;  
+            width:26px;
+            height: 30px;   
+            @screen sm{ 
+                @apply   mr-3 ; 
+            }
+            @screen lg{
+                width:39.4651px;
+                height:47.9189px; 
+            }
+
+        }
+       
+        
+    }
+}

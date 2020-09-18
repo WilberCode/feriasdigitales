@@ -43,7 +43,8 @@ function thumbnail_image_url($size){
 function events_endpoint() {
 	register_rest_route( 'marcas', '/destacados/', array(
         'methods'  =>   'GET' ,
-        'callback' => 'get_marcas',
+		'callback' => 'get_marcas',
+		'permission_callback' => '__return_true'
     )); 
    
 }
