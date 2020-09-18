@@ -54,7 +54,7 @@
             }
            & >.sub-menu{
                 @apply absolute bg-white z-20 overflow-hidden shadow py-3 m-0  right-0 top-0 mt-24 hidden;
-                border-radius:0 6px 6px 6px ;    
+                border-radius:6px 0 6px 6px ;    
                 li{
                     a{
                        @apply text-black py-2 px-6 block  font-semibold text-xs whitespace-no-wrap transition-none ;
