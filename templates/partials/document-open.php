@@ -34,5 +34,13 @@ Meat Fest, Carnes, Gourmet, Piel Seca, Experiencia, Vinos, Meditación">
     </script>
     <noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=2518031554897856&ev=PageView&noscript=1"/></noscript>
     <!-- End Facebook Pixel Code --> 
+    
+    <!-- Event snippet for Website sale conversion page -->
+        <script>
+        gtag('event', 'conversion', {
+            'send_to': 'AW-749314421/FZ7HCJuc3eABEPXCpuUC',
+            'transaction_id': ''
+        });
+        </script>
 </head>
 <body <?php body_class() ?>   >
