@@ -86,3 +86,4 @@ function get_marcas($request){
 
 
 remove_filter('the_excerpt', 'wpautop'); 
+ 
