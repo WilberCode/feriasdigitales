@@ -42,5 +42,16 @@ Meat Fest, Carnes, Gourmet, Piel Seca, Experiencia, Vinos, Meditación">
             'transaction_id': ''
         });
         </script>
+        
+    <!-- Global site tag (gtag.js) - Google Ads: 749314421 -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=AW-749314421"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'AW-749314421');
+        </script>
+
 </head>
 <body <?php body_class() ?>   >
