@@ -189,11 +189,14 @@
             /* purgecss end ignore */
 
             .title-social{
-                @apply inline-flex items-center mb-12 flex-no-wrap   ;
+                @apply inline-flex items-center mb-10 flex-no-wrap   ;
                 @screen maxs {
-                    @apply   mb-10   ;
+                    @apply   mb-8   ;
 
-               }  
+               } 
+               .wp-block-column:not(:first-child){
+                   @apply ml-0;
+               }
                figure{ 
                     @apply mt-2 mb-0 ;
                 }
@@ -222,8 +225,7 @@
                 }
                 & > .wp-block-column{
                     flex-basis: auto  !important; 
-                    @apply w-auto #{!important};
-                  
+                    @apply w-auto #{!important}; 
                 }
             } 
            
