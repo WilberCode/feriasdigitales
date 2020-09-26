@@ -189,9 +189,9 @@
             /* purgecss end ignore */
 
             .title-social{
-                @apply inline-flex items-center mb-10 flex-no-wrap   ;
+                @apply inline-flex items-center mb-8 flex-no-wrap   ;
                 @screen maxs {
-                    @apply   mb-8   ;
+                    @apply   mb-6 ;
 
                } 
                & > .wp-block-column:not(:first-child){
