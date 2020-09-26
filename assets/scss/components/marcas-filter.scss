@@ -194,7 +194,7 @@
                     @apply   mb-8   ;
 
                } 
-               .wp-block-column:not(:first-child){
+               & > .wp-block-column:not(:first-child){
                    @apply ml-0;
                }
                figure{ 
