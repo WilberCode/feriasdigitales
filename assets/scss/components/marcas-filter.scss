@@ -180,18 +180,25 @@
                         @apply hidden;
                      }
                 }
-            }  
+            }   
+            /* purgecss start ignore */ 
+            
             figure{ 
                 @apply mt-2 mb-0 ;
             }
+            /* purgecss end ignore */
+
             .title-social{
                 @apply inline-flex items-center mb-12 flex-no-wrap   ;
                 @screen maxs {
                     @apply   mb-10   ;
 
                }  
+               figure{ 
+                    @apply mt-2 mb-0 ;
+                }
                 h1{
-                    @apply m-0 ;
+                    @apply m-0 font-bold ;
                     font-size: 40.72px ; 
                     @screen maxsm {
                         font-size: 22px ;  
@@ -201,7 +208,7 @@
                    }  
                 }
                 .marca-social{
-                    @apply ml-4; 
+                    @apply ml-1; 
                         figure,img{
                             @screen maxsm {
                                 width: 35px;
@@ -259,39 +266,4 @@
 
 
 
-
-.title-social{
-    @apply inline-flex items-center mb-12 flex-no-wrap   ;
-    @screen maxs {
-        @apply   mb-10   ;
-
-   }  
-    h1{
-        @apply m-0 ;
-        font-size: 40.72px ; 
-        @screen maxsm {
-            font-size: 22px ;  
-       }  
-        @screen maxs {
-            font-size: 15px ;  
-       }  
-    }
-    .marca-social{
-        @apply ml-4; 
-            figure,img{
-                @screen maxsm {
-                    width: 35px;
-                    height: 35px;
-               }  
-                @screen maxs {
-                    width: 30px;
-                    height: 30px;
-               }  
-            }
-    }
-    & > .wp-block-column{
-        flex-basis: auto  !important; 
-        @apply w-auto #{!important};
-      
-    }
-} 
+ 
