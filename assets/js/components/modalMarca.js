@@ -39,22 +39,38 @@ let modalMarca = ($)=>{
         })
         .then(response => {  
             return response.ok ? response.json() : 'No información de la marca...'; 
-        }).then(json_response => {  
+        }).then(json_response => {
             modalActive = true
             if(json_response){
-                json_response.map((post)=>{   
-                    html_marca_modal_info += `   
-                    <div  class="grid grid-cols-1 sm:grid-cols-2 gap-8 sm:gap-10 relative">
-                        <div>   
-                            ${post.images == null?'':post.images.map((image)=>`<img class="mb-4 w-full" src="${image.marca_imagenes_individual}" alt="${post.title}" />`).join('')}
-                        </div>  
-                        <div  class="pl-0 sm:pl-6"> 
-                            <img  class=" w-34 mb-10 sm:w-40 md:w-54 "  src="${post.thumbnail}" alt="${post.title}">
-                                ${post.content} 
+                json_response.map((post)=>{    
+                    if(post.images == false ){ 
+                        $('#marca-modal-body').addClass('marca-modal-body-new');
+                        html_marca_modal_info += `   
+                        <div  class=" relative mt-4"> 
+                            <div  class="pl-0 "> 
+                                <img  class=" w-34 mb-10 sm:w-40 md:w-54 m-auto "  src="${post.thumbnail}" alt="${post.title}">
+                                <div  class="marca-modal-content"> 
+                                    ${post.content}
+                                </div>
+                            </div>
+                            <a href="${post.link}" class="text-base text-title absolute bottom-0 marca-modal-content-share -mb-8 hover:underline ">Compartir</a>
                         </div>
-                        <a href="${post.link}" class="text-base text-title absolute bottom-0 left-0  -mb-8 hover:underline ">Compartir</a>
-                    </div>
-                        `;   
+                            `; 
+                    }else{
+                        html_marca_modal_info += `   
+                        <div  class="grid grid-cols-1 sm:grid-cols-2 gap-8 sm:gap-10 relative">
+                            <div>   
+                                ${post.images == false ?'':post.images.map((image)=>`<img class="mb-4 w-full" src="${image.marca_imagenes_individual}" alt="${post.title}" />`).join('')}
+                            </div>  
+                            <div  class="pl-0 sm:pl-6 marca-modal-content--old "> 
+                                <img  class=" w-34 mb-10 sm:w-40 md:w-54 "  src="${post.thumbnail}" alt="${post.title}">
+                                    ${post.content} 
+                            </div>
+                            <a href="${post.link}" class="text-base text-title absolute bottom-0 left-0  -mb-8 hover:underline  "  >Compartir</a>
+                        </div>
+                            `; 
+                    }
+                     
                 }) 
             }
             $('#marca-modal-info').html(html_marca_modal_info); 

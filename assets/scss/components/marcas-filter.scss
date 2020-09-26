@@ -103,7 +103,51 @@
         &-active{
             display: block;
         }
-        &-info{
+        &-info{ 
+        }
+        &-content{
+            @apply text-center pb-6;
+            @at-root{
+                .marca-modal-body-new{
+                    max-width: 60rem;
+                    @screen maxs {
+                        @apply px-2;
+                    }
+                }
+            }
+            &--old{
+                h1,h2,h3{
+                    @apply font-bold;  
+                }
+                h1{
+                    @apply mb-4 mt-4 ;  
+                    @screen maxmd{
+                        @apply text-xl; 
+                    }
+                }
+                h2{
+                    // @apply mb-1 ; 
+                    margin-bottom: .15rem;
+                    @screen maxmd{
+                        @apply text-base ; 
+                    }
+                }
+                h3{
+                    @screen maxmd{ 
+                        @apply text-sm ;
+                    }
+                }
+                p{
+                    @apply text-xl m-0 ; 
+                    line-height: 1.4;
+                    @screen maxmd{   
+                         @apply text-base ; 
+                    }
+                }
+                figure{ 
+                    @apply mt-2 mb-0 ;
+                }
+            } 
             h1,h2,h3{
                 @apply font-bold;  
             }
@@ -126,15 +170,62 @@
                 }
             }
             p{
-                @apply text-xl m-0 ; 
+                @apply m-0 ; 
                 line-height: 1.4;
-                @screen maxmd{   
-                     @apply text-base ; 
+                 @screen md {
+                    @apply text-2xl-01;
+                 }
+                br{
+                    @screen maxsm {
+                        @apply hidden;
+                     }
                 }
-            }
+            }  
             figure{ 
                 @apply mt-2 mb-0 ;
             }
+            .title-social{
+                @apply inline-flex items-center mb-12 flex-no-wrap   ;
+                @screen maxs {
+                    @apply   mb-10   ;
+
+               }  
+                h1{
+                    @apply m-0 ;
+                    font-size: 40.72px ; 
+                    @screen maxsm {
+                        font-size: 22px ;  
+                   }  
+                    @screen maxs {
+                        font-size: 15px ;  
+                   }  
+                }
+                .marca-social{
+                    @apply ml-4; 
+                        figure,img{
+                            @screen maxsm {
+                                width: 35px;
+                                height: 35px;
+                           }  
+                            @screen maxs {
+                                width: 30px;
+                                height: 30px;
+                           }  
+                        }
+                }
+                & > .wp-block-column{
+                    flex-basis: auto  !important; 
+                    @apply w-auto #{!important};
+                  
+                }
+            } 
+           
+            &-share{
+                left: 50%;
+                transform: translateX(-50%);
+            }
+          
+
         }
     }
     &-social{
@@ -146,6 +237,9 @@
         }
         .wp-block-column{
             margin-left: 6px;
+            flex-basis: auto !important; 
+            @apply w-auto #{!important};
+             
             figure{
                 width:60px;
                 height:60px; 
@@ -162,3 +256,42 @@
     }
     
 }
+
+
+
+
+.title-social{
+    @apply inline-flex items-center mb-12 flex-no-wrap   ;
+    @screen maxs {
+        @apply   mb-10   ;
+
+   }  
+    h1{
+        @apply m-0 ;
+        font-size: 40.72px ; 
+        @screen maxsm {
+            font-size: 22px ;  
+       }  
+        @screen maxs {
+            font-size: 15px ;  
+       }  
+    }
+    .marca-social{
+        @apply ml-4; 
+            figure,img{
+                @screen maxsm {
+                    width: 35px;
+                    height: 35px;
+               }  
+                @screen maxs {
+                    width: 30px;
+                    height: 30px;
+               }  
+            }
+    }
+    & > .wp-block-column{
+        flex-basis: auto  !important; 
+        @apply w-auto #{!important};
+      
+    }
+} 
