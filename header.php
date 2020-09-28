@@ -1,7 +1,7 @@
 <?php get_template_part( 'templates/partials/document-open' ); ?> 
 <!-- Site header markup goes here --> 
 
-<?php if(!is_page('como-participar')){?>
+<?php if(!is_page('como-y-por-que-participar')){?>
 <header class=" bg-white header">
     <div class="bg-black h-8 sm:h-16 w-full relative z-40" >    
     </div>

@@ -8,12 +8,12 @@ Template Post Type: post, page, event
 get_header();?> 
 
  
-<div class="page max-w-5xl m-auto "> 
-   <main class="main px-4 sm:px-5 xl:px-0  ">  
+<div class="page max-w-how m-auto "> 
+   <main class="main px-4 sm:px-5 xl:px-0 text-third-500  ">  
 
             
-         <a href="<?php echo esc_url(home_url("/"));?>"><img  class=" w-32 sm:w-45 md:w-50 lg:w-75  m-auto" src="https://feriasdigitales.pe/wp-content/uploads/2020/08/Ferias-digitales-Logo.png" alt="Ferias digitales"></a>
-        <p  class="como-participar-description text-center text-3xl mb-10 mt-2" ><span class="font-bold" >
+         <a href="<?php echo esc_url(home_url("/"));?>"><img  class=" w-full " src="https://feriasdigitales.pe/wp-content/uploads/2020/09/deja-que-vean-tu-marca-.png" alt="Ferias digitales"></a>
+        <p  class="brnone text-center lg:text-description mb-10 mt-10 " ><span class="font-bold" >
             Te preguntarás cuál es el beneficio de una feria digital. </span> A diferencia de un <br>
 e-commerce, la feria digital se asemeja a una presencial ¿Cómo? Nosotros <br>
 fomentamos las visitas, te damos un espacio y tú eres el encargado de la venta <br>
@@ -21,70 +21,88 @@ directa. Tú eres quién se encarga de concretar, esto es beneficioso porque est
 dando un trato humano y cercano a tu consumidor. Si tus tácticas comerciales <br>
 son las correctas y tu producto satisface la necesidad de tu cliente, te será más <br>
 fácil fidelizarlos porque cuentan con el trato directo y esto genera confianza.</p>
-        <img  class="m-auto w-full max-w-4xl-1" src="https://feriasdigitales.pe/wp-content/uploads/2020/08/Te-preguntarás-cuál-es-el-beneficio-de-una-feria-digital.jpg" alt="Te preguntarás cuál es el beneficio de una feria digital."> 
+        <img  class="m-auto " src="https://feriasdigitales.pe/wp-content/uploads/2020/09/chica-celular.png" alt="Te preguntarás cuál es el beneficio de una feria digital."> 
         <div class="text-center mt-6 sm:mt-8" >
-        <h1 class=" bg-blue text-xl sm:text-2xl md:text-3xl  lg:text-5xl text-center text-third-500 font-bold brnone " >Bienvenido a Ferias Digitales <br>
-¡Llevamos tu oferta a +250,000 personas!</h1>
 
-            <p class=" text-xl sm:text-2xl md:text-3xl  lg:text-4xl mt-5 sm:mt-8  text-center text-gray-900  brnone "  >Somos un espacio virtual que bajo el concepto de una feria, <br>
-reúne variedad de marcas para mostrarlas en 3 canales <br>
-digitales: web + facebook + instagram. <br>
-Además de emailing a base de datos propia.</p>
-        </div>
-        <h2  class=" text-xl sm:text-2xl md:text-3xl   lg:text-4xlp2  mt-10 sm:mt-13  text-center  text-third-500 font-bold tracking-widest " >¿Por qué participar?
-</h2>
+        <p  class="lg:text-description-2 lg:px-8 mt-12 block font-normal brnone" >Participa en Ferias Digitales con tu stand virtual y llega a
+más gente que puede necesitar tu producto o servicio!</p>
+ 
         <div class="grid grid-cols-1 sm:grid-cols-3 gap-6 mt-6 sm:mt-12" >
-            <div class="text-center bg-secondary-500 rounded-full text-white px-5 h-45 sm:h-50 md:h-58 lg:h-67 w-45  sm:w-full m-auto inline-flex  flex-col justify-start p-4 " > 
-                    <h2 class=" text-xl sm:text-5xl" >1</h2> 
-                    <h3 class="text-xl sm:text-2xl md:text-3xl lg:text-4xlp2 font-bold leading-tighter mt-8" >Asesoría
+            <div class="text-center bg-third-500 rounded-full text-white px-5 h-45 sm:h-50 md:h-58 lg:h-67 w-45  sm:w-full m-auto inline-flex  flex-col justify-start p-4 " > 
+                    <h2 class=" text-xl sm:text-5xl text-secondary-500 " >1</h2> 
+                    <h3 class="text-xl sm:text-2xl md:text-3xl lg:text-description-1 font-medium leading-tighter mt-8" >Asesoría
 profesional</h3>
                 </div>
-                <div class="text-center bg-secondary-500 rounded-full text-white px-5 h-45 sm:h-50 md:h-58 lg:h-67 w-45  sm:w-full m-auto inline-flex  flex-col justify-start p-4 " >
-                             <h2 class="text-xl sm:text-5xl" >2</h2> 
-                             <h3 class="text-xl sm:text-2xl md:text-3xl lg:text-4xlp2 font-bold leading-tighter mt-4" >Acceso <br>
-a tu marca <br>
-24/7</h3>
+                <div class="text-center bg-third-500 rounded-full text-white px-5 h-45 sm:h-50 md:h-58 lg:h-67 w-45  sm:w-full m-auto inline-flex  flex-col justify-start p-4 " >
+                             <h2 class="text-xl sm:text-5xl text-secondary-500 " >2</h2> 
+                             <h3 class="text-xl sm:text-2xl md:text-3xl lg:text-description-1 font-medium leading-tighter mt-4" > Tu marca
+con presencia <br>
+online <br>
+¡siempre!</h3>
                 </div>
-                <div class="text-center bg-secondary-500 rounded-full text-white px-5 h-45 sm:h-50 md:h-58 lg:h-67 w-45  sm:w-full m-auto inline-flex  flex-col justify-start p-4 " >
-                                        <h2 class="text-xl sm:text-5xl" >3</h2>
-                                        <h3 class="text-xl sm:text-2xl md:text-3xl lg:text-4xlp2 font-bold leading-tighter mt-4" >Más <br>
-visibilidad a
-bajo costo</h3>
+                <div class="text-center bg-third-500 rounded-full text-white px-5 h-45 sm:h-50 md:h-58 lg:h-67 w-45  sm:w-full m-auto inline-flex  flex-col justify-start p-4 " >
+                                        <h2 class="text-xl sm:text-5xl text-secondary-500 " >3</h2>
+                                        <h3 class="text-xl sm:text-2xl md:text-3xl lg:text-description-1 font-medium leading-tighter mt-4" >Más <br>
+potenciales <br>
+clientes te <br>
+verán.
                 </div>
         </div> 
-       
-        <div class=" sm:flex bg-third-500  w-full  sm:py-8 px-6 sm:px-12  mt-6 sm:mt-10  py-6 " >
-                 <div class="text-center sm:w-32 md:w-45 lg:w-50">
-                    <img  class=" w-16 sm:w-20 md:w-24 lg:w-27 m-auto sm:m-0 "  src="https://feriasdigitales.pe/wp-content/uploads/2020/06/Publicidad-pagadaddd.png" alt="Ferias digitales">
-                 </div>
-                <div class=" text-white mt-5 sm:mt-0 " >
-                   <p class=" text-center sm:text-left text-base sm:text-xl md:text-2xl  lg:text-4xlp1  font-medium leading-tight tracking-wider m-0 brnone " >Posts pagados alcanzan +250,000 <br>
-                personas en los distritos de: <br>
-                San Isidro, Miraflores, Barranco, <br>
-                Stgo. de Surco, La Molina.</p>
-                 </div>
-        </div>
 
-    <h2  class="text-center text-xl sm:text-2xl md:text-3xl  lg:text-5xl mt-12 sm:mt-16 mb-6 sm:mb-14 text-secondary-500 font-bold "  >¿Cuánto cuesta y cómo participar?</h2>
-    <ul class="list  " >
-        <li>La participación es mensual.</li>
-        <li>Incluimos tu marca en <a class="text-third-500 font-semibold ml-2" href="https://feriasdigitales.pe"> www.feriasdigitales.pe</a> </li>
-        <li>Tú haces la venta directa.
-        </li>
-    </ul>
 
-    <img class="w-full my-10 sm:my-16" src="https://feriasdigitales.pe/wp-content/uploads/2020/07/participa-por-1-es.png" alt="participa x S/150 por 1 mes">
 
-    <ul class="list-post mt-20" >
-        <li> <span >1 post </span> multimarcas semanal con pauta.</li>
-        <li><span >1 post </span> orgánico semanal de la marca.</li>
-        <li><span >1 story </span> orgánico semanal de la marca.</li> 
-        <li> <span >1 e-mail </span> multimarcas al mes a base de datos propia<br>conformada por parejas entre 25 y 45 años (8,000).</li>
-    </ul>
-    </main>  
+
+        <h2  class="text-center text-xl sm:text-2xl md:text-3xl  lg:text-h-title mt-12 sm:mt-16 mb-6 sm:mb-0 text-secondary-500 font-bold " >¿Dónde mostramos tu marca?
+</h2>
+    <p class="lg:text-description-3 text-center lg:px-24 mt-0 mb-0 leading-normal" >Web: home + landing page o stand virtual
++ facebook + instagram + e-mail</p>
+
+<img class="w-full" src="https://feriasdigitales.pe/wp-content/uploads/2020/09/como-convocamos.svg" alt="">
+
+
+
+
+<h2  class="text-center text-xl sm:text-2xl md:text-3xl  lg:text-h-title mt-0  sm:mb-0 text-secondary-500 font-bold " >¿A qué distritos llega la publicidad?
+</h2>
+    <p class="lg:text-description-3 text-center lg:px-24 mt-0 mb-0 leading-normal" >San Isidro, Miraflores, Barranco, <br>
+Stgo. de Surco, La Molina, San Miguel, <br>
+Magdalena, Jesús María.</p>
+
+
+<h2  class="text-center text-xl sm:text-2xl md:text-3xl  lg:text-h-title mt-12 md:mt-14  sm:mb-0 text-secondary-500 font-bold " >¿Qué incluye la participación mensual?</h2>
+    <p class="lg:text-description-3 text-center   mt-0 mb-0 leading-normal" > 
+    1 post multimarcas con pauta + <br>
+1 post orgánico de la marca + <br>
+1 story orgánico de la marca + <br>
+1 e-mail multimarcas a base de datos propia <br>
+(8,000 contactos parejas entre 25 y 45 años).
+    </p>
+
+
+<img class="max-w-circle m-auto mt-6" src="https://feriasdigitales.pe/wp-content/uploads/2020/09/circulo2.svg" alt=""> 
+<footer>
+
+<a href="https://feriasdigitales.pe" class="block text-xl sm:text-2xl md:text-3xl  lg:text-description-5 text-center text-third-500 font-medium brnone  mt-10" >www.feriasdigitales.pe</a> 
+<div class="grid  grid-cols-2 mt-5 mb-8 ">
+    <div  class=" inline-flex justify-start items-center footer-social " >
+        <a href="https://facebook.com/feriasdigitales/"><img class=""  src="<?php echo get_bloginfo('template_directory').'/build/img/facebook.png'; ?>" alt="Facebook"></a>
+        <a href="https://www.instagram.com/feriasdigitales/"><img class="ml-1"  src="<?php echo get_bloginfo('template_directory').'/build/img/instagram.png'; ?>" alt="Instagram"></a>
+        <a href="https://www.instagram.com/feriasdigitales/" class="lg:text-description-4 font-medium  text-third-500" >@feriasdigitales</a>
+    </div>
+    <div  class=" inline-flex justify-end items-center  footer-social" >
+     <a href="https://api.whatsapp.com/send?phone=+51998315039"><img class=" inline-block "  src="<?php echo get_bloginfo('template_directory').'/build/img/whatsapp.png'; ?>" alt="whatsapp"><span  class="lg:text-description-4 font-medium  text-third-500 align-middle " >+51 998 315 039</span></a>
+     
+    </div>
 </div>
+</footer>
+       
+    </main>  
+   
+</div>
+
+
  
-<footer class="footer bg-third-500 mt-16" >
+<!-- <footer class="footer bg-third-500 mt-16" >
     <div  class="max-w-5xl m-auto flex justify-center sm:justify-end py-14 px-4 sm:px-5 xl:px-0 "  >
         <div class="sm:flex items-center " >
             <h2  class="text-white sm:mr-10 italic font-medium text-xl sm:text-3xl mb-5 sm:mb-0  text-center sm:text-left " >¿Listo para participar?</h2> 
@@ -95,7 +113,7 @@ bajo costo</h3>
             </ul>
         </div>
     </div>
-</footer>
+</footer> -->
 
  <?php  
 get_footer();

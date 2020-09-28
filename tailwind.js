@@ -106,10 +106,14 @@ module.exports = {
                 '5xl': '3rem',
                 '6xl': '4rem',
                 '6xl-1': '67.29px',
-                 // leading como participar
-                '4xlp1': '2.50rem',
-                '4xlp2': '2.60rem',
-                '5xlp1': '3.40rem',
+                 // landing como participar 
+                'h-title': '46.08px',
+                'description': '27.648px', 
+                'description-1': '39.936px', 
+                'description-2': '40.6426px',
+                'description-3': '49.152px',
+                'description-4': '50.8934px',
+                'description-5': '55.9941px', 
                 //Blog posts
                 'bt-xl':'40px',  
                 'bc-xl':'25px', 
@@ -145,6 +149,9 @@ module.exports = {
                 'blog-body':'1000.23px',
                 'blog-wide': '65rem',
                 'blog-full': '69rem',
+               // Como y por que participar
+                'how': '1152px',
+                'circle': '733px',
                 
 
                 full: '100%',
