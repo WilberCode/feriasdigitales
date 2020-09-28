@@ -52,7 +52,7 @@ verán.
 
 
 
-        <h2  class="text-center text-xl sm:text-2xl md:text-3xl  lg:text-h-title mt-12 sm:mt-16 mb-6 sm:mb-0 text-secondary-500 font-bold " >¿Dónde mostramos tu marca?
+        <h2  class="text-center text-xl sm:text-2xl md:text-3xl  lg:text-h-title mt-12 sm:mt-16  mb-0 text-secondary-500 font-bold " >¿Dónde mostramos tu marca?
 </h2>
     <p class="lg:text-description-3 text-center lg:px-24 mt-0 mb-0 leading-normal" >Web: home + landing page o stand virtual
 + facebook + instagram + e-mail</p>
@@ -82,7 +82,7 @@ Magdalena, Jesús María.</p>
 <img class="max-w-circle m-auto mt-6" src="https://feriasdigitales.pe/wp-content/uploads/2020/09/circulo2.svg" alt=""> 
 <footer>
 
-<a href="https://feriasdigitales.pe" class="block text-xl sm:text-2xl md:text-3xl  lg:text-description-5 text-center text-third-500 font-medium brnone  mt-10" >www.feriasdigitales.pe</a> 
+<a href="https://feriasdigitales.pe" class="block text-xl sm:text-2xl md:text-3xl  lg:text-description-5 text-center text-third-500 font-medium brnone mt-8 sm:mt-10" >www.feriasdigitales.pe</a> 
 <div class="grid  grid-cols-2 mt-5 mb-8 ">
     <div  class=" inline-flex justify-start items-center footer-social " >
         <a href="https://facebook.com/feriasdigitales/"><img class=""  src="<?php echo get_bloginfo('template_directory').'/build/img/facebook.png'; ?>" alt="Facebook"></a>
