@@ -1,0 +1,72 @@
+// Como participar
+body{
+    @apply bg-white;
+}
+.page{
+    .main{ 
+        .list{
+            @apply relative my-2;
+            li{
+             @apply relative text-4xl flex flex-wrap items-center pl-3 font-normal ;  
+             @screen maxlg{   
+                @apply text-xl  ; 
+           } 
+             @screen maxsm{   
+                @apply   pl-2 ; 
+                font-size: 0.9rem #{!important};
+
+           } 
+             &::before{
+                content: '';
+                width: 15px;
+                height: 15px;  
+                left: -19px; 
+                @apply absolute bg-secondary-500 rounded-full ;
+                @screen maxmd{   
+                    width: 6px;
+                    height: 6px; 
+                    left: -8px;  
+
+               }
+            }
+
+            }
+          
+        }
+        .list-post{
+            @apply relative my-2;
+            li{
+                @apply relative text-4xl  pl-3 font-normal  mb-3;  
+                @screen maxlg{   
+                    @apply text-xl pl-0 ; 
+               } 
+                 @screen maxsm{   
+                    font-size: 0.9rem #{!important};
+               } 
+                span{
+                    @apply font-semibold text-third-500 ;
+                }
+            }
+        }
+    }
+}
+@screen maxsm{   
+    .brnone br{
+        @apply hidden ; 
+    }
+    
+} 
+ 
+
+.qubely-container{ 
+    @apply m-0;
+    max-width: 100%; 
+    @screen maxsm{ 
+            @apply px-0; 
+    }
+}
+.qubely-column{
+    @screen maxsm{
+        @apply px-0; 
+    }
+}
