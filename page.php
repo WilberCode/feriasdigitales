@@ -1,7 +1,7 @@
 <?php 
 get_header(); ?> 
 
-<main class="main"> 
+<main class="main mb-12"> 
     <div class="max-w-aligndefault m-auto px-4 xl:px-0">
     <?php
       if(have_posts()):
