@@ -140,7 +140,8 @@ module.exports = {
                 '4xl-1': '60rem',
                 '5xl': '64rem',
                 '6xl': '72rem',
-                'modal': '66rem', 
+                'modal': '66rem',
+                'aligndefault':'64rem', 
                 //blog posts 
                 'blog-post': '1141.3031px',
                 'blog-image':'510.457px',

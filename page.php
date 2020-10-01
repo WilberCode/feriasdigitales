@@ -1,8 +1,8 @@
 <?php 
 get_header(); ?> 
 
-<main class=""> 
-    <div class="container">
+<main class="main"> 
+    <div class="max-w-aligndefault m-auto px-4 xl:px-0">
     <?php
       if(have_posts()):
     while ( have_posts() ) :    
