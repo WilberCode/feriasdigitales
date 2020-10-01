@@ -2,7 +2,7 @@
 <!-- Site header markup goes here --> 
 
 <?php if(!is_page('como-y-por-que-participar')){?>
-<header class=" bg-white header">
+<header class=" bg-white header shadow-sm">
     <div class="bg-black h-8 sm:h-16 w-full relative z-40" >    
     </div>
     <div class="header-wrap container m-auto flex h-14  sm:h-24 justify-between items-center "> 
