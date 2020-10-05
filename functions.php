@@ -163,4 +163,3 @@ function ferias_get_marcas($atts = '', $content='')
   add_shortcode ('marcas','ferias_get_marcas');
 
 
-  add_theme_support( 'align-wide' );

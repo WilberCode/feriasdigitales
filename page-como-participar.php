@@ -79,7 +79,7 @@ Magdalena, Jesús María.</p>
     </p>
 
 
-<img class="max-w-circle m-auto mt-6" src="https://feriasdigitales.pe/wp-content/uploads/2020/09/circulo2.svg" alt=""> 
+<img class="max-w-circle m-auto mt-6" src="https://feriasdigitales.pe/wp-content/uploads/2020/10/circulo2.svg" alt=""> 
 <footer>
 
 <a href="https://feriasdigitales.pe" class="block text-xl sm:text-2xl md:text-3xl  lg:text-description-5 text-center text-third-500 font-medium brnone mt-8 sm:mt-10" >www.feriasdigitales.pe</a> 
@@ -99,21 +99,7 @@ Magdalena, Jesús María.</p>
     </main>  
    
 </div>
-
-
  
-<!-- <footer class="footer bg-third-500 mt-16" >
-    <div  class="max-w-5xl m-auto flex justify-center sm:justify-end py-14 px-4 sm:px-5 xl:px-0 "  >
-        <div class="sm:flex items-center " >
-            <h2  class="text-white sm:mr-10 italic font-medium text-xl sm:text-3xl mb-5 sm:mb-0  text-center sm:text-left " >¿Listo para participar?</h2> 
-            <ul  class="footer-social" >
-                <li><a href="https://facebook.com/feriasdigitales/"><img src="<?php echo get_bloginfo('template_directory').'/build/img/facebook.png'; ?>" alt="Facebook"></a></li>
-                <li><a href="https://www.instagram.com/feriasdigitales/"><img src="<?php echo get_bloginfo('template_directory').'/build/img/instagram.png'; ?>" alt="Instagram"></a></li>
-                <li><a href="https://api.whatsapp.com/send?phone=+51998315039"><img src="<?php echo get_bloginfo('template_directory').'/build/img/whatsapp.png'; ?>" alt="whatsapp"></a></li>
-            </ul>
-        </div>
-    </div>
-</footer> -->
 
  <?php  
 get_footer();

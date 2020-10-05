@@ -204,3 +204,5 @@ function wph_setup(){
   remove_action('wp_head', 'wp_generator'); //Eliminar La version de  wordpress del codigo
 }
 add_action('after_setup_theme', 'wph_setup');
+
+add_theme_support( 'align-wide' );
