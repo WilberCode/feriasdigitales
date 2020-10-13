@@ -158,11 +158,10 @@
                 }
             }
             h2{ 
-                margin-bottom: .15rem;
-                @apply text-2xl-02 ; 
-               /*  @screen maxmd{
-                    @apply text-base ; 
-                } */
+                margin-bottom: .15rem; 
+                @screen md{
+                    @apply text-2xl-02 ;
+                }  
             }
             h3{
                 @screen maxmd{ 
