@@ -209,6 +209,14 @@
                         font-size: 15px ;  
                    }  
                 }
+                h2{
+                    @screen maxsm {
+                        font-size: 22px ;  
+                   }
+                    @screen maxs {
+                        font-size: 15px ;  
+                   }  
+                }
                 .marca-social{
                     @apply ml-1; 
                         figure,img{
