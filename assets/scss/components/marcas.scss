@@ -215,7 +215,10 @@
                    }
                     @screen maxs {
                         font-size: 14px ;  
-                   }  
+                   } 
+                   @media (max-width: 325px){
+                     font-size: 13px;  
+                   } 
                 }
                 .marca-social{
                     @apply ml-1; 
