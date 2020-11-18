@@ -26,10 +26,9 @@ View::$view_dir = get_stylesheet_directory() . '/templates/views';
 
 require get_stylesheet_directory() . '/includes/scripts-and-styles.php';
  
- 
-// Tendenze
+  
 
-// Obtiene la Url del thumbnail     
+// Get the url of thumbnail    
 function thumbnail_image_url($size){
     global $post; 
     $image_id = get_post_thumbnail_id($post -> ID);
@@ -38,20 +37,18 @@ function thumbnail_image_url($size){
     return $main_image[0];
 }
 
-//  Register Endpoint
- 
+//  Register Endpoint of marcas
 function events_endpoint() {
 	register_rest_route( 'marcas', '/destacados/', array(
         'methods'  =>   'GET' ,
 		'callback' => 'get_marcas',
 		'permission_callback' => '__return_true'
-    )); 
-   
+    ));  
 }
 add_action( 'rest_api_init', 'events_endpoint' );
   
-function get_marcas($request){ 
-    // $cat = get_category_by_slug( $request['belleza'] );
+//  Get post of marcas
+function get_marcas($request){  
 	$args = array (
 		'post_type'    		=> 'marca',
         'posts_per_page'    => -1,
@@ -84,14 +81,13 @@ function get_marcas($request){
 } 
 
 
-
+/* Remove any tag of except*/ 
 remove_filter('the_excerpt', 'wpautop'); 
  
 
-
+/* Shortcode - List marcas */ 
 function ferias_get_marcas($atts = '', $content='')
-{
-      
+{ 
 	$atributos = shortcode_atts(
 		array(
 			'taxonomy' => 'marcas_ferias_agosto',
@@ -153,11 +149,8 @@ function ferias_get_marcas($atts = '', $content='')
 	   </div>
 	</div> 
 		';
- 
-
-	 return  $show_grid_marcas ;
-
-
+  
+	 return  $show_grid_marcas ; 
   }
 
   add_shortcode ('marcas','ferias_get_marcas');
