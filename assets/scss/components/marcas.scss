@@ -233,13 +233,15 @@
                                 height: 30px;
                            }  
                         }
+                        & > .wp-block-column{ 
+                            @screen maxsm{
+                                margin-left: 2px !important;
+                            }
+                        }
                 }
                 & > .wp-block-column{
-                    flex-basis: auto  !important; 
-                    @apply w-auto #{!important};
-                    @screen maxsm{
-                        margin-left: 2px #{!important};
-                    }
+                    flex-basis: auto !important; 
+                    @apply w-auto #{!important}; 
                 }
             } 
            
