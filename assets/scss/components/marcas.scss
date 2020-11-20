@@ -88,6 +88,9 @@
             @screen maxmd{
                 @apply  px-6 ; 
             }
+            @screen maxsm{
+                @apply  px-3 py-6 ; 
+            }
         }
         &-close{
             position: absolute;
@@ -161,7 +164,9 @@
                 margin-bottom: .15rem; 
                 @screen md{
                     @apply text-2xl-02 ;
-                }  
+                } 
+                
+                
             }
             h3{
                 @screen maxmd{ 
@@ -284,4 +289,10 @@
 
 
 
- 
+  /* purgecss start ignore */   
+  @media (max-width: 385px) {
+    h2.title-tiny{
+        font-size: 13px !important;
+    }
+}  
+ /* purgecss end ignore */
