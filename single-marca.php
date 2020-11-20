@@ -14,7 +14,7 @@
                             <?php if(have_posts()):
                                 while(have_posts()):  
                                     the_post(); ?>   
-                                            <img  class="  w-34 mb-10 sm:w-40 md:w-54 m-auto "  src="<?php  echo thumbnail_image_url('full');  ?>" alt="<?php the_title();  ?>">
+                                            <img  class="  w-34 mb-10 sm:w-40 md:w-54 m-auto modal-logo"  src="<?php  echo thumbnail_image_url('full');  ?>" alt="<?php the_title();  ?>">
                                             <div  class="marca-modal-content"> 
                                                 <?php the_content();  ?>
                                             </div>
