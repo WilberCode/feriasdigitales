@@ -236,7 +236,10 @@
                 }
                 & > .wp-block-column{
                     flex-basis: auto  !important; 
-                    @apply w-auto #{!important}; 
+                    @apply w-auto #{!important};
+                    @screen maxsm{
+                        margin-left: 2px #{!important};
+                    }
                 }
             } 
            
