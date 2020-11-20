@@ -66,7 +66,7 @@ let modalMarca = ($)=>{
                                 <img  class=" w-34 mb-10 sm:w-40 md:w-54 "  src="${post.thumbnail}" alt="${post.title}">
                                     ${post.content} 
                             </div>
-                            <a href="${post.link}" class="text-base text-title absolute bottom-0 left-0  -mb-8 hover:underline  "  >Compartir</a>
+                            <a href="${post.link}" class="text-base text-title absolute bottom-0 left-0  -mb-7 hover:underline  "  >Compartir</a>
                         </div>
                             `; 
                     }
