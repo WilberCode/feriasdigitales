@@ -48,7 +48,7 @@ let modalMarca = ($)=>{
                         html_marca_modal_info += `   
                         <div  class=" relative mt-4"> 
                             <div  class="pl-0 "> 
-                                <img  class=" w-32 mb-10 sm:w-40 md:w-48 m-auto "  src="${post.thumbnail}" alt="${post.title}">
+                                <img  class=" w-32 mb-10 sm:w-40 md:w-48 m-auto modal-logo "  src="${post.thumbnail}" alt="${post.title}">
                                 <div  class="marca-modal-content"> 
                                     ${post.content}
                                 </div>
