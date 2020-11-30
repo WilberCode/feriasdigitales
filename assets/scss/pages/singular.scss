@@ -6,5 +6,11 @@
               @apply font-black; 
             }
         }
+        a{
+            @apply text-blue-700;
+            &:hover{
+                @apply underline ; 
+            }
+        }
     }
 }
