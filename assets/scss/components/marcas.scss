@@ -1,0 +1,299 @@
+ .marca{
+    &-categories{ 
+        @apply  flex flex-wrap;
+        li{ 
+            @apply text-secondary-500  ;
+            a{
+                @apply  font-semibold mx-2 ;
+                color: inherit;
+
+            }
+        }
+        li:first-child a{
+            margin-left: 0; 
+        }
+    } 
+    &-category-active{
+        color: #c9d151 !important ;
+        a{ 
+            color: inherit;
+
+        } 
+    }
+    &-card{
+        cursor: pointer;
+        &-image{ 
+            border: 8px solid rgba($color:$primary , $alpha: .45); 
+            img{
+                max-width: 160px;
+                @screen maxsm{
+                    max-width: 105px   ;
+                }
+            }
+            // Se agrega mas tamaño
+            &-201,&-214{
+                max-width: 215px !important;
+                @screen maxsm{
+                    max-width: 124px!important;
+                    width:124px;  
+                }
+            }
+        }
+        &-content{
+            border: 8px solid rgba($color:$primary , $alpha: .45);   
+            @apply relative ;
+            padding-top: 11.2%;  
+            &::before{
+                content: '';
+                background-image: url(https://feriasdigitales.pe/wp-content/uploads/2020/09/colores-tienda.png); 
+                background-position: center 1.4%;
+                background-size: 97%;
+                @apply  bg-no-repeat absolute top-0 right-0 bottom-0 left-0; 
+
+            } 
+            &-logo{  
+                max-height: 67.009px;
+                @apply m-auto w-auto  ; 
+                max-width: 146px;
+                @screen maxsm{
+                    max-height:60.009px;  
+                    max-width: 138px;
+                }
+                @screen maxs{
+                    max-height:62.009px;  
+                    max-width: 108px;
+
+                }
+            }
+        }
+        h2{
+            ul{
+                @apply  m-0 ; 
+
+            }
+            a{
+                color: inherit;
+            }
+        }
+    }
+
+    &-modal{
+        @apply w-full  h-full absolute flex justify-center z-50 top-0 left-0 right-0 bottom-0 hidden ; 
+        background: rgba($color: white, $alpha: 0.8); 
+        height: 700vh;
+        padding-top:var(--offsettop-modal-marca); 
+        &-body{ 
+            border: 12px solid rgba($color:$primary , $alpha: .45); 
+            @apply  w-full max-w-modal py-16 px-12 m-auto bg-white relative ; 
+            @screen maxmd{
+                @apply  px-6 ; 
+            }
+            @screen maxsm{
+                @apply  px-3 pt-6 pb-10 ; 
+            }
+        }
+        &-close{
+            position: absolute;
+            right:25px;
+            top: 18px;
+            font-size: 30px;
+            @apply font-medium ;
+            cursor: pointer;
+            @screen maxsm{
+                top: 14px;
+            }
+        }
+        &-active{
+            display: block;
+        }
+        &-info{ 
+        }
+        &-content{
+            @apply text-center pb-6;
+            @at-root{
+                .marca-modal-body-new{
+                    max-width: 60rem;
+                    @screen maxs {
+                        @apply px-2;
+                    }
+                }
+            }
+            &--old{
+                h1,h2,h3{
+                    @apply font-bold;  
+                }
+                h1{
+                    @apply mb-4 mt-4 ;  
+                    @screen maxmd{
+                        @apply text-xl; 
+                    }
+                }
+                h2{
+                    // @apply mb-1 ; 
+                    margin-bottom: .15rem;
+                    @screen maxmd{
+                        @apply text-base ; 
+                    }
+                }
+                h3{
+                    @screen maxmd{ 
+                        @apply text-sm ;
+                    }
+                }
+                p{
+                    @apply text-xl m-0 ; 
+                    line-height: 1.4;
+                    @screen maxmd{   
+                         @apply text-base ; 
+                    }
+                }
+                figure{ 
+                    @apply mt-2 mb-0 ;
+                }
+            } 
+            h1,h2,h3{
+                @apply font-normal;  
+            }
+            h1{
+                @apply mb-4 mt-4 ;  
+                @screen maxmd{
+                    @apply text-xl; 
+                }
+            }
+            h2{ 
+                margin-bottom: .15rem; 
+                @screen md{
+                    @apply text-2xl-02 ;
+                } 
+                
+                
+            }
+            h3{
+                @screen maxmd{ 
+                    @apply text-sm ;
+                }
+            }
+            p{
+                @apply m-0 ; 
+                line-height: 1.4;
+                /*  @screen md {
+                    @apply text-2xl-01;
+                 } */
+                br{
+                    @screen maxsm {
+                        @apply hidden;
+                     }
+                }
+            }   
+            /* purgecss start ignore */ 
+            
+            figure{ 
+                @apply mt-2 mb-0 ;
+            }
+            /* purgecss end ignore */
+
+            .title-social{
+                @apply inline-flex items-center mb-8 flex-no-wrap   ;
+                @screen maxs {
+                    @apply   mb-6 ;
+
+               } 
+               & > .wp-block-column:not(:first-child){
+                   @apply ml-0;
+               }
+               figure{ 
+                    @apply mt-2 mb-0  ;
+                }
+                h1{
+                    @apply m-0 font-normal ;
+                    font-size: 40.72px ; 
+                    @screen maxsm {
+                        font-size: 22px ;  
+                   }  
+                    @screen maxs {
+                        font-size: 15px ;  
+                   }  
+                }
+                h2{
+                    @screen maxsm {
+                        font-size: 22px ;  
+                   }
+                    @screen maxs {
+                        font-size: 14px ;  
+                   } 
+                   @media (max-width: 325px){
+                     font-size: 13px;  
+                   } 
+                }
+                .marca-social{
+                    @apply ml-1; 
+                        figure,img{
+                            @apply rounded-none border-none #{!important};
+                            @screen maxsm {
+                                width: 35px;
+                                height: 35px;
+                           }  
+                            @screen maxs {
+                                width: 30px;
+                                height: 30px;
+                           }  
+                        }
+                        & > .wp-block-column{ 
+                            @screen maxsm{
+                                margin-left: 2px !important;
+                            }
+                        }
+                }
+                & > .wp-block-column{
+                    flex-basis: auto !important; 
+                    @apply w-auto #{!important}; 
+                }
+            } 
+           
+            &-share{
+                left: 50%;
+                transform: translateX(-50%);
+            }
+          
+
+        }
+    }
+    &-social{
+        @apply inline-flex flex-no-wrap; 
+        @at-root{
+            .wp-block-columns{
+                @apply mb-0 ;
+            }
+        }
+        .wp-block-column{
+            margin-left: 6px;
+            flex-basis: auto !important; 
+            @apply w-auto #{!important};
+             
+            figure{
+                width:60px;
+                height:60px; 
+                @apply mt-2 mb-0 ;
+
+                img{
+                    width:60px;
+                    height:60px;
+                    @apply rounded-full border border-gray-100 ;
+                    
+                }
+            }
+        }
+    }
+    
+}
+
+
+
+  /* purgecss start ignore */   
+  @media (max-width: 385px) {
+        h2.title-tiny{
+            font-size: 13px !important;
+        }
+  }  
+  
+ /* purgecss end ignore */
