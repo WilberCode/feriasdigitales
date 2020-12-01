@@ -169,8 +169,13 @@
                 
             }
             h3{
-                @screen maxmd{ 
-                    @apply text-sm ;
+                @screen lg{ 
+                    @apply text-2xl-01 ;
+                }
+                br{
+                    @screen maxsm{
+                        @apply hidden;
+                   }
                 }
             }
             p{
