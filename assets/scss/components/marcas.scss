@@ -152,7 +152,7 @@
                 }
             } 
             h1,h2,h3{
-                @apply font-bold;  
+                @apply font-normal;  
             }
             h1{
                 @apply mb-4 mt-4 ;  
@@ -176,9 +176,9 @@
             p{
                 @apply m-0 ; 
                 line-height: 1.4;
-                 @screen md {
+                /*  @screen md {
                     @apply text-2xl-01;
-                 }
+                 } */
                 br{
                     @screen maxsm {
                         @apply hidden;
@@ -205,7 +205,7 @@
                     @apply mt-2 mb-0  ;
                 }
                 h1{
-                    @apply m-0 font-medium ;
+                    @apply m-0 font-normal ;
                     font-size: 40.72px ; 
                     @screen maxsm {
                         font-size: 22px ;  
