@@ -20,7 +20,7 @@
                 Magdalena del Mar 15076 </p>
                 <a target="_blank" href="https://api.whatsapp.com/send?phone=+51998315039&text=Hola Grupo Tendenze Comunicaciones ¡Quisiera más información!"  class=" text-center footer__contact font-bold border-2 border-primary-500 py-2 px-10 text-white hover:text-primary-500  text-base sm:text-sm  ms:inline-block" >Contacto</a>
             </div>  
-            <div  class="flex items-center   sm:col-span-1  lg:col-span-1 hidden">
+            <div  class=" items-center   sm:col-span-1  lg:col-span-1 hidden">
             <?php  
                 wp_nav_menu(array(
                     'theme_location'  => 'social',
