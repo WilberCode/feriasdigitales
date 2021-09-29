@@ -156,3 +156,11 @@ function ferias_get_marcas($atts = '', $content='')
   add_shortcode ('marcas','ferias_get_marcas');
 
 
+// Disable Plugin Updates
+
+function disable_plugin_updates( $value ) {
+    unset( $value->response['advanced-custom-fields-pro-master/acf.php'] );
+    return $value;
+}
+add_filter( 'site_transient_update_plugins', 'disable_plugin_updates' );
+

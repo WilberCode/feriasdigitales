@@ -30,3 +30,25 @@
       transform: translateX(100%);
     }
   }
+
+  
+@screen maxlg{   
+    .brnone br{
+        @apply hidden ; 
+    }
+    
+} 
+
+@screen maxsm{   
+  .brnone br{
+      @apply hidden ; 
+  }
+  
+} 
+
+@screen maxs{   
+  .brnone br{
+      @apply hidden ; 
+  }
+  
+} 

@@ -105,12 +105,7 @@ body{
         }
     }
 }
-@screen maxsm{   
-    .brnone br{
-        @apply hidden ; 
-    }
-    
-} 
+
  
 
 .qubely-container{ 
@@ -140,6 +135,14 @@ body{
             max-width: 1366px;
             margin: 0 -107px;
         }
-
+       /*  .alignwide {
+            max-width: 100% !important;
+            margin:auto !important;
+            @screen xl{ 
+                max-width: 100% !important;
+                margin:auto !important;
+            }
+        } */
+       
     }
  } 
