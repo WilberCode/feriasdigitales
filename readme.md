@@ -1,4 +1,4 @@
-# Grupo Tendenze Comunicaciones
+# Ferias Digitales
 
-## Página web: https://nuevo.tendenzeperu.com
+## Página web: https://feriasdigitales.pe
  
