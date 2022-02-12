@@ -90,12 +90,13 @@ function ferias_get_marcas($atts = '', $content='')
 { 
 	$atributos = shortcode_atts(
 		array(
-			'taxonomy' => 'marcas_ferias_agosto',
-			'year' => '2019',
+			'taxonomy' => 'marcas_septiembre',
+			'year' => '2020',
 		),
 		$atts); 
-	   
+    $custom_terms = get_terms($atributos['taxonomy']);
 	 $show_post_marcas = '';
+	 foreach($custom_terms as $custom_term) {
 		//Query post  marcas
 				global $post;
 				$args = array(
@@ -103,12 +104,20 @@ function ferias_get_marcas($atts = '', $content='')
 					'numberposts'	 =>-1,
 					'post_status'    => 'publish',
 					'posts_per_page' => -1,
-					'tax_query' => array(
+				/* 	'tax_query' => array(
 						array(
 							'taxonomy' =>  $atributos['taxonomy'], 
-							'terms'    =>  $atributos['taxonomy'],
+							'terms'    =>  $custom_term->slug,
 						),
-					),
+					), */
+					'tax_query' => array(
+                        array(
+                            'taxonomy' => $atributos['taxonomy'],
+                            'field' => 'slug',
+                            'terms' => $custom_term->slug,
+                        ),
+
+                    ),
 					'year'             =>  $atributos['year']
 				); 
 				$meta_query = new WP_Query($args);
@@ -141,7 +150,7 @@ function ferias_get_marcas($atts = '', $content='')
 						</div> ';
 						
 					}
-				} 
+				}} 
 	$show_grid_marcas = ' 
 	<div class=" py-6 sm:py-10  ">      
 	   <div class="max-w-5xl m-auto">  
